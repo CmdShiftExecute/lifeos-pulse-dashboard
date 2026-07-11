@@ -12,7 +12,7 @@ A polished frontend for your [LifeOS](https://github.com/danielmiessler/LifeOS) 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178c6?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?logo=tailwindcss)
 
-[Quick start](#quick-start) · [Setup](docs/SETUP.md) · [API contract](docs/API.md) · [Prompting guide](docs/PROMPTING-GUIDE.md) · [Architecture](docs/ARCHITECTURE.md)
+**[Live demo](https://lifeos-pulse-dashboard.vercel.app/)** · [Quick start](#quick-start) · [Setup](docs/SETUP.md) · [API contract](docs/API.md) · [Prompting guide](docs/PROMPTING-GUIDE.md) · [Architecture](docs/ARCHITECTURE.md)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCmdShiftExecute%2Flifeos-pulse-dashboard)
 
@@ -73,7 +73,7 @@ bun install
 bun run demo
 ```
 
-Open [http://localhost:3333](http://localhost:3333). Demo mode serves a self-contained fictional persona (no backend required), so you can click through every surface immediately.
+Open [http://localhost:3333](http://localhost:3333). Demo mode serves a self-contained fictional persona (no backend required), so you can click through every surface immediately. Or skip the install entirely and browse the hosted **[live demo](https://lifeos-pulse-dashboard.vercel.app/)**.
 
 Prefer a hosted demo? The **Deploy with Vercel** button above ships the same fictional-data demo to your own Vercel account in about a minute (`vercel.json` bakes in demo mode; remove it or unset `NEXT_PUBLIC_DEMO_MODE` when you self-host against real data).
 
