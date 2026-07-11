@@ -12,25 +12,46 @@ A polished frontend for your [LifeOS](https://github.com/danielmiessler/LifeOS) 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178c6?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?logo=tailwindcss)
 
-**[Live demo](https://lifeos-pulse-dashboard.vercel.app/)** · [Quick start](#quick-start) · [Setup](docs/SETUP.md) · [API contract](docs/API.md) · [Prompting guide](docs/PROMPTING-GUIDE.md) · [Architecture](docs/ARCHITECTURE.md)
-
+[![Live Demo](https://img.shields.io/badge/%E2%96%B2%20%E2%96%B8%20LIVE%20DEMO-LIFEOS%20PULSE-000000?style=for-the-badge&labelColor=4a4a4a)](https://lifeos-pulse-dashboard.vercel.app/)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCmdShiftExecute%2Flifeos-pulse-dashboard)
+
+[Quick start](#quick-start) · [Setup](docs/SETUP.md) · [API contract](docs/API.md) · [Prompting guide](docs/PROMPTING-GUIDE.md) · [Architecture](docs/ARCHITECTURE.md)
 
 </div>
 
 ---
 
-## What this is
+## Table of Contents
 
-LifeOS Pulse Dashboard is an independent, enhanced dashboard frontend for the [LifeOS](https://github.com/danielmiessler/LifeOS) ecosystem (Daniel Miessler's open-source personal AI framework, previously named PAI, "Personal AI Infrastructure"). LifeOS runs as an agentic harness on your machine and continuously writes structured files about your life and your assistant's work. This project reads those signals over a small HTTP API and renders them as a coherent, real-time interface: dimension rings for life balance, a goals system that traces missions down to daily strategies, a work kanban wired to your live sessions, a memory explorer, agent and cost observability, and a knowledge wiki with a link graph.
+- [Why this exists](#why-this-exists)
+- [Screenshots](#screenshots)
+- [Feature tour](#feature-tour)
+- [Quick start](#quick-start)
+- [Architecture in one breath](#architecture-in-one-breath)
+- [Documentation portal](#documentation-portal)
+- [More than a reskin](#more-than-a-reskin)
+- [Credits](#credits)
+- [License](#license)
 
-It is a **frontend only**. It does not run your assistant, store your data, or make decisions. The stock LifeOS Pulse server (or endpoints you implement yourself, see the [prompting guide](docs/PROMPTING-GUIDE.md)) provides the data; this project makes it legible. If you just want to see what it looks like, the demo mode runs with zero configuration and fictional data.
+## Why this exists
+
+[LifeOS](https://github.com/danielmiessler/LifeOS) is a remarkable engine: an agentic harness that quietly writes structured files about your goals, your work sessions, your memory, and what your AI assistant is actually doing all day. But an engine is not a cockpit. Out of the box, those files stay files, and the signal inside them stays invisible.
+
+LifeOS Pulse Dashboard is the cockpit. It turns that exhaust into a fast, six-theme command center you will actually open every morning: life dimensions as radial rings, goals traced from mission down to today's strategy, a work kanban that moves while your assistant works, your assistant's decisions and mistakes as browsable ledgers, token spend and agent activity as real charts. **[Click through the live demo](https://lifeos-pulse-dashboard.vercel.app/)** right now, no install, and you will understand the pitch faster than this paragraph can make it.
+
+Three things make this one worth your star over rolling your own:
+
+1. **It works before you configure anything.** `bun run demo` (or the hosted demo) serves a complete fictional life across 40+ fixture-backed endpoints, so you can evaluate every surface in sixty seconds.
+2. **It documents the contract, not just the code.** Every endpoint the UI consumes is specified in [docs/API.md](docs/API.md), and the [prompting guide](docs/PROMPTING-GUIDE.md) turns your own assistant into the integration engineer: paste a prompt, get an endpoint wired to your real files.
+3. **It ships opinions LifeOS does not have out of the box.** The memory-ledger convention, the live Operating Model map, and the agent cost analytics come from months of daily use on a real install (details in [More than a reskin](#more-than-a-reskin)).
 
 ## Screenshots
 
+Every image below is demo-mode data; the first one links to the live demo.
+
 | Life & TELOS overview | Goals system |
 | :---: | :---: |
-| <img src="docs/screenshots/overview-dark.png" alt="Life overview with dimension rings" width="100%" /> | <img src="docs/screenshots/telos-dark.png" alt="TELOS goals system" width="100%" /> |
+| <a href="https://lifeos-pulse-dashboard.vercel.app/"><img src="docs/screenshots/overview-dark.png" alt="Life overview with dimension rings, click to open the live demo" width="100%" /></a> | <img src="docs/screenshots/telos-dark.png" alt="TELOS goals system" width="100%" /> |
 
 | Work kanban | Performance & cost |
 | :---: | :---: |
@@ -83,19 +104,35 @@ When you are ready to see your own life in it, follow **[docs/SETUP.md](docs/SET
 
 Next.js App Router, one page per surface, one typed React Query / polling hook per surface, and a single tiny API helper (`src/lib/local-api.ts`) that fetches same-origin relative paths. In production the LifeOS Pulse server hosts the API on the same origin as the dashboard, so no CORS and no config. Theming is a pure CSS-variable layer with `[data-theme]` on the root element. Full detail in **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**; the endpoint contract is in **[docs/API.md](docs/API.md)**.
 
-## Documentation
+## Documentation portal
 
-- **[docs/SETUP.md](docs/SETUP.md)**, demo mode, connecting to a real LifeOS install, and the agentsview prerequisite.
-- **[docs/API.md](docs/API.md)**, every endpoint the frontend consumes, with response shapes.
-- **[docs/PROMPTING-GUIDE.md](docs/PROMPTING-GUIDE.md)**, copy-paste prompts to make the dashboard render your own data, plus the memory-ledger and TELOS conventions it visualizes.
-- **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**, frontend structure, data flow, theming, and how to add a surface.
-- **[CONTRIBUTING.md](CONTRIBUTING.md)**, how to contribute.
+For detailed information, refer to the guides in the [`docs/`](docs/) folder. They are chained with previous/next links, so you can read them front to back like a book.
 
-## Scope, honestly
+| Document | Target audience | Description |
+| --- | --- | --- |
+| [Setup](docs/SETUP.md) | New users | Demo mode, connecting a real LifeOS install, the agentsview prerequisite |
+| [Prompting guide](docs/PROMPTING-GUIDE.md) | LifeOS users | Copy-paste prompts that wire the dashboard to your data and scaffold the memory-ledger convention |
+| [API contract](docs/API.md) | Integrators | Every endpoint the frontend consumes, with response shapes |
+| [Architecture](docs/ARCHITECTURE.md) | Developers | Frontend structure, data flow, demo interception, theming, adding a surface |
+| [Contributing](CONTRIBUTING.md) | Contributors | Workflow, conventions, what makes a good PR |
 
-This repo is the view layer. It is an enhanced take on the stock Pulse dashboard concept from LifeOS, with a significantly refined frontend, but it depends on a backend to be interesting. That backend is either the LifeOS Pulse server or a set of endpoints you implement (the prompting guide walks you through it). Nothing here writes to your life files; the dashboard reads, and a couple of narrow routes (bookmark toggles, loop controls) post back to your own server if it supports them.
+## More than a reskin
+
+Calling this "a frontend" is accurate but undersells what is in the box. The foundation and the core conventions (TELOS, the Algorithm, Pulse itself) are Daniel Miessler's. On top of that foundation, this project adds ideas that are not part of stock LifeOS, each proven through daily use on a real install before being generalized here:
+
+**The memory ledger.** A three-file convention the author designed for his own assistant: `DECISIONS.md` (every finalized call, one line each), `MISTAKES.md` (every miss, logged in the moment, promoted to a counter-rule when a class repeats), and `SESSIONS.md` (dated narratives of what got built and why). It gives an AI assistant something most setups lack entirely: an audit trail and an inoculation record. The Memory explorer renders it; the [prompting guide](docs/PROMPTING-GUIDE.md) scaffolds it into your setup with two prompts.
+
+**The Operating Model map.** A live, interactive schematic of the running system: what boots when, the hook chain each prompt passes through, scheduled jobs, where every kind of memory is written and read, and the honest gaps. Parsed from the running config, so it cannot drift from reality the way documentation does.
+
+**The agentsview bridge.** Cost and session analytics most dashboards never get: per-day API-equivalent spend, token burn by model and project, session leaderboards, failure heatmaps, all read from [agentsview](https://www.agentsview.io/)'s local database and rendered as first-class charts.
+
+**The demo engine.** A fixture layer that makes the entire app explorable with zero backend, which doubles as executable documentation of the API contract.
+
+The honest boundary still stands: your data comes from your backend (the stock LifeOS Pulse server, or endpoints your assistant implements from the guide). The dashboard reads; nothing here writes to your life files beyond a few narrow, documented toggles.
 
 ## Credits
+
+
 
 - **[Daniel Miessler](https://github.com/danielmiessler)** for [LifeOS / PAI](https://github.com/danielmiessler/LifeOS), the personal-AI framework this dashboard is built to visualize. The TELOS, memory, and Algorithm conventions are his.
 - **[agentsview](https://www.agentsview.io/)** for the local session data that powers the performance and cost analytics.

@@ -1,10 +1,23 @@
 # Prompting guide
 
+<div align="center">
+
+[← Back to overview](../README.md)
+
+</div>
+
 The dashboard becomes yours when it renders your data. If you run [LifeOS](https://github.com/danielmiessler/LifeOS) on Claude Code, you can get there without writing much code yourself: your assistant can implement the endpoints and scaffold the conventions this dashboard visualizes. This guide gives you copy-paste prompts to do exactly that.
 
 The prompts are written for an assistant running inside your LifeOS install (with access to your files and your Pulse server code). Read each one before you run it, and adjust paths to match your setup. Treat generated endpoints as a draft: verify them against the [API contract](API.md) before relying on the numbers.
 
 A note on framing: the conventions below (TELOS, the memory ledger, the Algorithm phases) come from the LifeOS philosophy, not from this dashboard. Pulse is a way to *see* them. Credit where it is due: they are [Daniel Miessler's](https://github.com/danielmiessler) design; this project renders them.
+
+## Table of Contents
+
+- [Part 1: Implement and verify the API endpoints](#part-1-implement-and-verify-the-api-endpoints)
+- [Part 2: The memory ledger convention](#part-2-the-memory-ledger-convention)
+- [Part 3: Keep TELOS structured so the pages render richly](#part-3-keep-telos-structured-so-the-pages-render-richly)
+- [Working with these prompts](#working-with-these-prompts)
 
 ---
 
@@ -155,3 +168,7 @@ what changed; do not overwrite history silently.
 - **Verify, do not trust.** After an endpoint is implemented, curl it and load the page. The dashboard renders whatever the backend returns; wrong numbers here are backend bugs, not frontend ones.
 - **One surface at a time.** TELOS and work first, then life, then performance. Empty surfaces are fine and expected mid-migration.
 - **Match the shapes.** [docs/API.md](API.md) is the contract. If a page renders empty despite a 200 response, the shape is usually off by a field name.
+
+---
+
+← Previous: [Setup](SETUP.md) | → Next: [API contract](API.md)

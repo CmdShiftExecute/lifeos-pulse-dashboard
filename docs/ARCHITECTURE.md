@@ -1,6 +1,23 @@
 # Architecture
 
+<div align="center">
+
+[← Back to overview](../README.md)
+
+</div>
+
 LifeOS Pulse Dashboard is a Next.js (App Router) frontend. It is deliberately simple in shape: one page per surface, one typed hook per surface, one small API helper, and a CSS-variable theming layer. This document explains how those pieces fit and how to add your own surface.
+
+## Table of Contents
+
+- [Stack](#stack)
+- [Directory map](#directory-map)
+- [Data flow](#data-flow)
+  - [Demo interception](#demo-interception)
+- [Navigation](#navigation)
+- [Theming](#theming)
+- [How to add a new surface](#how-to-add-a-new-surface)
+- [Build and run](#build-and-run)
 
 ## Stack
 
@@ -99,3 +116,7 @@ bun run build   # production build + type check
 ```
 
 The production deployment target is to have the LifeOS Pulse server host the built output on the same origin as the API. See [docs/SETUP.md](SETUP.md) for the deployment tiers.
+
+---
+
+← Previous: [API contract](API.md) | → Next: [Contributing](../CONTRIBUTING.md)

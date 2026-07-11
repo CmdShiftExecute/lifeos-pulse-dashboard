@@ -1,5 +1,11 @@
 # Setup
 
+<div align="center">
+
+[← Back to overview](../README.md)
+
+</div>
+
 There are three ways to run LifeOS Pulse Dashboard, in increasing order of "this is my actual life in it":
 
 - **Tier A: Demo mode.** Zero config, fictional data. Start here.
@@ -7,6 +13,14 @@ There are three ways to run LifeOS Pulse Dashboard, in increasing order of "this
 - **Tier C: agentsview for agent analytics.** A prerequisite for the richest Performance views.
 
 The dashboard is a frontend only. It renders data; it does not produce it. Tiers B and C are about giving it a real data source.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Tier A: Demo mode](#tier-a-demo-mode)
+- [Tier B: Connect to a real LifeOS install](#tier-b-connect-to-a-real-lifeos-install)
+- [Tier C: agentsview (for agent analytics)](#tier-c-agentsview-for-agent-analytics)
+- [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -102,3 +116,7 @@ The dashboard never touches that SQLite file directly. Your backend exposes it t
 - **TELOS shows sample data on a real install.** That is the fresh-install showcase. It switches to your data once your overview endpoint returns `meta.isPersonalized: true`. See [the TELOS prompt](PROMPTING-GUIDE.md).
 - **Performance tab is blank.** That is Tier C. Confirm agentsview is installed, `~/.agentsview/sessions.db` exists, and your `/api/agentsview/*` proxy is serving it.
 - **Text is invisible on one theme.** Almost always a theme-token issue in a custom change; see the theming note in [ARCHITECTURE.md](ARCHITECTURE.md#theming).
+
+---
+
+← Previous: [README](../README.md) | → Next: [Prompting guide](PROMPTING-GUIDE.md)

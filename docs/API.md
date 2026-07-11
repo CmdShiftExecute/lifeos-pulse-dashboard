@@ -1,8 +1,25 @@
 # API contract
 
+<div align="center">
+
+[← Back to overview](../README.md)
+
+</div>
+
 The dashboard consumes a same-origin HTTP API. Every request is a relative path (`/api/...`) issued by one helper, `src/lib/local-api.ts`, so the backend that serves the page also answers these routes. In production that backend is the LifeOS Pulse server; you can also implement the endpoints yourself (see the [prompting guide](PROMPTING-GUIDE.md)).
 
 This document lists every endpoint the frontend calls, grouped by surface, with a summary of the response shape it expects. Shapes are derived from the TypeScript types in `src/types/`, the typed hooks in `src/hooks/`, and the page components in `src/app/`. Where a field is optional, the UI degrades gracefully if it is absent.
+
+## Table of Contents
+
+- [Conventions](#conventions)
+- [Life & overview](#life--overview)
+- [TELOS](#telos)
+- [Work & Algorithm](#work--algorithm)
+- [Observability & Performance](#observability--performance)
+  - [AgentsView proxy](#agentsview-proxy)
+- [Knowledge wiki](#knowledge-wiki)
+- [Misc](#misc)
 
 ## Conventions
 
@@ -299,3 +316,7 @@ Per-surface freshness timestamps, driving the freshness pills on tabs. Returns a
 
 ### `GET /api/onboarding/state`
 Onboarding/template state for first-run guidance. Returns whether the install is fresh and which steps remain.
+
+---
+
+← Previous: [Prompting guide](PROMPTING-GUIDE.md) | → Next: [Architecture](ARCHITECTURE.md)

@@ -1,6 +1,20 @@
 # Contributing
 
+<div align="center">
+
+[← Back to overview](README.md)
+
+</div>
+
 Thanks for taking an interest. This is a focused project (a dashboard frontend for LifeOS), so contributions that keep it fast, honest, and coherent are the most welcome.
+
+## Table of Contents
+
+- [Ground rules](#ground-rules)
+- [Getting set up](#getting-set-up)
+- [Making a change](#making-a-change)
+- [Pull requests](#pull-requests)
+- [Reporting issues](#reporting-issues)
 
 ## Ground rules
 
@@ -34,3 +48,7 @@ Keep them small and single-purpose. Describe what changed and why, and include a
 ## Reporting issues
 
 Include your setup tier (demo, real LifeOS install, or custom endpoints), the surface affected, and what you expected versus what you saw. Console and network output help for anything that looks like a data-shape mismatch.
+
+---
+
+← Previous: [Architecture](docs/ARCHITECTURE.md)
