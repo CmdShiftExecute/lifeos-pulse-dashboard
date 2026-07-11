@@ -1,0 +1,568 @@
+{
+  "meta": {
+    "isPersonalized": true
+  },
+  "owner": "Alex Carter",
+  "idealState": null,
+  "dimensions": [
+    {
+      "id": "craft",
+      "label": "Craft",
+      "color": "#7C6FF0",
+      "cur": 62,
+      "ideal": 90,
+      "velo": 3
+    },
+    {
+      "id": "health",
+      "label": "Health",
+      "color": "#4CC38A",
+      "cur": 48,
+      "ideal": 80,
+      "velo": 5
+    },
+    {
+      "id": "wealth",
+      "label": "Wealth",
+      "color": "#F5A524",
+      "cur": 55,
+      "ideal": 85,
+      "velo": 2
+    },
+    {
+      "id": "mind",
+      "label": "Mind",
+      "color": "#38BDF8",
+      "cur": 58,
+      "ideal": 88,
+      "velo": 4
+    }
+  ],
+  "snapshot": null,
+  "problems": [
+    {
+      "id": "P0",
+      "title": "Feast-famine income",
+      "summary": "Independent income arrives in bursts, which makes planning and saving harder.",
+      "references": [
+        "M2",
+        "G2"
+      ],
+      "note": "Retainers are the main mitigation.",
+      "severity": "med",
+      "affects": [
+        "G0",
+        "G2"
+      ],
+      "goals": [
+        "G2"
+      ]
+    },
+    {
+      "id": "P1",
+      "title": "Low-energy afternoons",
+      "summary": "Focus dips after lunch and eats into deep work.",
+      "references": [
+        "M0",
+        "M3"
+      ],
+      "note": "Protect mornings for the hardest work.",
+      "severity": "low",
+      "affects": [
+        "G3"
+      ],
+      "goals": [
+        "G3"
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "Notes everywhere",
+      "summary": "Notes live across four apps with no single source of truth.",
+      "references": [
+        "M3",
+        "G4"
+      ],
+      "note": "Fieldnote is the fix.",
+      "severity": "med",
+      "affects": [
+        "G4"
+      ],
+      "goals": [
+        "G4"
+      ]
+    }
+  ],
+  "missions": [
+    {
+      "id": "M0",
+      "title": "Become a world-class independent product designer",
+      "summary": "Trade a salary for a studio and do the best design work of a career.",
+      "references": [
+        "G0",
+        "G4"
+      ],
+      "horizon": "10y",
+      "active": true,
+      "addresses": [
+        "P0"
+      ],
+      "goals": [
+        "G0",
+        "G4"
+      ],
+      "strategies": [
+        "S0"
+      ]
+    },
+    {
+      "id": "M1",
+      "title": "Rebuild an aerobic base after a sedentary decade",
+      "summary": "Get genuinely fit, starting from a low base, without injury.",
+      "references": [
+        "G1"
+      ],
+      "horizon": "3y",
+      "active": true,
+      "addresses": [
+        "P1"
+      ],
+      "goals": [
+        "G1"
+      ],
+      "strategies": [
+        "S1"
+      ]
+    },
+    {
+      "id": "M2",
+      "title": "Hold a 12-month runway and zero consumer debt",
+      "summary": "Build the financial foundation that makes creative risk possible.",
+      "references": [
+        "G2"
+      ],
+      "horizon": "5y",
+      "active": true,
+      "addresses": [
+        "P0"
+      ],
+      "goals": [
+        "G2"
+      ],
+      "strategies": [
+        "S2"
+      ]
+    },
+    {
+      "id": "M3",
+      "title": "Write and publish consistently",
+      "summary": "Sharpen thinking in public with a steady body of essays.",
+      "references": [
+        "G3"
+      ],
+      "horizon": "5y",
+      "active": true,
+      "addresses": [
+        "P1",
+        "P2"
+      ],
+      "goals": [
+        "G3"
+      ],
+      "strategies": [
+        "S3"
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "G0",
+      "title": "3 retainer clients",
+      "summary": "Land three retainer clients for Northslope by December.",
+      "references": [
+        "M0",
+        "S0"
+      ],
+      "serves": [
+        "M0"
+      ],
+      "addresses": [
+        "P0"
+      ],
+      "body": "Two conversations are live and one proposal is out. Steady weekly outreach holds the pace.",
+      "kpi": "clients",
+      "target": "3 by December",
+      "pct": 40,
+      "delta": 5,
+      "dims": [],
+      "metrics": []
+    },
+    {
+      "id": "G1",
+      "title": "Sub-55 10K",
+      "summary": "Run a sub-55 minute 10K in October.",
+      "references": [
+        "M1",
+        "S1"
+      ],
+      "serves": [
+        "M1"
+      ],
+      "addresses": [
+        "P1"
+      ],
+      "body": "Base mileage is climbing; tempo work starts mid-July.",
+      "kpi": "10k_time",
+      "target": "sub-55:00 in October",
+      "pct": 55,
+      "delta": 8,
+      "dims": [],
+      "metrics": []
+    },
+    {
+      "id": "G2",
+      "title": "6-month fund",
+      "summary": "Reach a 6-month emergency fund by November.",
+      "references": [
+        "M2",
+        "S2"
+      ],
+      "serves": [
+        "M2"
+      ],
+      "addresses": [
+        "P0"
+      ],
+      "body": "$12,400 of the $18,000 target is set aside, auto-funded from every invoice.",
+      "kpi": "fund_usd",
+      "target": "$18,000 by November",
+      "pct": 69,
+      "delta": 4,
+      "dims": [],
+      "metrics": []
+    },
+    {
+      "id": "G3",
+      "title": "24 essays",
+      "summary": "Publish 24 essays this year.",
+      "references": [
+        "M3",
+        "S3"
+      ],
+      "serves": [
+        "M3"
+      ],
+      "addresses": [
+        "P1"
+      ],
+      "body": "Eleven are live; the cadence holds at roughly one a fortnight.",
+      "kpi": "essays",
+      "target": "24 this year",
+      "pct": 46,
+      "delta": 3,
+      "dims": [],
+      "metrics": []
+    },
+    {
+      "id": "G4",
+      "title": "Ship Fieldnote v1",
+      "summary": "Ship Fieldnote v1 to the first cohort of testers.",
+      "references": [
+        "M0",
+        "M3"
+      ],
+      "serves": [
+        "M0"
+      ],
+      "addresses": [
+        "P2"
+      ],
+      "body": "Local-first build underway; sync engine is the current spike.",
+      "kpi": "release",
+      "target": "v1 to testers",
+      "pct": 35,
+      "delta": 6,
+      "dims": [],
+      "metrics": []
+    }
+  ],
+  "metrics": [
+    {
+      "id": "m1",
+      "label": "Emergency fund",
+      "value": "69",
+      "unit": "%",
+      "trend": 4,
+      "spark": [
+        52,
+        55,
+        58,
+        61,
+        64,
+        67,
+        69
+      ],
+      "feeds": [
+        "G2"
+      ],
+      "color": "#F5A524"
+    },
+    {
+      "id": "m2",
+      "label": "Essays published",
+      "value": "11",
+      "unit": "",
+      "trend": 1,
+      "spark": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        10,
+        11
+      ],
+      "feeds": [
+        "G3"
+      ],
+      "color": "#38BDF8"
+    },
+    {
+      "id": "m3",
+      "label": "Weekly mileage (km)",
+      "value": "31",
+      "unit": "",
+      "trend": 5,
+      "spark": [
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        31
+      ],
+      "feeds": [
+        "G1"
+      ],
+      "color": "#4CC38A"
+    }
+  ],
+  "challenges": [
+    {
+      "id": "C0",
+      "title": "Afternoon slump",
+      "summary": "Energy fades after lunch and hard work gets pushed to a tired brain.",
+      "references": [
+        "P1",
+        "G3"
+      ],
+      "note": "Front-load the day.",
+      "blocks": [
+        "G3"
+      ]
+    },
+    {
+      "id": "C1",
+      "title": "Context switching",
+      "summary": "Client work, product work, and writing compete for the same mornings.",
+      "references": [
+        "G0",
+        "G4"
+      ],
+      "note": "Theme the days.",
+      "blocks": [
+        "G4"
+      ]
+    }
+  ],
+  "strategies": [
+    {
+      "id": "S0",
+      "title": "Steady outreach",
+      "summary": "Four tailored studio pitches a week, warm leads nurtured on a cadence.",
+      "references": [
+        "M0",
+        "G0"
+      ],
+      "overcomes": [
+        "P0"
+      ],
+      "implements": [
+        "M0"
+      ],
+      "active": true
+    },
+    {
+      "id": "S1",
+      "title": "Base then speed",
+      "summary": "Easy mileage first, one tempo session a week from July.",
+      "references": [
+        "M1",
+        "G1"
+      ],
+      "overcomes": [
+        "P1"
+      ],
+      "implements": [
+        "M1"
+      ],
+      "active": true
+    },
+    {
+      "id": "S2",
+      "title": "Automate the runway",
+      "summary": "Route a fixed share of every invoice into the emergency fund.",
+      "references": [
+        "M2",
+        "G2"
+      ],
+      "overcomes": [
+        "P0"
+      ],
+      "implements": [
+        "M2"
+      ],
+      "active": true
+    },
+    {
+      "id": "S3",
+      "title": "One essay a fortnight",
+      "summary": "Protect a drafting block and ship on a schedule.",
+      "references": [
+        "M3",
+        "G3"
+      ],
+      "overcomes": [
+        "P1"
+      ],
+      "implements": [
+        "M3"
+      ],
+      "active": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "PR0",
+      "title": "Fieldnote",
+      "strategy": "S0",
+      "dims": [],
+      "status": "build",
+      "work": [
+        {
+          "id": "fieldnote-1",
+          "title": "Offline sync engine",
+          "strategy": "S0",
+          "eta": "Jul 2026",
+          "status": "build",
+          "owner": "Alex Carter"
+        },
+        {
+          "id": "fieldnote-2",
+          "title": "Tag filtering",
+          "strategy": "S0",
+          "eta": "Aug 2026",
+          "status": "ready",
+          "owner": "Alex Carter"
+        }
+      ]
+    },
+    {
+      "id": "PR1",
+      "title": "Northslope",
+      "strategy": "S0",
+      "dims": [],
+      "status": "build",
+      "work": [
+        {
+          "id": "northslope-1",
+          "title": "Retail case study",
+          "strategy": "S0",
+          "eta": "Jul 2026",
+          "status": "ready",
+          "owner": "Alex Carter"
+        }
+      ]
+    },
+    {
+      "id": "PR2",
+      "title": "Essay engine",
+      "strategy": "S3",
+      "dims": [],
+      "status": "build",
+      "work": [
+        {
+          "id": "essay-1",
+          "title": "Draft essay #12",
+          "strategy": "S3",
+          "eta": "Jul 2026",
+          "status": "build",
+          "owner": "Alex Carter"
+        }
+      ]
+    }
+  ],
+  "team": null,
+  "budget": null,
+  "recommendations": null,
+  "stranded": null,
+  "subtabs": null,
+  "preferences": {
+    "books": [
+      "The Timeless Way of Building",
+      "Deep Work",
+      "Your Money or Your Life"
+    ],
+    "films": [],
+    "anime": [],
+    "characters": [],
+    "aphorisms": [],
+    "hobbies": [],
+    "literature": []
+  },
+  "narrativeSeed": null,
+  "workNarrative": {
+    "summary": "One build in flight, two shipped this week.",
+    "inProgress": 2,
+    "done": 2,
+    "ready": 3,
+    "inbox": 3
+  },
+  "currentStateNarrative": null,
+  "idealStateNarrative": null,
+  "currentStateBullets": null,
+  "idealStateBullets": null,
+  "synthesisParagraph": "Alex is mid-leap into independence: a studio taking shape, a runway growing toward safety, a body rebuilding its base, and a writing habit that finally holds. The work now is to keep all four moving without letting any one crowd out the others.",
+  "synthesisSegments": [
+    {
+      "kind": "text",
+      "text": "A studio taking shape ("
+    },
+    {
+      "kind": "ref",
+      "text": "G0"
+    },
+    {
+      "kind": "text",
+      "text": "), a runway growing toward safety ("
+    },
+    {
+      "kind": "ref",
+      "text": "G2"
+    },
+    {
+      "kind": "text",
+      "text": "), and a writing habit that holds ("
+    },
+    {
+      "kind": "ref",
+      "text": "G3"
+    },
+    {
+      "kind": "text",
+      "text": ")."
+    }
+  ],
+  "recommendedNextAction": "Send the outstanding Northslope proposal follow-up."
+}

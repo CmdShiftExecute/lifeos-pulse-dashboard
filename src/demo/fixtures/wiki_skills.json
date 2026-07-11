@@ -1,0 +1,45 @@
+{
+  "skills": [
+    {
+      "name": "sync",
+      "description": "Design and reason about local-first sync engines with replayable change logs.",
+      "effort": "standard",
+      "hasWorkflows": true,
+      "lastModified": "2026-07-09T10:00:00.000Z",
+      "source": "user"
+    },
+    {
+      "name": "essay",
+      "description": "Draft, structure, and edit long-form essays with a consistent voice.",
+      "effort": "standard",
+      "hasWorkflows": true,
+      "lastModified": "2026-07-09T10:00:00.000Z",
+      "source": "user"
+    },
+    {
+      "name": "pricing",
+      "description": "Model retainer and project pricing for an independent studio.",
+      "effort": "standard",
+      "hasWorkflows": true,
+      "lastModified": "2026-07-09T10:00:00.000Z",
+      "source": "user"
+    },
+    {
+      "name": "training",
+      "description": "Plan aerobic base and tempo blocks for a 10K goal.",
+      "effort": "standard",
+      "hasWorkflows": true,
+      "lastModified": "2026-07-09T10:00:00.000Z",
+      "source": "user"
+    },
+    {
+      "name": "tokens",
+      "description": "Build and audit design-token systems across light and dark themes.",
+      "effort": "standard",
+      "hasWorkflows": true,
+      "lastModified": "2026-07-09T10:00:00.000Z",
+      "source": "user"
+    }
+  ],
+  "total": 5
+}

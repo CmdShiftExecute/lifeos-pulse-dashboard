@@ -1,0 +1,58 @@
+{
+  "jobs": [
+    {
+      "name": "morning-brief",
+      "schedule": "0 7 * * *",
+      "type": "claude",
+      "command": null,
+      "prompt": "Summarize today's priorities across the studio, writing, and training.",
+      "model": "claude-sonnet-5",
+      "output": "notify",
+      "enabled": true,
+      "source": "user"
+    },
+    {
+      "name": "invoice-sweep",
+      "schedule": "0 9 * * 1",
+      "type": "script",
+      "command": "sweep-invoices.ts",
+      "prompt": null,
+      "model": null,
+      "output": "log",
+      "enabled": true,
+      "source": "user"
+    },
+    {
+      "name": "cost-collector",
+      "schedule": "0 * * * *",
+      "type": "script",
+      "command": "collect-cost.ts",
+      "prompt": null,
+      "model": null,
+      "output": "log",
+      "enabled": true,
+      "source": "system"
+    },
+    {
+      "name": "weekly-review",
+      "schedule": "0 17 * * 5",
+      "type": "claude",
+      "command": null,
+      "prompt": "Draft the weekly review from this week's sessions and decisions.",
+      "model": "claude-opus-4-8",
+      "output": [
+        "notify",
+        "log"
+      ],
+      "enabled": false,
+      "source": "user"
+    }
+  ],
+  "user_file_path": "~/.claude/assistant/cron.yaml",
+  "counts": {
+    "total": 4,
+    "enabled": 3,
+    "system": 1,
+    "user": 3
+  }
+}

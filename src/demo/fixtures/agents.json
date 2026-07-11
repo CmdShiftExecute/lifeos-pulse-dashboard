@@ -1,0 +1,400 @@
+{
+  "events": [
+    {
+      "timestamp": "2026-07-01T09:48:00.000Z",
+      "event": "subagent_start",
+      "session_id": "239dc19d-1353-4c9b-c1ca-a95b73dfb5c2",
+      "subagent_id": "10k-training-log-1b9a09d2",
+      "subagent_type": "general-purpose",
+      "description": "Map the component tree",
+      "duration_seconds": 410
+    },
+    {
+      "timestamp": "2026-07-01T12:06:00.000Z",
+      "event": "subagent_start",
+      "session_id": "39ea041f-2cd5-4342-bb9a-e1d50617fda9",
+      "subagent_id": "client-onboarding-flow-fee4df04",
+      "subagent_type": "Explore",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 221
+    },
+    {
+      "timestamp": "2026-07-01T19:01:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "b728fa09-4bd2-4797-0fd9-c45061cb5fa2",
+      "subagent_id": "refactor-auth-flow-b7a5c962",
+      "subagent_type": "Explore",
+      "description": "Review the diff for regressions",
+      "duration_seconds": 117
+    },
+    {
+      "timestamp": "2026-07-01T20:08:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "8f35573c-2935-4534-df76-2cb81d60849c",
+      "subagent_id": "10k-training-log-23490e89",
+      "subagent_type": "code-reviewer",
+      "description": "Draft the migration plan",
+      "duration_seconds": 96
+    },
+    {
+      "timestamp": "2026-07-02T12:18:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "74901106-15b1-4551-4601-27e567261a93",
+      "subagent_id": "client-onboarding-flow-91e3ad4c",
+      "subagent_type": "general-purpose",
+      "description": "Draft the migration plan",
+      "duration_seconds": 154
+    },
+    {
+      "timestamp": "2026-07-03T09:31:00.000Z",
+      "event": "subagent_start",
+      "session_id": "22306549-e48f-4049-442f-1f68d2a4d75b",
+      "subagent_id": "client-onboarding-flow-bb857f6c",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 70
+    },
+    {
+      "timestamp": "2026-07-03T12:41:00.000Z",
+      "event": "subagent_start",
+      "session_id": "f8340870-4f2f-4ba8-182c-18120a01a15d",
+      "subagent_id": "fieldnote-sync-engine-1f6c8705",
+      "subagent_type": "Plan",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 275
+    },
+    {
+      "timestamp": "2026-07-03T14:04:00.000Z",
+      "event": "subagent_start",
+      "session_id": "8aeb2820-28c5-45ff-0f75-2e941dfc678d",
+      "subagent_id": "fieldnote-sync-engine-e640f7bf",
+      "subagent_type": "code-reviewer",
+      "description": "Search the codebase for usages",
+      "duration_seconds": 135
+    },
+    {
+      "timestamp": "2026-07-03T14:15:00.000Z",
+      "event": "subagent_start",
+      "session_id": "06ab2480-38e6-468c-e79f-0f1d3b525972",
+      "subagent_id": "research-pricing-page-357a23b7",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Review the diff for regressions",
+      "duration_seconds": 370
+    },
+    {
+      "timestamp": "2026-07-03T17:32:00.000Z",
+      "event": "subagent_start",
+      "session_id": "e5cd13a8-75a8-4864-e769-dfc6635f4e46",
+      "subagent_id": "client-onboarding-flow-cf6e0e30",
+      "subagent_type": "Explore",
+      "description": "Map the component tree",
+      "duration_seconds": 107
+    },
+    {
+      "timestamp": "2026-07-03T17:46:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "355f725e-7779-479c-49f6-e30a9b9b0429",
+      "subagent_id": "design-tokens-audit-b9f1360d",
+      "subagent_type": "general-purpose",
+      "description": "Draft the migration plan",
+      "duration_seconds": 104
+    },
+    {
+      "timestamp": "2026-07-03T18:34:00.000Z",
+      "event": "subagent_start",
+      "session_id": "def95ea2-efb0-45f8-26da-e4a744757e81",
+      "subagent_id": "landing-copy-rewrite-42a40bfd",
+      "subagent_type": "code-reviewer",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 231
+    },
+    {
+      "timestamp": "2026-07-04T08:26:00.000Z",
+      "event": "subagent_start",
+      "session_id": "13c65c19-2d03-493e-b4d4-7a472ed9c8e8",
+      "subagent_id": "portfolio-redesign-72fe162d",
+      "subagent_type": "code-reviewer",
+      "description": "Draft the migration plan",
+      "duration_seconds": 393
+    },
+    {
+      "timestamp": "2026-07-04T09:00:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "ad4a15bf-4cc5-4619-4525-bec3c917e54b",
+      "subagent_id": "portfolio-redesign-77855f7f",
+      "subagent_type": "code-reviewer",
+      "description": "Draft the migration plan",
+      "duration_seconds": 221
+    },
+    {
+      "timestamp": "2026-07-04T09:01:00.000Z",
+      "event": "subagent_start",
+      "session_id": "86c265d0-0cac-4d81-3f74-a24ada5df648",
+      "subagent_id": "refactor-auth-flow-167265bd",
+      "subagent_type": "Plan",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 381
+    },
+    {
+      "timestamp": "2026-07-04T09:41:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "90aebacf-018c-42f1-79b8-0ed7e7040747",
+      "subagent_id": "fieldnote-sync-engine-0097dd91",
+      "subagent_type": "general-purpose",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 372
+    },
+    {
+      "timestamp": "2026-07-04T10:25:00.000Z",
+      "event": "subagent_start",
+      "session_id": "e9cd326e-002b-49c0-a50c-402e1c8255aa",
+      "subagent_id": "10k-training-log-28d51a2e",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Map the component tree",
+      "duration_seconds": 303
+    },
+    {
+      "timestamp": "2026-07-04T14:23:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "bd0151b0-c338-4894-198e-536a56e129b7",
+      "subagent_id": "design-tokens-audit-8a9d0d8a",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Search the codebase for usages",
+      "duration_seconds": 479
+    },
+    {
+      "timestamp": "2026-07-04T15:11:00.000Z",
+      "event": "subagent_start",
+      "session_id": "5037e571-f7b1-48a4-900b-96acf445fd16",
+      "subagent_id": "fieldnote-sync-engine-d22d768e",
+      "subagent_type": "code-reviewer",
+      "description": "Search the codebase for usages",
+      "duration_seconds": 434
+    },
+    {
+      "timestamp": "2026-07-04T19:55:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "acc691f9-f9ad-445c-6fd4-535d1306b27b",
+      "subagent_id": "essay-draft-pipeline-870c1f1d",
+      "subagent_type": "general-purpose",
+      "description": "Search the codebase for usages",
+      "duration_seconds": 185
+    },
+    {
+      "timestamp": "2026-07-05T08:02:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "643544b5-e144-4693-7627-4df6ae9b5d9c",
+      "subagent_id": "design-tokens-audit-db808ae6",
+      "subagent_type": "Plan",
+      "description": "Search the codebase for usages",
+      "duration_seconds": 210
+    },
+    {
+      "timestamp": "2026-07-05T10:14:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "161ff578-dde8-4228-4886-57c825383e51",
+      "subagent_id": "fieldnote-sync-engine-0a0017f6",
+      "subagent_type": "general-purpose",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 85
+    },
+    {
+      "timestamp": "2026-07-05T12:25:00.000Z",
+      "event": "subagent_start",
+      "session_id": "bbdaa046-305a-47f0-3999-9d4f41b159b6",
+      "subagent_id": "fieldnote-sync-engine-b8646f93",
+      "subagent_type": "Plan",
+      "description": "Map the component tree",
+      "duration_seconds": 227
+    },
+    {
+      "timestamp": "2026-07-05T14:36:00.000Z",
+      "event": "subagent_start",
+      "session_id": "2dcf92a2-2736-4e39-9365-12104bec995b",
+      "subagent_id": "landing-copy-rewrite-bda3070d",
+      "subagent_type": "code-reviewer",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 49
+    },
+    {
+      "timestamp": "2026-07-06T13:42:00.000Z",
+      "event": "subagent_start",
+      "session_id": "e28ef931-131d-444f-cfba-e845804bb86a",
+      "subagent_id": "fieldnote-sync-engine-8fce6a61",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Review the diff for regressions",
+      "duration_seconds": 301
+    },
+    {
+      "timestamp": "2026-07-06T17:23:00.000Z",
+      "event": "subagent_start",
+      "session_id": "a4df73e0-1591-4d12-6f2e-445b3a6ea74f",
+      "subagent_id": "invoice-generator-edf21857",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 380
+    },
+    {
+      "timestamp": "2026-07-06T19:15:00.000Z",
+      "event": "subagent_start",
+      "session_id": "4b6d5c18-869b-4fad-9b52-538612e4c7d3",
+      "subagent_id": "design-tokens-audit-6d0c284f",
+      "subagent_type": "Explore",
+      "description": "Review the diff for regressions",
+      "duration_seconds": 125
+    },
+    {
+      "timestamp": "2026-07-07T09:40:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "57240470-62da-4da0-76d0-5eafba992430",
+      "subagent_id": "fieldnote-sync-engine-e8bc5280",
+      "subagent_type": "Explore",
+      "description": "Map the component tree",
+      "duration_seconds": 88
+    },
+    {
+      "timestamp": "2026-07-07T09:51:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "3ff3cdcb-a676-4466-3745-90a607c1823b",
+      "subagent_id": "essay-draft-pipeline-0c54ef60",
+      "subagent_type": "code-reviewer",
+      "description": "Map the component tree",
+      "duration_seconds": 411
+    },
+    {
+      "timestamp": "2026-07-07T14:51:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "753059a0-9d4d-4b41-97a3-dd44cca4ec66",
+      "subagent_id": "fieldnote-sync-engine-4a5e6677",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 232
+    },
+    {
+      "timestamp": "2026-07-07T15:01:00.000Z",
+      "event": "subagent_start",
+      "session_id": "6de31688-a030-4045-7e87-eee2b2cac080",
+      "subagent_id": "notes-import-adapter-11ca5656",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Map the component tree",
+      "duration_seconds": 207
+    },
+    {
+      "timestamp": "2026-07-07T17:13:00.000Z",
+      "event": "subagent_start",
+      "session_id": "cb75afd3-650b-4ac7-94ff-edfd57d531ec",
+      "subagent_id": "portfolio-redesign-3725c7b8",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Search the codebase for usages",
+      "duration_seconds": 462
+    },
+    {
+      "timestamp": "2026-07-08T09:26:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "5a30e70a-ff38-412e-a45f-1228c2858c5d",
+      "subagent_id": "budget-forecast-model-5f2363be",
+      "subagent_type": "Explore",
+      "description": "Review the diff for regressions",
+      "duration_seconds": 141
+    },
+    {
+      "timestamp": "2026-07-08T11:02:00.000Z",
+      "event": "subagent_start",
+      "session_id": "f7d81558-81e6-4077-0889-0d4f580ff05d",
+      "subagent_id": "essay-draft-pipeline-b8332b55",
+      "subagent_type": "Explore",
+      "description": "Map the component tree",
+      "duration_seconds": 133
+    },
+    {
+      "timestamp": "2026-07-08T13:33:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "99223fbe-d340-4a5a-6534-26a55d2f1a45",
+      "subagent_id": "client-onboarding-flow-fcb5573f",
+      "subagent_type": "Explore",
+      "description": "Draft the migration plan",
+      "duration_seconds": 475
+    },
+    {
+      "timestamp": "2026-07-08T15:08:00.000Z",
+      "event": "subagent_start",
+      "session_id": "aa730eff-d1d0-4149-56ba-dce2fdab20b1",
+      "subagent_id": "10k-training-log-a07b5ee1",
+      "subagent_type": "code-reviewer",
+      "description": "Search the codebase for usages",
+      "duration_seconds": 259
+    },
+    {
+      "timestamp": "2026-07-08T15:29:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "92765ffa-0802-4b1c-452d-b1f85c8e3254",
+      "subagent_id": "refactor-auth-flow-41285758",
+      "subagent_type": "Plan",
+      "description": "Search the codebase for usages",
+      "duration_seconds": 297
+    },
+    {
+      "timestamp": "2026-07-08T16:44:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "5d87c051-6834-4c08-e0f8-11a347dd0e03",
+      "subagent_id": "design-tokens-audit-577bae9e",
+      "subagent_type": "code-reviewer",
+      "description": "Search the codebase for usages",
+      "duration_seconds": 360
+    },
+    {
+      "timestamp": "2026-07-08T18:05:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "eafd63ea-d220-4ad7-0ef3-102b0ed21983",
+      "subagent_id": "design-tokens-audit-54cef37f",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Draft the migration plan",
+      "duration_seconds": 409
+    },
+    {
+      "timestamp": "2026-07-08T19:57:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "021e2e90-93f7-4c36-a9a5-17edfa5cad86",
+      "subagent_id": "portfolio-redesign-cca329dc",
+      "subagent_type": "Plan",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 188
+    },
+    {
+      "timestamp": "2026-07-09T09:25:00.000Z",
+      "event": "subagent_start",
+      "session_id": "834407fa-4a63-4085-5c9b-d9c9b27a2e7a",
+      "subagent_id": "notes-import-adapter-c604021f",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Map the component tree",
+      "duration_seconds": 202
+    },
+    {
+      "timestamp": "2026-07-09T15:09:00.000Z",
+      "event": "subagent_start",
+      "session_id": "ac307650-8fe8-4220-be4d-90f1a0feb6e1",
+      "subagent_id": "notes-import-adapter-40d1213c",
+      "subagent_type": "Plan",
+      "description": "Review the diff for regressions",
+      "duration_seconds": 196
+    },
+    {
+      "timestamp": "2026-07-10T10:31:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "eced0b69-6e00-4f85-e0f4-a62eb0cfda8d",
+      "subagent_id": "10k-training-log-0881808b",
+      "subagent_type": "Explore",
+      "description": "Map the component tree",
+      "duration_seconds": 33
+    },
+    {
+      "timestamp": "2026-07-10T16:00:00.000Z",
+      "event": "subagent_stop",
+      "session_id": "e1f029fc-f920-4311-313f-b2de3113bf18",
+      "subagent_id": "notes-import-adapter-40426b42",
+      "subagent_type": "silent-failure-hunter",
+      "description": "Hunt swallowed errors",
+      "duration_seconds": 445
+    }
+  ]
+}

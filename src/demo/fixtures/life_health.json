@@ -1,0 +1,107 @@
+{
+  "files": [
+    {
+      "name": "fitness.md",
+      "sections": [
+        "Training block",
+        "Weekly mileage",
+        "Strength",
+        "Mobility",
+        "Recovery"
+      ]
+    },
+    {
+      "name": "nutrition.md",
+      "sections": [
+        "Baseline",
+        "Fueling long runs",
+        "Hydration"
+      ]
+    },
+    {
+      "name": "metrics.md",
+      "sections": [
+        "Resting HR",
+        "Weight",
+        "Sleep"
+      ]
+    },
+    {
+      "name": "providers.md",
+      "sections": [
+        "Primary care",
+        "Physio",
+        "Dentist"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "heading": "General health",
+      "body": "No chronic conditions; building fitness from a low base."
+    }
+  ],
+  "medications": [
+    {
+      "heading": "Supplements",
+      "body": "Vitamin D and magnesium in the evening; nothing prescription. Reviewed with primary care at the last annual check."
+    }
+  ],
+  "fitness": [
+    {
+      "heading": "10K training block (July to October)",
+      "body": "Aerobic base first: four easy runs a week climbing from 20 to 35 weekly kilometers, one tempo session added from mid-July, and a long run on Sundays. Goal is a sub-55 minute 10K in October."
+    },
+    {
+      "heading": "Strength",
+      "body": "Two full-body sessions a week focused on hips, core, and single-leg stability to keep the running injury-free."
+    }
+  ],
+  "nutrition": [
+    {
+      "heading": "Baseline",
+      "body": "Whole foods, protein at every meal, coffee before noon only."
+    },
+    {
+      "heading": "Fueling",
+      "body": "Carbs the night before long runs; electrolytes on anything over an hour."
+    }
+  ],
+  "routine": [],
+  "providers": [
+    {
+      "heading": "Primary care",
+      "body": "Annual physical in spring; next check scheduled for next year."
+    },
+    {
+      "heading": "Physiotherapist",
+      "body": "Seen monthly during the training build to catch niggles early."
+    }
+  ],
+  "metrics": [
+    {
+      "heading": "Resting heart rate and weight",
+      "body": "Resting HR has dropped from 62 to 56 over the base-building block. Weight is stable at a healthy range. Sleep averages seven hours; the target is closer to eight on hard training days."
+    }
+  ],
+  "history": [],
+  "labReports": [],
+  "freshness": {
+    "dataDate": "2026-07-08",
+    "label": "3 days old",
+    "daysOld": 3,
+    "tier": "fresh",
+    "perFile": [
+      {
+        "name": "fitness.md",
+        "date": "2026-07-08",
+        "source": "manual"
+      },
+      {
+        "name": "metrics.md",
+        "date": "2026-07-06",
+        "source": "manual"
+      }
+    ]
+  }
+}

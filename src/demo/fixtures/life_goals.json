@@ -1,0 +1,144 @@
+{
+  "mission": [
+    {
+      "heading": "M0 Craft",
+      "body": "Become a world-class independent product designer."
+    },
+    {
+      "heading": "M1 Health",
+      "body": "Rebuild an aerobic base after a sedentary decade."
+    },
+    {
+      "heading": "M2 Wealth",
+      "body": "Hold a 12-month runway and carry zero consumer debt."
+    },
+    {
+      "heading": "M3 Mind",
+      "body": "Write and publish consistently."
+    }
+  ],
+  "goals": [
+    {
+      "id": "G0",
+      "text": "Land 3 retainer clients for Northslope Studio by December. Two conversations are live, one proposal is out, and the pipeline needs steady outreach to hold the pace."
+    },
+    {
+      "id": "G1",
+      "text": "Run a sub-55 minute 10K in October. Base mileage is climbing and the tempo work starts this week."
+    },
+    {
+      "id": "G2",
+      "text": "Reach a 6-month emergency fund by November. $12,400 of the $18,000 target is set aside."
+    },
+    {
+      "id": "G3",
+      "text": "Publish 24 essays this year. Eleven are live and the drafting cadence is holding at roughly one a fortnight."
+    },
+    {
+      "id": "G4",
+      "text": "Ship Fieldnote v1, a personal notes app, to the first cohort of testers."
+    }
+  ],
+  "problems": [
+    {
+      "heading": "P0 Feast-famine income",
+      "body": "Independent income arrives in bursts, which makes planning hard."
+    },
+    {
+      "heading": "P1 Low-energy afternoons",
+      "body": "Focus dips after lunch and eats into deep work."
+    },
+    {
+      "heading": "P2 Notes everywhere",
+      "body": "Notes live across four apps with no single source of truth."
+    }
+  ],
+  "strategies": [
+    {
+      "heading": "S0 Steady outreach",
+      "body": "Send four tailored studio pitches every week and nurture warm leads on a cadence."
+    },
+    {
+      "heading": "S1 Base then speed",
+      "body": "Build easy aerobic mileage first, add one tempo session a week from July."
+    },
+    {
+      "heading": "S2 Automate the runway",
+      "body": "Route a fixed share of every invoice straight into the emergency fund."
+    },
+    {
+      "heading": "S3 One essay a fortnight",
+      "body": "Protect a two-hour drafting block and ship on a schedule, not on inspiration."
+    }
+  ],
+  "narratives": [
+    {
+      "heading": "N0 The independent leap",
+      "body": "A senior product designer trading a salary for a studio and a longer runway."
+    },
+    {
+      "heading": "N1 Compounding quietly",
+      "body": "Small daily reps on health, writing, and craft that add up over a year."
+    }
+  ],
+  "challenges": [
+    {
+      "heading": "C0 Afternoon slump",
+      "body": "Energy fades after lunch and the hardest work gets pushed to a tired brain."
+    },
+    {
+      "heading": "C1 Context switching",
+      "body": "Client work, product work, and writing compete for the same mornings."
+    },
+    {
+      "heading": "C2 Runway anxiety",
+      "body": "Lumpy income makes it tempting to over-index on billable hours."
+    }
+  ],
+  "beliefs": [
+    "Consistency beats intensity for anything that compounds over a year.",
+    "A short runway makes you take bad clients; a long one lets you say no.",
+    "The tool you actually open beats the perfect tool you never launch.",
+    "Aerobic base is boring to build and impossible to fake.",
+    "Writing in public is the fastest way to sharpen your thinking."
+  ],
+  "models": [
+    {
+      "heading": "Compound Interest",
+      "body": "Growth accelerates when returns are reinvested; the same logic governs skills, audience, and savings."
+    },
+    {
+      "heading": "Via Negativa",
+      "body": "Improvement often comes from removing what harms rather than adding what helps."
+    }
+  ],
+  "wisdom": [
+    {
+      "heading": "Focus",
+      "body": "The morning is for the work that only you can do; everything else waits for the afternoon."
+    },
+    {
+      "heading": "Runway",
+      "body": "Save first, spend what remains; the emergency fund is the price of creative freedom."
+    }
+  ],
+  "predictions": [],
+  "frames": [],
+  "wrong": [],
+  "learned": [],
+  "ideas": [],
+  "authors": [],
+  "books": [
+    "The Timeless Way of Building — Christopher Alexander. Re-read for how living structure emerges from small, repeated design motifs.",
+    "Deep Work — Cal Newport. The two-hour morning block is straight out of this.",
+    "Your Money or Your Life — a runway is really a measure of freedom, not fear."
+  ],
+  "movies": [],
+  "traumas": [],
+  "status": [],
+  "telosProjects": [],
+  "sparks": [],
+  "timeline2036Blocks": 6,
+  "timeline2036Raw": "",
+  "telosMasterRaw": "# TELOS — Alex Carter\n\nAn independent product designer building a studio, a runway, and a growing body of published essays.\n"
+}

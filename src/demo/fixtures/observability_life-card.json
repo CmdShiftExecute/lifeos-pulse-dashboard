@@ -1,0 +1,35 @@
+{
+  "oneSentence": "Alex Carter is going independent as a product designer, rebuilding an aerobic base and a 12-month runway while shipping Fieldnote and publishing consistently.",
+  "current": {
+    "focus": "Land the first three retainer clients for Northslope Studio and ship Fieldnote v1 without breaking the writing streak.",
+    "current_project": "Fieldnote app",
+    "active_workstreams": "Northslope client pipeline, Fieldnote v1 build, the weekly essay engine, and a self-directed 10K training block."
+  },
+  "topGoals": [
+    {
+      "id": "G0",
+      "text": "Land 3 retainer clients for Northslope Studio by December. Two conversations are live, one proposal is out, and the pipeline needs steady outreach to hold the pace."
+    },
+    {
+      "id": "G1",
+      "text": "Run a sub-55 minute 10K in October. Base mileage is climbing and the tempo work starts this week."
+    },
+    {
+      "id": "G2",
+      "text": "Reach a 6-month emergency fund by November. $12,400 of the $18,000 target is set aside."
+    },
+    {
+      "id": "G3",
+      "text": "Publish 24 essays this year. Eleven are live and the drafting cadence is holding at roughly one a fortnight."
+    }
+  ],
+  "nextActions": [
+    "Send the Northslope proposal follow-up",
+    "Ship the Fieldnote sync engine spike",
+    "Draft essay #12"
+  ],
+  "spark": null,
+  "sparkCount": 11,
+  "timelineBlockCount": 6,
+  "topIntent": null
+}

@@ -1,0 +1,46 @@
+{
+  "days": 30,
+  "from": null,
+  "to": null,
+  "totalFailures": 46,
+  "totalCalls": 2140,
+  "overallRate": 2.15,
+  "byTool": [
+    {
+      "tool": "Bash",
+      "failures": 18,
+      "calls": 720,
+      "failureRate": 2.5
+    },
+    {
+      "tool": "StructuredOutput",
+      "failures": 9,
+      "calls": 48,
+      "failureRate": 18.75
+    },
+    {
+      "tool": "Edit",
+      "failures": 7,
+      "calls": 410,
+      "failureRate": 1.71
+    },
+    {
+      "tool": "Read",
+      "failures": 5,
+      "calls": 480,
+      "failureRate": 1.04
+    },
+    {
+      "tool": "Grep",
+      "failures": 4,
+      "calls": 300,
+      "failureRate": 1.33
+    },
+    {
+      "tool": "Write",
+      "failures": 3,
+      "calls": 182,
+      "failureRate": 1.65
+    }
+  ]
+}

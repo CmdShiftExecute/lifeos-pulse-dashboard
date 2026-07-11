@@ -1,0 +1,50 @@
+{
+  "fetched_at": "2026-07-11T15:30:00.000Z",
+  "count": 3,
+  "worst_aqi": 41,
+  "worst_label": "Good",
+  "monitors": [
+    {
+      "id": 1,
+      "name": "Studio",
+      "pm25": 5.2,
+      "co2": 640,
+      "temp": 22.4,
+      "rh": 41,
+      "tvoc": 120,
+      "nox": 8,
+      "aqi": 22,
+      "aqiLabel": "Good",
+      "timestamp": "2026-07-11T15:30:00.000Z",
+      "type": "indoor"
+    },
+    {
+      "id": 2,
+      "name": "Bedroom",
+      "pm25": 4.1,
+      "co2": 780,
+      "temp": 21.1,
+      "rh": 45,
+      "tvoc": 95,
+      "nox": 6,
+      "aqi": 18,
+      "aqiLabel": "Good",
+      "timestamp": "2026-07-11T15:30:00.000Z",
+      "type": "indoor"
+    },
+    {
+      "id": 3,
+      "name": "Backyard",
+      "pm25": 8.7,
+      "co2": null,
+      "temp": 26,
+      "rh": 33,
+      "tvoc": null,
+      "nox": null,
+      "aqi": 41,
+      "aqiLabel": "Good",
+      "timestamp": "2026-07-11T15:30:00.000Z",
+      "type": "outdoor"
+    }
+  ]
+}

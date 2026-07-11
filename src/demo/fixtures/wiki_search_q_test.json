@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "slug": "local-first-notes",
+      "title": "Local-first notes",
+      "category": "knowledge",
+      "excerpt": "A short note on local-first notes and how it applies to the current chapter of work.",
+      "score": 0.9
+    },
+    {
+      "slug": "retainer-pricing",
+      "title": "Retainer pricing",
+      "category": "knowledge",
+      "excerpt": "A short note on retainer pricing and how it applies to the current chapter of work.",
+      "score": 0.78
+    },
+    {
+      "slug": "aerobic-base",
+      "title": "Aerobic base training",
+      "category": "knowledge",
+      "excerpt": "A short note on aerobic base training and how it applies to the current chapter of work.",
+      "score": 0.66
+    },
+    {
+      "slug": "deep-work-blocks",
+      "title": "Deep work blocks",
+      "category": "knowledge",
+      "excerpt": "A short note on deep work blocks and how it applies to the current chapter of work.",
+      "score": 0.54
+    }
+  ]
+}

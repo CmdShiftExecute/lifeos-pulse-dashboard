@@ -1,0 +1,22 @@
+{
+  "hypotheses": [
+    {
+      "slug": "afternoon-walk",
+      "claim": "A short afternoon walk restores focus for the rest of the day.",
+      "confidence": 0.6,
+      "target_frame": "Low-energy afternoons",
+      "evidence_count": 4,
+      "generated": "2026-06-20T10:00:00.000Z",
+      "expires_in_days": 12
+    },
+    {
+      "slug": "retainer-pricing",
+      "claim": "Retainer pricing reduces month-to-month income variance.",
+      "confidence": 0.78,
+      "target_frame": "Feast-famine income",
+      "evidence_count": 6,
+      "generated": "2026-06-15T10:00:00.000Z",
+      "expires_in_days": 5
+    }
+  ]
+}

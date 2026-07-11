@@ -1,0 +1,844 @@
+{
+  "cells": [
+    {
+      "day_of_week": 0,
+      "hour": 0,
+      "messages": 2
+    },
+    {
+      "day_of_week": 0,
+      "hour": 1,
+      "messages": 2
+    },
+    {
+      "day_of_week": 0,
+      "hour": 2,
+      "messages": 0
+    },
+    {
+      "day_of_week": 0,
+      "hour": 3,
+      "messages": 0
+    },
+    {
+      "day_of_week": 0,
+      "hour": 4,
+      "messages": 1
+    },
+    {
+      "day_of_week": 0,
+      "hour": 5,
+      "messages": 1
+    },
+    {
+      "day_of_week": 0,
+      "hour": 6,
+      "messages": 1
+    },
+    {
+      "day_of_week": 0,
+      "hour": 7,
+      "messages": 3
+    },
+    {
+      "day_of_week": 0,
+      "hour": 8,
+      "messages": 40
+    },
+    {
+      "day_of_week": 0,
+      "hour": 9,
+      "messages": 28
+    },
+    {
+      "day_of_week": 0,
+      "hour": 10,
+      "messages": 16
+    },
+    {
+      "day_of_week": 0,
+      "hour": 11,
+      "messages": 25
+    },
+    {
+      "day_of_week": 0,
+      "hour": 12,
+      "messages": 2
+    },
+    {
+      "day_of_week": 0,
+      "hour": 13,
+      "messages": 7
+    },
+    {
+      "day_of_week": 0,
+      "hour": 14,
+      "messages": 15
+    },
+    {
+      "day_of_week": 0,
+      "hour": 15,
+      "messages": 29
+    },
+    {
+      "day_of_week": 0,
+      "hour": 16,
+      "messages": 9
+    },
+    {
+      "day_of_week": 0,
+      "hour": 17,
+      "messages": 30
+    },
+    {
+      "day_of_week": 0,
+      "hour": 18,
+      "messages": 40
+    },
+    {
+      "day_of_week": 0,
+      "hour": 19,
+      "messages": 4
+    },
+    {
+      "day_of_week": 0,
+      "hour": 20,
+      "messages": 40
+    },
+    {
+      "day_of_week": 0,
+      "hour": 21,
+      "messages": 40
+    },
+    {
+      "day_of_week": 0,
+      "hour": 22,
+      "messages": 20
+    },
+    {
+      "day_of_week": 0,
+      "hour": 23,
+      "messages": 2
+    },
+    {
+      "day_of_week": 1,
+      "hour": 0,
+      "messages": 3
+    },
+    {
+      "day_of_week": 1,
+      "hour": 1,
+      "messages": 1
+    },
+    {
+      "day_of_week": 1,
+      "hour": 2,
+      "messages": 2
+    },
+    {
+      "day_of_week": 1,
+      "hour": 3,
+      "messages": 2
+    },
+    {
+      "day_of_week": 1,
+      "hour": 4,
+      "messages": 3
+    },
+    {
+      "day_of_week": 1,
+      "hour": 5,
+      "messages": 0
+    },
+    {
+      "day_of_week": 1,
+      "hour": 6,
+      "messages": 0
+    },
+    {
+      "day_of_week": 1,
+      "hour": 7,
+      "messages": 1
+    },
+    {
+      "day_of_week": 1,
+      "hour": 8,
+      "messages": 30
+    },
+    {
+      "day_of_week": 1,
+      "hour": 9,
+      "messages": 38
+    },
+    {
+      "day_of_week": 1,
+      "hour": 10,
+      "messages": 34
+    },
+    {
+      "day_of_week": 1,
+      "hour": 11,
+      "messages": 23
+    },
+    {
+      "day_of_week": 1,
+      "hour": 12,
+      "messages": 29
+    },
+    {
+      "day_of_week": 1,
+      "hour": 13,
+      "messages": 3
+    },
+    {
+      "day_of_week": 1,
+      "hour": 14,
+      "messages": 40
+    },
+    {
+      "day_of_week": 1,
+      "hour": 15,
+      "messages": 10
+    },
+    {
+      "day_of_week": 1,
+      "hour": 16,
+      "messages": 7
+    },
+    {
+      "day_of_week": 1,
+      "hour": 17,
+      "messages": 25
+    },
+    {
+      "day_of_week": 1,
+      "hour": 18,
+      "messages": 25
+    },
+    {
+      "day_of_week": 1,
+      "hour": 19,
+      "messages": 2
+    },
+    {
+      "day_of_week": 1,
+      "hour": 20,
+      "messages": 24
+    },
+    {
+      "day_of_week": 1,
+      "hour": 21,
+      "messages": 37
+    },
+    {
+      "day_of_week": 1,
+      "hour": 22,
+      "messages": 18
+    },
+    {
+      "day_of_week": 1,
+      "hour": 23,
+      "messages": 0
+    },
+    {
+      "day_of_week": 2,
+      "hour": 0,
+      "messages": 0
+    },
+    {
+      "day_of_week": 2,
+      "hour": 1,
+      "messages": 0
+    },
+    {
+      "day_of_week": 2,
+      "hour": 2,
+      "messages": 0
+    },
+    {
+      "day_of_week": 2,
+      "hour": 3,
+      "messages": 1
+    },
+    {
+      "day_of_week": 2,
+      "hour": 4,
+      "messages": 2
+    },
+    {
+      "day_of_week": 2,
+      "hour": 5,
+      "messages": 1
+    },
+    {
+      "day_of_week": 2,
+      "hour": 6,
+      "messages": 3
+    },
+    {
+      "day_of_week": 2,
+      "hour": 7,
+      "messages": 0
+    },
+    {
+      "day_of_week": 2,
+      "hour": 8,
+      "messages": 4
+    },
+    {
+      "day_of_week": 2,
+      "hour": 9,
+      "messages": 29
+    },
+    {
+      "day_of_week": 2,
+      "hour": 10,
+      "messages": 40
+    },
+    {
+      "day_of_week": 2,
+      "hour": 11,
+      "messages": 7
+    },
+    {
+      "day_of_week": 2,
+      "hour": 12,
+      "messages": 13
+    },
+    {
+      "day_of_week": 2,
+      "hour": 13,
+      "messages": 31
+    },
+    {
+      "day_of_week": 2,
+      "hour": 14,
+      "messages": 33
+    },
+    {
+      "day_of_week": 2,
+      "hour": 15,
+      "messages": 30
+    },
+    {
+      "day_of_week": 2,
+      "hour": 16,
+      "messages": 3
+    },
+    {
+      "day_of_week": 2,
+      "hour": 17,
+      "messages": 39
+    },
+    {
+      "day_of_week": 2,
+      "hour": 18,
+      "messages": 11
+    },
+    {
+      "day_of_week": 2,
+      "hour": 19,
+      "messages": 14
+    },
+    {
+      "day_of_week": 2,
+      "hour": 20,
+      "messages": 10
+    },
+    {
+      "day_of_week": 2,
+      "hour": 21,
+      "messages": 10
+    },
+    {
+      "day_of_week": 2,
+      "hour": 22,
+      "messages": 34
+    },
+    {
+      "day_of_week": 2,
+      "hour": 23,
+      "messages": 0
+    },
+    {
+      "day_of_week": 3,
+      "hour": 0,
+      "messages": 3
+    },
+    {
+      "day_of_week": 3,
+      "hour": 1,
+      "messages": 1
+    },
+    {
+      "day_of_week": 3,
+      "hour": 2,
+      "messages": 1
+    },
+    {
+      "day_of_week": 3,
+      "hour": 3,
+      "messages": 0
+    },
+    {
+      "day_of_week": 3,
+      "hour": 4,
+      "messages": 2
+    },
+    {
+      "day_of_week": 3,
+      "hour": 5,
+      "messages": 2
+    },
+    {
+      "day_of_week": 3,
+      "hour": 6,
+      "messages": 1
+    },
+    {
+      "day_of_week": 3,
+      "hour": 7,
+      "messages": 1
+    },
+    {
+      "day_of_week": 3,
+      "hour": 8,
+      "messages": 8
+    },
+    {
+      "day_of_week": 3,
+      "hour": 9,
+      "messages": 23
+    },
+    {
+      "day_of_week": 3,
+      "hour": 10,
+      "messages": 5
+    },
+    {
+      "day_of_week": 3,
+      "hour": 11,
+      "messages": 7
+    },
+    {
+      "day_of_week": 3,
+      "hour": 12,
+      "messages": 6
+    },
+    {
+      "day_of_week": 3,
+      "hour": 13,
+      "messages": 38
+    },
+    {
+      "day_of_week": 3,
+      "hour": 14,
+      "messages": 32
+    },
+    {
+      "day_of_week": 3,
+      "hour": 15,
+      "messages": 9
+    },
+    {
+      "day_of_week": 3,
+      "hour": 16,
+      "messages": 4
+    },
+    {
+      "day_of_week": 3,
+      "hour": 17,
+      "messages": 35
+    },
+    {
+      "day_of_week": 3,
+      "hour": 18,
+      "messages": 6
+    },
+    {
+      "day_of_week": 3,
+      "hour": 19,
+      "messages": 16
+    },
+    {
+      "day_of_week": 3,
+      "hour": 20,
+      "messages": 21
+    },
+    {
+      "day_of_week": 3,
+      "hour": 21,
+      "messages": 15
+    },
+    {
+      "day_of_week": 3,
+      "hour": 22,
+      "messages": 18
+    },
+    {
+      "day_of_week": 3,
+      "hour": 23,
+      "messages": 1
+    },
+    {
+      "day_of_week": 4,
+      "hour": 0,
+      "messages": 1
+    },
+    {
+      "day_of_week": 4,
+      "hour": 1,
+      "messages": 1
+    },
+    {
+      "day_of_week": 4,
+      "hour": 2,
+      "messages": 1
+    },
+    {
+      "day_of_week": 4,
+      "hour": 3,
+      "messages": 1
+    },
+    {
+      "day_of_week": 4,
+      "hour": 4,
+      "messages": 1
+    },
+    {
+      "day_of_week": 4,
+      "hour": 5,
+      "messages": 3
+    },
+    {
+      "day_of_week": 4,
+      "hour": 6,
+      "messages": 1
+    },
+    {
+      "day_of_week": 4,
+      "hour": 7,
+      "messages": 3
+    },
+    {
+      "day_of_week": 4,
+      "hour": 8,
+      "messages": 36
+    },
+    {
+      "day_of_week": 4,
+      "hour": 9,
+      "messages": 19
+    },
+    {
+      "day_of_week": 4,
+      "hour": 10,
+      "messages": 11
+    },
+    {
+      "day_of_week": 4,
+      "hour": 11,
+      "messages": 2
+    },
+    {
+      "day_of_week": 4,
+      "hour": 12,
+      "messages": 24
+    },
+    {
+      "day_of_week": 4,
+      "hour": 13,
+      "messages": 38
+    },
+    {
+      "day_of_week": 4,
+      "hour": 14,
+      "messages": 11
+    },
+    {
+      "day_of_week": 4,
+      "hour": 15,
+      "messages": 40
+    },
+    {
+      "day_of_week": 4,
+      "hour": 16,
+      "messages": 32
+    },
+    {
+      "day_of_week": 4,
+      "hour": 17,
+      "messages": 17
+    },
+    {
+      "day_of_week": 4,
+      "hour": 18,
+      "messages": 11
+    },
+    {
+      "day_of_week": 4,
+      "hour": 19,
+      "messages": 3
+    },
+    {
+      "day_of_week": 4,
+      "hour": 20,
+      "messages": 7
+    },
+    {
+      "day_of_week": 4,
+      "hour": 21,
+      "messages": 38
+    },
+    {
+      "day_of_week": 4,
+      "hour": 22,
+      "messages": 38
+    },
+    {
+      "day_of_week": 4,
+      "hour": 23,
+      "messages": 2
+    },
+    {
+      "day_of_week": 5,
+      "hour": 0,
+      "messages": 2
+    },
+    {
+      "day_of_week": 5,
+      "hour": 1,
+      "messages": 1
+    },
+    {
+      "day_of_week": 5,
+      "hour": 2,
+      "messages": 2
+    },
+    {
+      "day_of_week": 5,
+      "hour": 3,
+      "messages": 1
+    },
+    {
+      "day_of_week": 5,
+      "hour": 4,
+      "messages": 1
+    },
+    {
+      "day_of_week": 5,
+      "hour": 5,
+      "messages": 1
+    },
+    {
+      "day_of_week": 5,
+      "hour": 6,
+      "messages": 2
+    },
+    {
+      "day_of_week": 5,
+      "hour": 7,
+      "messages": 1
+    },
+    {
+      "day_of_week": 5,
+      "hour": 8,
+      "messages": 35
+    },
+    {
+      "day_of_week": 5,
+      "hour": 9,
+      "messages": 34
+    },
+    {
+      "day_of_week": 5,
+      "hour": 10,
+      "messages": 25
+    },
+    {
+      "day_of_week": 5,
+      "hour": 11,
+      "messages": 21
+    },
+    {
+      "day_of_week": 5,
+      "hour": 12,
+      "messages": 23
+    },
+    {
+      "day_of_week": 5,
+      "hour": 13,
+      "messages": 26
+    },
+    {
+      "day_of_week": 5,
+      "hour": 14,
+      "messages": 38
+    },
+    {
+      "day_of_week": 5,
+      "hour": 15,
+      "messages": 34
+    },
+    {
+      "day_of_week": 5,
+      "hour": 16,
+      "messages": 40
+    },
+    {
+      "day_of_week": 5,
+      "hour": 17,
+      "messages": 4
+    },
+    {
+      "day_of_week": 5,
+      "hour": 18,
+      "messages": 18
+    },
+    {
+      "day_of_week": 5,
+      "hour": 19,
+      "messages": 6
+    },
+    {
+      "day_of_week": 5,
+      "hour": 20,
+      "messages": 11
+    },
+    {
+      "day_of_week": 5,
+      "hour": 21,
+      "messages": 12
+    },
+    {
+      "day_of_week": 5,
+      "hour": 22,
+      "messages": 33
+    },
+    {
+      "day_of_week": 5,
+      "hour": 23,
+      "messages": 1
+    },
+    {
+      "day_of_week": 6,
+      "hour": 0,
+      "messages": 0
+    },
+    {
+      "day_of_week": 6,
+      "hour": 1,
+      "messages": 3
+    },
+    {
+      "day_of_week": 6,
+      "hour": 2,
+      "messages": 3
+    },
+    {
+      "day_of_week": 6,
+      "hour": 3,
+      "messages": 2
+    },
+    {
+      "day_of_week": 6,
+      "hour": 4,
+      "messages": 1
+    },
+    {
+      "day_of_week": 6,
+      "hour": 5,
+      "messages": 0
+    },
+    {
+      "day_of_week": 6,
+      "hour": 6,
+      "messages": 0
+    },
+    {
+      "day_of_week": 6,
+      "hour": 7,
+      "messages": 2
+    },
+    {
+      "day_of_week": 6,
+      "hour": 8,
+      "messages": 0
+    },
+    {
+      "day_of_week": 6,
+      "hour": 9,
+      "messages": 3
+    },
+    {
+      "day_of_week": 6,
+      "hour": 10,
+      "messages": 11
+    },
+    {
+      "day_of_week": 6,
+      "hour": 11,
+      "messages": 5
+    },
+    {
+      "day_of_week": 6,
+      "hour": 12,
+      "messages": 1
+    },
+    {
+      "day_of_week": 6,
+      "hour": 13,
+      "messages": 0
+    },
+    {
+      "day_of_week": 6,
+      "hour": 14,
+      "messages": 12
+    },
+    {
+      "day_of_week": 6,
+      "hour": 15,
+      "messages": 2
+    },
+    {
+      "day_of_week": 6,
+      "hour": 16,
+      "messages": 4
+    },
+    {
+      "day_of_week": 6,
+      "hour": 17,
+      "messages": 2
+    },
+    {
+      "day_of_week": 6,
+      "hour": 18,
+      "messages": 10
+    },
+    {
+      "day_of_week": 6,
+      "hour": 19,
+      "messages": 3
+    },
+    {
+      "day_of_week": 6,
+      "hour": 20,
+      "messages": 1
+    },
+    {
+      "day_of_week": 6,
+      "hour": 21,
+      "messages": 1
+    },
+    {
+      "day_of_week": 6,
+      "hour": 22,
+      "messages": 2
+    },
+    {
+      "day_of_week": 6,
+      "hour": 23,
+      "messages": 0
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "config": {
+    "repo": "northslope/work",
+    "columns": [
+      "Queued",
+      "Blocked",
+      "In-Progress",
+      "In-Review",
+      "Complete"
+    ],
+    "poll_interval_seconds": 60
+  },
+  "columns": {
+    "Queued": [
+      {
+        "number": 41,
+        "title": "Add tag filtering to the Fieldnote note list",
+        "url": "https://example.com/northslope/work/issues/41",
+        "state": "open",
+        "labels": [
+          "feature",
+          "fieldnote"
+        ],
+        "assignees": [],
+        "updatedAt": "2026-07-02T10:00:00Z",
+        "createdAt": "2026-06-21T10:00:00Z",
+        "body": "Let users filter notes by tag from the sidebar.",
+        "ageHours": 30,
+        "column": "Queued",
+        "source": "manual"
+      },
+      {
+        "number": 42,
+        "title": "Write the Northslope case study for the retail client",
+        "url": "https://example.com/northslope/work/issues/42",
+        "state": "open",
+        "labels": [
+          "writing",
+          "studio"
+        ],
+        "assignees": [],
+        "updatedAt": "2026-07-03T10:00:00Z",
+        "createdAt": "2026-06-22T10:00:00Z",
+        "body": "Draft a case study covering the redesign and its outcomes.",
+        "ageHours": 52,
+        "column": "Queued",
+        "source": "reminder"
+      },
+      {
+        "number": 43,
+        "title": "Set up quarterly tax estimate reminder",
+        "url": "https://example.com/northslope/work/issues/43",
+        "state": "open",
+        "labels": [
+          "finance",
+          "chore"
+        ],
+        "assignees": [],
+        "updatedAt": "2026-07-04T10:00:00Z",
+        "createdAt": "2026-06-23T10:00:00Z",
+        "body": "Automate a reminder to set aside 20% of each invoice.",
+        "ageHours": 74,
+        "column": "Queued",
+        "source": "manual"
+      }
+    ],
+    "Blocked": [
+      {
+        "number": 44,
+        "title": "Enable client billing portal",
+        "url": "https://example.com/northslope/work/issues/44",
+        "state": "open",
+        "labels": [
+          "studio",
+          "blocked"
+        ],
+        "assignees": [],
+        "updatedAt": "2026-07-05T10:00:00Z",
+        "createdAt": "2026-06-24T10:00:00Z",
+        "body": "Waiting on the payment provider to approve the studio account.",
+        "ageHours": 96,
+        "column": "Blocked",
+        "source": "manual"
+      }
+    ],
+    "In-Progress": [
+      {
+        "number": 45,
+        "title": "Build the Fieldnote offline sync engine",
+        "url": "https://example.com/northslope/work/issues/45",
+        "state": "open",
+        "labels": [
+          "feature",
+          "fieldnote",
+          "priority"
+        ],
+        "assignees": [],
+        "updatedAt": "2026-07-06T10:00:00Z",
+        "createdAt": "2026-06-10T10:00:00Z",
+        "body": "Local-first change log with last-write-wins conflict handling.",
+        "ageHours": 4,
+        "column": "In-Progress",
+        "source": "auto-native"
+      },
+      {
+        "number": 46,
+        "title": "Tempo training block plan",
+        "url": "https://example.com/northslope/work/issues/46",
+        "state": "open",
+        "labels": [
+          "health"
+        ],
+        "assignees": [],
+        "updatedAt": "2026-07-07T10:00:00Z",
+        "createdAt": "2026-06-11T10:00:00Z",
+        "body": "Add one weekly tempo run to the 10K build.",
+        "ageHours": 20,
+        "column": "In-Progress",
+        "source": "manual"
+      }
+    ],
+    "In-Review": [
+      {
+        "number": 47,
+        "title": "Essay #11: on runways and creative freedom",
+        "url": "https://example.com/northslope/work/issues/47",
+        "state": "open",
+        "labels": [
+          "writing"
+        ],
+        "assignees": [],
+        "updatedAt": "2026-07-08T10:00:00Z",
+        "createdAt": "2026-06-12T10:00:00Z",
+        "body": "Final read-through before publishing.",
+        "ageHours": 12,
+        "column": "In-Review",
+        "source": "auto-native"
+      }
+    ],
+    "Complete": [
+      {
+        "number": 48,
+        "title": "Portfolio landing redesign",
+        "url": "https://example.com/northslope/work/issues/48",
+        "state": "closed",
+        "labels": [
+          "studio",
+          "design",
+          "done"
+        ],
+        "assignees": [],
+        "updatedAt": "2026-07-09T10:00:00Z",
+        "createdAt": "2026-06-13T10:00:00Z",
+        "body": "Shipped and verified across breakpoints and themes.",
+        "ageHours": 26,
+        "column": "Complete",
+        "source": "auto-sweep"
+      },
+      {
+        "number": 49,
+        "title": "Register the Northslope domain",
+        "url": "https://example.com/northslope/work/issues/49",
+        "state": "closed",
+        "labels": [
+          "studio",
+          "done"
+        ],
+        "assignees": [],
+        "updatedAt": "2026-07-10T10:00:00Z",
+        "createdAt": "2026-06-14T10:00:00Z",
+        "body": "Domain registered and DNS configured.",
+        "ageHours": 600,
+        "column": "Complete",
+        "source": "manual"
+      }
+    ]
+  },
+  "items": [
+    {
+      "number": 41,
+      "title": "Add tag filtering to the Fieldnote note list",
+      "url": "https://example.com/northslope/work/issues/41",
+      "state": "open",
+      "labels": [
+        "feature",
+        "fieldnote"
+      ],
+      "assignees": [],
+      "updatedAt": "2026-07-02T10:00:00Z",
+      "createdAt": "2026-06-21T10:00:00Z",
+      "body": "Let users filter notes by tag from the sidebar.",
+      "ageHours": 30,
+      "column": "Queued",
+      "source": "manual"
+    },
+    {
+      "number": 42,
+      "title": "Write the Northslope case study for the retail client",
+      "url": "https://example.com/northslope/work/issues/42",
+      "state": "open",
+      "labels": [
+        "writing",
+        "studio"
+      ],
+      "assignees": [],
+      "updatedAt": "2026-07-03T10:00:00Z",
+      "createdAt": "2026-06-22T10:00:00Z",
+      "body": "Draft a case study covering the redesign and its outcomes.",
+      "ageHours": 52,
+      "column": "Queued",
+      "source": "reminder"
+    },
+    {
+      "number": 43,
+      "title": "Set up quarterly tax estimate reminder",
+      "url": "https://example.com/northslope/work/issues/43",
+      "state": "open",
+      "labels": [
+        "finance",
+        "chore"
+      ],
+      "assignees": [],
+      "updatedAt": "2026-07-04T10:00:00Z",
+      "createdAt": "2026-06-23T10:00:00Z",
+      "body": "Automate a reminder to set aside 20% of each invoice.",
+      "ageHours": 74,
+      "column": "Queued",
+      "source": "manual"
+    },
+    {
+      "number": 44,
+      "title": "Enable client billing portal",
+      "url": "https://example.com/northslope/work/issues/44",
+      "state": "open",
+      "labels": [
+        "studio",
+        "blocked"
+      ],
+      "assignees": [],
+      "updatedAt": "2026-07-05T10:00:00Z",
+      "createdAt": "2026-06-24T10:00:00Z",
+      "body": "Waiting on the payment provider to approve the studio account.",
+      "ageHours": 96,
+      "column": "Blocked",
+      "source": "manual"
+    },
+    {
+      "number": 45,
+      "title": "Build the Fieldnote offline sync engine",
+      "url": "https://example.com/northslope/work/issues/45",
+      "state": "open",
+      "labels": [
+        "feature",
+        "fieldnote",
+        "priority"
+      ],
+      "assignees": [],
+      "updatedAt": "2026-07-06T10:00:00Z",
+      "createdAt": "2026-06-10T10:00:00Z",
+      "body": "Local-first change log with last-write-wins conflict handling.",
+      "ageHours": 4,
+      "column": "In-Progress",
+      "source": "auto-native"
+    },
+    {
+      "number": 46,
+      "title": "Tempo training block plan",
+      "url": "https://example.com/northslope/work/issues/46",
+      "state": "open",
+      "labels": [
+        "health"
+      ],
+      "assignees": [],
+      "updatedAt": "2026-07-07T10:00:00Z",
+      "createdAt": "2026-06-11T10:00:00Z",
+      "body": "Add one weekly tempo run to the 10K build.",
+      "ageHours": 20,
+      "column": "In-Progress",
+      "source": "manual"
+    },
+    {
+      "number": 47,
+      "title": "Essay #11: on runways and creative freedom",
+      "url": "https://example.com/northslope/work/issues/47",
+      "state": "open",
+      "labels": [
+        "writing"
+      ],
+      "assignees": [],
+      "updatedAt": "2026-07-08T10:00:00Z",
+      "createdAt": "2026-06-12T10:00:00Z",
+      "body": "Final read-through before publishing.",
+      "ageHours": 12,
+      "column": "In-Review",
+      "source": "auto-native"
+    },
+    {
+      "number": 48,
+      "title": "Portfolio landing redesign",
+      "url": "https://example.com/northslope/work/issues/48",
+      "state": "closed",
+      "labels": [
+        "studio",
+        "design",
+        "done"
+      ],
+      "assignees": [],
+      "updatedAt": "2026-07-09T10:00:00Z",
+      "createdAt": "2026-06-13T10:00:00Z",
+      "body": "Shipped and verified across breakpoints and themes.",
+      "ageHours": 26,
+      "column": "Complete",
+      "source": "auto-sweep"
+    },
+    {
+      "number": 49,
+      "title": "Register the Northslope domain",
+      "url": "https://example.com/northslope/work/issues/49",
+      "state": "closed",
+      "labels": [
+        "studio",
+        "done"
+      ],
+      "assignees": [],
+      "updatedAt": "2026-07-10T10:00:00Z",
+      "createdAt": "2026-06-14T10:00:00Z",
+      "body": "Domain registered and DNS configured.",
+      "ageHours": 600,
+      "column": "Complete",
+      "source": "manual"
+    }
+  ],
+  "lastFetch": "2026-07-11T15:30:00.000Z",
+  "stale": false
+}

@@ -1,0 +1,2987 @@
+{
+  "schema_version": 1,
+  "pricing": {
+    "source": "static",
+    "table_version": "2026-07-01.demo",
+    "latest_row_updated_at": "2026-07-01T00:00:00.000Z",
+    "custom_override_count": 0,
+    "effective_row_count": 6,
+    "digest": "demo-pricing-table",
+    "cost_source": "pricing",
+    "fallback": {
+      "used": false,
+      "models": []
+    },
+    "models": {
+      "claude-opus-4-8": {
+        "input_cost_per_mtok": 5,
+        "output_cost_per_mtok": 63,
+        "cache_write_cost_per_mtok": 6.19,
+        "cache_read_cost_per_mtok": 1.24,
+        "cost_source": "pricing"
+      },
+      "claude-fable-5": {
+        "input_cost_per_mtok": 15,
+        "output_cost_per_mtok": 26,
+        "cache_write_cost_per_mtok": 4.02,
+        "cache_read_cost_per_mtok": 0.34,
+        "cost_source": "pricing"
+      },
+      "claude-sonnet-5": {
+        "input_cost_per_mtok": 14,
+        "output_cost_per_mtok": 62,
+        "cache_write_cost_per_mtok": 15.36,
+        "cache_read_cost_per_mtok": 0.45,
+        "cost_source": "pricing"
+      },
+      "claude-sonnet-4-6": {
+        "input_cost_per_mtok": 4,
+        "output_cost_per_mtok": 9,
+        "cache_write_cost_per_mtok": 7.55,
+        "cache_read_cost_per_mtok": 0.77,
+        "cost_source": "pricing"
+      },
+      "claude-haiku-4-5-20251001": {
+        "input_cost_per_mtok": 1,
+        "output_cost_per_mtok": 10,
+        "cache_write_cost_per_mtok": 11.66,
+        "cache_read_cost_per_mtok": 0.75,
+        "cost_source": "pricing"
+      },
+      "gpt-5.5": {
+        "input_cost_per_mtok": 15,
+        "output_cost_per_mtok": 60,
+        "cache_write_cost_per_mtok": 5.8,
+        "cache_read_cost_per_mtok": 1.45,
+        "cost_source": "pricing"
+      }
+    }
+  },
+  "projects": {
+    "Fieldnote": {
+      "sessions": 12
+    },
+    "Northslope": {
+      "sessions": 36
+    },
+    "EssayEngine": {
+      "sessions": 33
+    },
+    "portfolio-site": {
+      "sessions": 37
+    },
+    "design-system": {
+      "sessions": 30
+    },
+    "scratchpad": {
+      "sessions": 2
+    },
+    "components": {
+      "sessions": 17
+    },
+    ".claude": {
+      "sessions": 23
+    }
+  },
+  "from": "2026-06-12",
+  "to": "2026-07-11",
+  "totals": {
+    "inputTokens": 150379883,
+    "outputTokens": 30919670,
+    "cacheCreationTokens": 254044647,
+    "cacheReadTokens": 1168998344,
+    "totalCost": 1064.19,
+    "cacheSavings": 2766.89
+  },
+  "daily": [
+    {
+      "date": "2026-06-12",
+      "inputTokens": 1015123,
+      "outputTokens": 676378,
+      "cacheCreationTokens": 9954228,
+      "cacheReadTokens": 59220615,
+      "totalCost": 19.87,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 338374,
+          "outputTokens": 225459,
+          "cacheCreationTokens": 3318076,
+          "cacheReadTokens": 19740205,
+          "cost": 6.62
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 338374,
+          "outputTokens": 225459,
+          "cacheCreationTokens": 3318076,
+          "cacheReadTokens": 19740205,
+          "cost": 6.62
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 338374,
+          "outputTokens": 225459,
+          "cacheCreationTokens": 3318076,
+          "cacheReadTokens": 19740205,
+          "cost": 6.62
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 338374,
+          "outputTokens": 225459,
+          "cacheCreationTokens": 3318076,
+          "cacheReadTokens": 19740205,
+          "cost": 6.62
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 338374,
+          "outputTokens": 225459,
+          "cacheCreationTokens": 3318076,
+          "cacheReadTokens": 19740205,
+          "cost": 6.62
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 338374,
+          "outputTokens": 225459,
+          "cacheCreationTokens": 3318076,
+          "cacheReadTokens": 19740205,
+          "cost": 6.62
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 338374,
+          "outputTokens": 225459,
+          "cacheCreationTokens": 3318076,
+          "cacheReadTokens": 19740205,
+          "cost": 6.62
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 338374,
+          "outputTokens": 225459,
+          "cacheCreationTokens": 3318076,
+          "cacheReadTokens": 19740205,
+          "cost": 6.62
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 338374,
+          "outputTokens": 225459,
+          "cacheCreationTokens": 3318076,
+          "cacheReadTokens": 19740205,
+          "cost": 6.62
+        }
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "inputTokens": 7925703,
+      "outputTokens": 318031,
+      "cacheCreationTokens": 6177366,
+      "cacheReadTokens": 53439605,
+      "totalCost": 47.82,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5",
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 1981425,
+          "outputTokens": 79507,
+          "cacheCreationTokens": 1544341,
+          "cacheReadTokens": 13359901,
+          "cost": 11.96
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 1981425,
+          "outputTokens": 79507,
+          "cacheCreationTokens": 1544341,
+          "cacheReadTokens": 13359901,
+          "cost": 11.96
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 1981425,
+          "outputTokens": 79507,
+          "cacheCreationTokens": 1544341,
+          "cacheReadTokens": 13359901,
+          "cost": 11.96
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 1981425,
+          "outputTokens": 79507,
+          "cacheCreationTokens": 1544341,
+          "cacheReadTokens": 13359901,
+          "cost": 11.96
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 2641901,
+          "outputTokens": 106010,
+          "cacheCreationTokens": 2059122,
+          "cacheReadTokens": 17813201,
+          "cost": 15.94
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 2641901,
+          "outputTokens": 106010,
+          "cacheCreationTokens": 2059122,
+          "cacheReadTokens": 17813201,
+          "cost": 15.94
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 2641901,
+          "outputTokens": 106010,
+          "cacheCreationTokens": 2059122,
+          "cacheReadTokens": 17813201,
+          "cost": 15.94
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 2641901,
+          "outputTokens": 106010,
+          "cacheCreationTokens": 2059122,
+          "cacheReadTokens": 17813201,
+          "cost": 15.94
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 2641901,
+          "outputTokens": 106010,
+          "cacheCreationTokens": 2059122,
+          "cacheReadTokens": 17813201,
+          "cost": 15.94
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 2641901,
+          "outputTokens": 106010,
+          "cacheCreationTokens": 2059122,
+          "cacheReadTokens": 17813201,
+          "cost": 15.94
+        }
+      ]
+    },
+    {
+      "date": "2026-06-14",
+      "inputTokens": 3754510,
+      "outputTokens": 1734166,
+      "cacheCreationTokens": 12600435,
+      "cacheReadTokens": 57797147,
+      "totalCost": 28.61,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 1251503,
+          "outputTokens": 578055,
+          "cacheCreationTokens": 4200145,
+          "cacheReadTokens": 19265715,
+          "cost": 9.54
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 1251503,
+          "outputTokens": 578055,
+          "cacheCreationTokens": 4200145,
+          "cacheReadTokens": 19265715,
+          "cost": 9.54
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 1251503,
+          "outputTokens": 578055,
+          "cacheCreationTokens": 4200145,
+          "cacheReadTokens": 19265715,
+          "cost": 9.54
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1251503,
+          "outputTokens": 578055,
+          "cacheCreationTokens": 4200145,
+          "cacheReadTokens": 19265715,
+          "cost": 9.54
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1251503,
+          "outputTokens": 578055,
+          "cacheCreationTokens": 4200145,
+          "cacheReadTokens": 19265715,
+          "cost": 9.54
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1251503,
+          "outputTokens": 578055,
+          "cacheCreationTokens": 4200145,
+          "cacheReadTokens": 19265715,
+          "cost": 9.54
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1251503,
+          "outputTokens": 578055,
+          "cacheCreationTokens": 4200145,
+          "cacheReadTokens": 19265715,
+          "cost": 9.54
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1251503,
+          "outputTokens": 578055,
+          "cacheCreationTokens": 4200145,
+          "cacheReadTokens": 19265715,
+          "cost": 9.54
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1251503,
+          "outputTokens": 578055,
+          "cacheCreationTokens": 4200145,
+          "cacheReadTokens": 19265715,
+          "cost": 9.54
+        }
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "inputTokens": 5143621,
+      "outputTokens": 1268729,
+      "cacheCreationTokens": 12077732,
+      "cacheReadTokens": 33697054,
+      "totalCost": 45.23,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 2571810,
+          "outputTokens": 634364,
+          "cacheCreationTokens": 6038866,
+          "cacheReadTokens": 16848527,
+          "cost": 22.62
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 2571810,
+          "outputTokens": 634364,
+          "cacheCreationTokens": 6038866,
+          "cacheReadTokens": 16848527,
+          "cost": 22.62
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1714540,
+          "outputTokens": 422909,
+          "cacheCreationTokens": 4025910,
+          "cacheReadTokens": 11232351,
+          "cost": 15.08
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1714540,
+          "outputTokens": 422909,
+          "cacheCreationTokens": 4025910,
+          "cacheReadTokens": 11232351,
+          "cost": 15.08
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1714540,
+          "outputTokens": 422909,
+          "cacheCreationTokens": 4025910,
+          "cacheReadTokens": 11232351,
+          "cost": 15.08
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1714540,
+          "outputTokens": 422909,
+          "cacheCreationTokens": 4025910,
+          "cacheReadTokens": 11232351,
+          "cost": 15.08
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1714540,
+          "outputTokens": 422909,
+          "cacheCreationTokens": 4025910,
+          "cacheReadTokens": 11232351,
+          "cost": 15.08
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1714540,
+          "outputTokens": 422909,
+          "cacheCreationTokens": 4025910,
+          "cacheReadTokens": 11232351,
+          "cost": 15.08
+        }
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "inputTokens": 2715302,
+      "outputTokens": 1320244,
+      "cacheCreationTokens": 12311811,
+      "cacheReadTokens": 56075500,
+      "totalCost": 34.98,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 1357651,
+          "outputTokens": 660122,
+          "cacheCreationTokens": 6155905,
+          "cacheReadTokens": 28037750,
+          "cost": 17.49
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 1357651,
+          "outputTokens": 660122,
+          "cacheCreationTokens": 6155905,
+          "cacheReadTokens": 28037750,
+          "cost": 17.49
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 905100,
+          "outputTokens": 440081,
+          "cacheCreationTokens": 4103937,
+          "cacheReadTokens": 18691833,
+          "cost": 11.66
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 905100,
+          "outputTokens": 440081,
+          "cacheCreationTokens": 4103937,
+          "cacheReadTokens": 18691833,
+          "cost": 11.66
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 905100,
+          "outputTokens": 440081,
+          "cacheCreationTokens": 4103937,
+          "cacheReadTokens": 18691833,
+          "cost": 11.66
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 905100,
+          "outputTokens": 440081,
+          "cacheCreationTokens": 4103937,
+          "cacheReadTokens": 18691833,
+          "cost": 11.66
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 905100,
+          "outputTokens": 440081,
+          "cacheCreationTokens": 4103937,
+          "cacheReadTokens": 18691833,
+          "cost": 11.66
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 905100,
+          "outputTokens": 440081,
+          "cacheCreationTokens": 4103937,
+          "cacheReadTokens": 18691833,
+          "cost": 11.66
+        }
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "inputTokens": 4272344,
+      "outputTokens": 1222473,
+      "cacheCreationTokens": 2267548,
+      "cacheReadTokens": 42439297,
+      "totalCost": 48.08,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 2136172,
+          "outputTokens": 611236,
+          "cacheCreationTokens": 1133774,
+          "cacheReadTokens": 21219648,
+          "cost": 24.04
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 2136172,
+          "outputTokens": 611236,
+          "cacheCreationTokens": 1133774,
+          "cacheReadTokens": 21219648,
+          "cost": 24.04
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1424114,
+          "outputTokens": 407491,
+          "cacheCreationTokens": 755849,
+          "cacheReadTokens": 14146432,
+          "cost": 16.03
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1424114,
+          "outputTokens": 407491,
+          "cacheCreationTokens": 755849,
+          "cacheReadTokens": 14146432,
+          "cost": 16.03
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1424114,
+          "outputTokens": 407491,
+          "cacheCreationTokens": 755849,
+          "cacheReadTokens": 14146432,
+          "cost": 16.03
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1424114,
+          "outputTokens": 407491,
+          "cacheCreationTokens": 755849,
+          "cacheReadTokens": 14146432,
+          "cost": 16.03
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1424114,
+          "outputTokens": 407491,
+          "cacheCreationTokens": 755849,
+          "cacheReadTokens": 14146432,
+          "cost": 16.03
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1424114,
+          "outputTokens": 407491,
+          "cacheCreationTokens": 755849,
+          "cacheReadTokens": 14146432,
+          "cost": 16.03
+        }
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "inputTokens": 5932226,
+      "outputTokens": 1511017,
+      "cacheCreationTokens": 4456711,
+      "cacheReadTokens": 50368115,
+      "totalCost": 18.78,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 2966113,
+          "outputTokens": 755508,
+          "cacheCreationTokens": 2228355,
+          "cacheReadTokens": 25184057,
+          "cost": 9.39
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 2966113,
+          "outputTokens": 755508,
+          "cacheCreationTokens": 2228355,
+          "cacheReadTokens": 25184057,
+          "cost": 9.39
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1977408,
+          "outputTokens": 503672,
+          "cacheCreationTokens": 1485570,
+          "cacheReadTokens": 16789371,
+          "cost": 6.26
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1977408,
+          "outputTokens": 503672,
+          "cacheCreationTokens": 1485570,
+          "cacheReadTokens": 16789371,
+          "cost": 6.26
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1977408,
+          "outputTokens": 503672,
+          "cacheCreationTokens": 1485570,
+          "cacheReadTokens": 16789371,
+          "cost": 6.26
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1977408,
+          "outputTokens": 503672,
+          "cacheCreationTokens": 1485570,
+          "cacheReadTokens": 16789371,
+          "cost": 6.26
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1977408,
+          "outputTokens": 503672,
+          "cacheCreationTokens": 1485570,
+          "cacheReadTokens": 16789371,
+          "cost": 6.26
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1977408,
+          "outputTokens": 503672,
+          "cacheCreationTokens": 1485570,
+          "cacheReadTokens": 16789371,
+          "cost": 6.26
+        }
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "inputTokens": 1904965,
+      "outputTokens": 792786,
+      "cacheCreationTokens": 5840950,
+      "cacheReadTokens": 19504683,
+      "totalCost": 33.39,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 952482,
+          "outputTokens": 396393,
+          "cacheCreationTokens": 2920475,
+          "cacheReadTokens": 9752341,
+          "cost": 16.7
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 952482,
+          "outputTokens": 396393,
+          "cacheCreationTokens": 2920475,
+          "cacheReadTokens": 9752341,
+          "cost": 16.7
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 634988,
+          "outputTokens": 264262,
+          "cacheCreationTokens": 1946983,
+          "cacheReadTokens": 6501561,
+          "cost": 11.13
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 634988,
+          "outputTokens": 264262,
+          "cacheCreationTokens": 1946983,
+          "cacheReadTokens": 6501561,
+          "cost": 11.13
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 634988,
+          "outputTokens": 264262,
+          "cacheCreationTokens": 1946983,
+          "cacheReadTokens": 6501561,
+          "cost": 11.13
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 634988,
+          "outputTokens": 264262,
+          "cacheCreationTokens": 1946983,
+          "cacheReadTokens": 6501561,
+          "cost": 11.13
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 634988,
+          "outputTokens": 264262,
+          "cacheCreationTokens": 1946983,
+          "cacheReadTokens": 6501561,
+          "cost": 11.13
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 634988,
+          "outputTokens": 264262,
+          "cacheCreationTokens": 1946983,
+          "cacheReadTokens": 6501561,
+          "cost": 11.13
+        }
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "inputTokens": 3486793,
+      "outputTokens": 1470702,
+      "cacheCreationTokens": 8570110,
+      "cacheReadTokens": 45288265,
+      "totalCost": 7.15,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5",
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 871698,
+          "outputTokens": 367675,
+          "cacheCreationTokens": 2142527,
+          "cacheReadTokens": 11322066,
+          "cost": 1.79
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 871698,
+          "outputTokens": 367675,
+          "cacheCreationTokens": 2142527,
+          "cacheReadTokens": 11322066,
+          "cost": 1.79
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 871698,
+          "outputTokens": 367675,
+          "cacheCreationTokens": 2142527,
+          "cacheReadTokens": 11322066,
+          "cost": 1.79
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 871698,
+          "outputTokens": 367675,
+          "cacheCreationTokens": 2142527,
+          "cacheReadTokens": 11322066,
+          "cost": 1.79
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1162264,
+          "outputTokens": 490234,
+          "cacheCreationTokens": 2856703,
+          "cacheReadTokens": 15096088,
+          "cost": 2.38
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1162264,
+          "outputTokens": 490234,
+          "cacheCreationTokens": 2856703,
+          "cacheReadTokens": 15096088,
+          "cost": 2.38
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1162264,
+          "outputTokens": 490234,
+          "cacheCreationTokens": 2856703,
+          "cacheReadTokens": 15096088,
+          "cost": 2.38
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1162264,
+          "outputTokens": 490234,
+          "cacheCreationTokens": 2856703,
+          "cacheReadTokens": 15096088,
+          "cost": 2.38
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1162264,
+          "outputTokens": 490234,
+          "cacheCreationTokens": 2856703,
+          "cacheReadTokens": 15096088,
+          "cost": 2.38
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1162264,
+          "outputTokens": 490234,
+          "cacheCreationTokens": 2856703,
+          "cacheReadTokens": 15096088,
+          "cost": 2.38
+        }
+      ]
+    },
+    {
+      "date": "2026-06-21",
+      "inputTokens": 3201591,
+      "outputTokens": 1470485,
+      "cacheCreationTokens": 8943760,
+      "cacheReadTokens": 39927769,
+      "totalCost": 16.12,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 1600795,
+          "outputTokens": 735242,
+          "cacheCreationTokens": 4471880,
+          "cacheReadTokens": 19963884,
+          "cost": 8.06
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 1600795,
+          "outputTokens": 735242,
+          "cacheCreationTokens": 4471880,
+          "cacheReadTokens": 19963884,
+          "cost": 8.06
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1067197,
+          "outputTokens": 490161,
+          "cacheCreationTokens": 2981253,
+          "cacheReadTokens": 13309256,
+          "cost": 5.37
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1067197,
+          "outputTokens": 490161,
+          "cacheCreationTokens": 2981253,
+          "cacheReadTokens": 13309256,
+          "cost": 5.37
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1067197,
+          "outputTokens": 490161,
+          "cacheCreationTokens": 2981253,
+          "cacheReadTokens": 13309256,
+          "cost": 5.37
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1067197,
+          "outputTokens": 490161,
+          "cacheCreationTokens": 2981253,
+          "cacheReadTokens": 13309256,
+          "cost": 5.37
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1067197,
+          "outputTokens": 490161,
+          "cacheCreationTokens": 2981253,
+          "cacheReadTokens": 13309256,
+          "cost": 5.37
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1067197,
+          "outputTokens": 490161,
+          "cacheCreationTokens": 2981253,
+          "cacheReadTokens": 13309256,
+          "cost": 5.37
+        }
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "inputTokens": 5960518,
+      "outputTokens": 683225,
+      "cacheCreationTokens": 7508967,
+      "cacheReadTokens": 23021400,
+      "totalCost": 11.93,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5",
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 1490129,
+          "outputTokens": 170806,
+          "cacheCreationTokens": 1877241,
+          "cacheReadTokens": 5755350,
+          "cost": 2.98
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 1490129,
+          "outputTokens": 170806,
+          "cacheCreationTokens": 1877241,
+          "cacheReadTokens": 5755350,
+          "cost": 2.98
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 1490129,
+          "outputTokens": 170806,
+          "cacheCreationTokens": 1877241,
+          "cacheReadTokens": 5755350,
+          "cost": 2.98
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 1490129,
+          "outputTokens": 170806,
+          "cacheCreationTokens": 1877241,
+          "cacheReadTokens": 5755350,
+          "cost": 2.98
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1986839,
+          "outputTokens": 227741,
+          "cacheCreationTokens": 2502989,
+          "cacheReadTokens": 7673800,
+          "cost": 3.98
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1986839,
+          "outputTokens": 227741,
+          "cacheCreationTokens": 2502989,
+          "cacheReadTokens": 7673800,
+          "cost": 3.98
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1986839,
+          "outputTokens": 227741,
+          "cacheCreationTokens": 2502989,
+          "cacheReadTokens": 7673800,
+          "cost": 3.98
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1986839,
+          "outputTokens": 227741,
+          "cacheCreationTokens": 2502989,
+          "cacheReadTokens": 7673800,
+          "cost": 3.98
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1986839,
+          "outputTokens": 227741,
+          "cacheCreationTokens": 2502989,
+          "cacheReadTokens": 7673800,
+          "cost": 3.98
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1986839,
+          "outputTokens": 227741,
+          "cacheCreationTokens": 2502989,
+          "cacheReadTokens": 7673800,
+          "cost": 3.98
+        }
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "inputTokens": 2204806,
+      "outputTokens": 1404338,
+      "cacheCreationTokens": 9772950,
+      "cacheReadTokens": 50881282,
+      "totalCost": 36.75,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5",
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 551201,
+          "outputTokens": 351084,
+          "cacheCreationTokens": 2443237,
+          "cacheReadTokens": 12720320,
+          "cost": 9.19
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 551201,
+          "outputTokens": 351084,
+          "cacheCreationTokens": 2443237,
+          "cacheReadTokens": 12720320,
+          "cost": 9.19
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 551201,
+          "outputTokens": 351084,
+          "cacheCreationTokens": 2443237,
+          "cacheReadTokens": 12720320,
+          "cost": 9.19
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 551201,
+          "outputTokens": 351084,
+          "cacheCreationTokens": 2443237,
+          "cacheReadTokens": 12720320,
+          "cost": 9.19
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 734935,
+          "outputTokens": 468112,
+          "cacheCreationTokens": 3257650,
+          "cacheReadTokens": 16960427,
+          "cost": 12.25
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 734935,
+          "outputTokens": 468112,
+          "cacheCreationTokens": 3257650,
+          "cacheReadTokens": 16960427,
+          "cost": 12.25
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 734935,
+          "outputTokens": 468112,
+          "cacheCreationTokens": 3257650,
+          "cacheReadTokens": 16960427,
+          "cost": 12.25
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 734935,
+          "outputTokens": 468112,
+          "cacheCreationTokens": 3257650,
+          "cacheReadTokens": 16960427,
+          "cost": 12.25
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 734935,
+          "outputTokens": 468112,
+          "cacheCreationTokens": 3257650,
+          "cacheReadTokens": 16960427,
+          "cost": 12.25
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 734935,
+          "outputTokens": 468112,
+          "cacheCreationTokens": 3257650,
+          "cacheReadTokens": 16960427,
+          "cost": 12.25
+        }
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "inputTokens": 3236845,
+      "outputTokens": 277488,
+      "cacheCreationTokens": 12373632,
+      "cacheReadTokens": 59662192,
+      "totalCost": 44.4,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 1078948,
+          "outputTokens": 92496,
+          "cacheCreationTokens": 4124544,
+          "cacheReadTokens": 19887397,
+          "cost": 14.8
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 1078948,
+          "outputTokens": 92496,
+          "cacheCreationTokens": 4124544,
+          "cacheReadTokens": 19887397,
+          "cost": 14.8
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 1078948,
+          "outputTokens": 92496,
+          "cacheCreationTokens": 4124544,
+          "cacheReadTokens": 19887397,
+          "cost": 14.8
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1078948,
+          "outputTokens": 92496,
+          "cacheCreationTokens": 4124544,
+          "cacheReadTokens": 19887397,
+          "cost": 14.8
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1078948,
+          "outputTokens": 92496,
+          "cacheCreationTokens": 4124544,
+          "cacheReadTokens": 19887397,
+          "cost": 14.8
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1078948,
+          "outputTokens": 92496,
+          "cacheCreationTokens": 4124544,
+          "cacheReadTokens": 19887397,
+          "cost": 14.8
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1078948,
+          "outputTokens": 92496,
+          "cacheCreationTokens": 4124544,
+          "cacheReadTokens": 19887397,
+          "cost": 14.8
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1078948,
+          "outputTokens": 92496,
+          "cacheCreationTokens": 4124544,
+          "cacheReadTokens": 19887397,
+          "cost": 14.8
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1078948,
+          "outputTokens": 92496,
+          "cacheCreationTokens": 4124544,
+          "cacheReadTokens": 19887397,
+          "cost": 14.8
+        }
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "inputTokens": 7308773,
+      "outputTokens": 947277,
+      "cacheCreationTokens": 10862940,
+      "cacheReadTokens": 20970220,
+      "totalCost": 28.21,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 2436257,
+          "outputTokens": 315759,
+          "cacheCreationTokens": 3620980,
+          "cacheReadTokens": 6990073,
+          "cost": 9.4
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 2436257,
+          "outputTokens": 315759,
+          "cacheCreationTokens": 3620980,
+          "cacheReadTokens": 6990073,
+          "cost": 9.4
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 2436257,
+          "outputTokens": 315759,
+          "cacheCreationTokens": 3620980,
+          "cacheReadTokens": 6990073,
+          "cost": 9.4
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 2436257,
+          "outputTokens": 315759,
+          "cacheCreationTokens": 3620980,
+          "cacheReadTokens": 6990073,
+          "cost": 9.4
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 2436257,
+          "outputTokens": 315759,
+          "cacheCreationTokens": 3620980,
+          "cacheReadTokens": 6990073,
+          "cost": 9.4
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 2436257,
+          "outputTokens": 315759,
+          "cacheCreationTokens": 3620980,
+          "cacheReadTokens": 6990073,
+          "cost": 9.4
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 2436257,
+          "outputTokens": 315759,
+          "cacheCreationTokens": 3620980,
+          "cacheReadTokens": 6990073,
+          "cost": 9.4
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 2436257,
+          "outputTokens": 315759,
+          "cacheCreationTokens": 3620980,
+          "cacheReadTokens": 6990073,
+          "cost": 9.4
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 2436257,
+          "outputTokens": 315759,
+          "cacheCreationTokens": 3620980,
+          "cacheReadTokens": 6990073,
+          "cost": 9.4
+        }
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "inputTokens": 8318905,
+      "outputTokens": 1030651,
+      "cacheCreationTokens": 13114954,
+      "cacheReadTokens": 10952825,
+      "totalCost": 46.94,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5",
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 2079726,
+          "outputTokens": 257662,
+          "cacheCreationTokens": 3278738,
+          "cacheReadTokens": 2738206,
+          "cost": 11.74
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 2079726,
+          "outputTokens": 257662,
+          "cacheCreationTokens": 3278738,
+          "cacheReadTokens": 2738206,
+          "cost": 11.74
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 2079726,
+          "outputTokens": 257662,
+          "cacheCreationTokens": 3278738,
+          "cacheReadTokens": 2738206,
+          "cost": 11.74
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 2079726,
+          "outputTokens": 257662,
+          "cacheCreationTokens": 3278738,
+          "cacheReadTokens": 2738206,
+          "cost": 11.74
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 2772968,
+          "outputTokens": 343550,
+          "cacheCreationTokens": 4371651,
+          "cacheReadTokens": 3650941,
+          "cost": 15.65
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 2772968,
+          "outputTokens": 343550,
+          "cacheCreationTokens": 4371651,
+          "cacheReadTokens": 3650941,
+          "cost": 15.65
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 2772968,
+          "outputTokens": 343550,
+          "cacheCreationTokens": 4371651,
+          "cacheReadTokens": 3650941,
+          "cost": 15.65
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 2772968,
+          "outputTokens": 343550,
+          "cacheCreationTokens": 4371651,
+          "cacheReadTokens": 3650941,
+          "cost": 15.65
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 2772968,
+          "outputTokens": 343550,
+          "cacheCreationTokens": 4371651,
+          "cacheReadTokens": 3650941,
+          "cost": 15.65
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 2772968,
+          "outputTokens": 343550,
+          "cacheCreationTokens": 4371651,
+          "cacheReadTokens": 3650941,
+          "cost": 15.65
+        }
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "inputTokens": 7785484,
+      "outputTokens": 1154894,
+      "cacheCreationTokens": 6748770,
+      "cacheReadTokens": 23156337,
+      "totalCost": 23.16,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 3892742,
+          "outputTokens": 577447,
+          "cacheCreationTokens": 3374385,
+          "cacheReadTokens": 11578168,
+          "cost": 11.58
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 3892742,
+          "outputTokens": 577447,
+          "cacheCreationTokens": 3374385,
+          "cacheReadTokens": 11578168,
+          "cost": 11.58
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 2595161,
+          "outputTokens": 384964,
+          "cacheCreationTokens": 2249590,
+          "cacheReadTokens": 7718779,
+          "cost": 7.72
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 2595161,
+          "outputTokens": 384964,
+          "cacheCreationTokens": 2249590,
+          "cacheReadTokens": 7718779,
+          "cost": 7.72
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 2595161,
+          "outputTokens": 384964,
+          "cacheCreationTokens": 2249590,
+          "cacheReadTokens": 7718779,
+          "cost": 7.72
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 2595161,
+          "outputTokens": 384964,
+          "cacheCreationTokens": 2249590,
+          "cacheReadTokens": 7718779,
+          "cost": 7.72
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 2595161,
+          "outputTokens": 384964,
+          "cacheCreationTokens": 2249590,
+          "cacheReadTokens": 7718779,
+          "cost": 7.72
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 2595161,
+          "outputTokens": 384964,
+          "cacheCreationTokens": 2249590,
+          "cacheReadTokens": 7718779,
+          "cost": 7.72
+        }
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "inputTokens": 7810344,
+      "outputTokens": 1498980,
+      "cacheCreationTokens": 13721042,
+      "cacheReadTokens": 27408418,
+      "totalCost": 29.92,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5",
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 1952586,
+          "outputTokens": 374745,
+          "cacheCreationTokens": 3430260,
+          "cacheReadTokens": 6852104,
+          "cost": 7.48
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 1952586,
+          "outputTokens": 374745,
+          "cacheCreationTokens": 3430260,
+          "cacheReadTokens": 6852104,
+          "cost": 7.48
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 1952586,
+          "outputTokens": 374745,
+          "cacheCreationTokens": 3430260,
+          "cacheReadTokens": 6852104,
+          "cost": 7.48
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 1952586,
+          "outputTokens": 374745,
+          "cacheCreationTokens": 3430260,
+          "cacheReadTokens": 6852104,
+          "cost": 7.48
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 2603448,
+          "outputTokens": 499660,
+          "cacheCreationTokens": 4573680,
+          "cacheReadTokens": 9136139,
+          "cost": 9.97
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 2603448,
+          "outputTokens": 499660,
+          "cacheCreationTokens": 4573680,
+          "cacheReadTokens": 9136139,
+          "cost": 9.97
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 2603448,
+          "outputTokens": 499660,
+          "cacheCreationTokens": 4573680,
+          "cacheReadTokens": 9136139,
+          "cost": 9.97
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 2603448,
+          "outputTokens": 499660,
+          "cacheCreationTokens": 4573680,
+          "cacheReadTokens": 9136139,
+          "cost": 9.97
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 2603448,
+          "outputTokens": 499660,
+          "cacheCreationTokens": 4573680,
+          "cacheReadTokens": 9136139,
+          "cost": 9.97
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 2603448,
+          "outputTokens": 499660,
+          "cacheCreationTokens": 4573680,
+          "cacheReadTokens": 9136139,
+          "cost": 9.97
+        }
+      ]
+    },
+    {
+      "date": "2026-06-29",
+      "inputTokens": 7221918,
+      "outputTokens": 839972,
+      "cacheCreationTokens": 2554869,
+      "cacheReadTokens": 24219962,
+      "totalCost": 53.86,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 3610959,
+          "outputTokens": 419986,
+          "cacheCreationTokens": 1277434,
+          "cacheReadTokens": 12109981,
+          "cost": 26.93
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 3610959,
+          "outputTokens": 419986,
+          "cacheCreationTokens": 1277434,
+          "cacheReadTokens": 12109981,
+          "cost": 26.93
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 2407306,
+          "outputTokens": 279990,
+          "cacheCreationTokens": 851623,
+          "cacheReadTokens": 8073320,
+          "cost": 17.95
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 2407306,
+          "outputTokens": 279990,
+          "cacheCreationTokens": 851623,
+          "cacheReadTokens": 8073320,
+          "cost": 17.95
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 2407306,
+          "outputTokens": 279990,
+          "cacheCreationTokens": 851623,
+          "cacheReadTokens": 8073320,
+          "cost": 17.95
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 2407306,
+          "outputTokens": 279990,
+          "cacheCreationTokens": 851623,
+          "cacheReadTokens": 8073320,
+          "cost": 17.95
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 2407306,
+          "outputTokens": 279990,
+          "cacheCreationTokens": 851623,
+          "cacheReadTokens": 8073320,
+          "cost": 17.95
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 2407306,
+          "outputTokens": 279990,
+          "cacheCreationTokens": 851623,
+          "cacheReadTokens": 8073320,
+          "cost": 17.95
+        }
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "inputTokens": 5427736,
+      "outputTokens": 823155,
+      "cacheCreationTokens": 2654064,
+      "cacheReadTokens": 43301847,
+      "totalCost": 203.67,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5",
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 1356934,
+          "outputTokens": 205788,
+          "cacheCreationTokens": 663516,
+          "cacheReadTokens": 10825461,
+          "cost": 50.92
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 1356934,
+          "outputTokens": 205788,
+          "cacheCreationTokens": 663516,
+          "cacheReadTokens": 10825461,
+          "cost": 50.92
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 1356934,
+          "outputTokens": 205788,
+          "cacheCreationTokens": 663516,
+          "cacheReadTokens": 10825461,
+          "cost": 50.92
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 1356934,
+          "outputTokens": 205788,
+          "cacheCreationTokens": 663516,
+          "cacheReadTokens": 10825461,
+          "cost": 50.92
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1809245,
+          "outputTokens": 274385,
+          "cacheCreationTokens": 884688,
+          "cacheReadTokens": 14433949,
+          "cost": 67.89
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1809245,
+          "outputTokens": 274385,
+          "cacheCreationTokens": 884688,
+          "cacheReadTokens": 14433949,
+          "cost": 67.89
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1809245,
+          "outputTokens": 274385,
+          "cacheCreationTokens": 884688,
+          "cacheReadTokens": 14433949,
+          "cost": 67.89
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1809245,
+          "outputTokens": 274385,
+          "cacheCreationTokens": 884688,
+          "cacheReadTokens": 14433949,
+          "cost": 67.89
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1809245,
+          "outputTokens": 274385,
+          "cacheCreationTokens": 884688,
+          "cacheReadTokens": 14433949,
+          "cost": 67.89
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1809245,
+          "outputTokens": 274385,
+          "cacheCreationTokens": 884688,
+          "cacheReadTokens": 14433949,
+          "cost": 67.89
+        }
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "inputTokens": 6461662,
+      "outputTokens": 1479949,
+      "cacheCreationTokens": 10707740,
+      "cacheReadTokens": 32789104,
+      "totalCost": 18.26,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5",
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 1615415,
+          "outputTokens": 369987,
+          "cacheCreationTokens": 2676935,
+          "cacheReadTokens": 8197276,
+          "cost": 4.57
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 1615415,
+          "outputTokens": 369987,
+          "cacheCreationTokens": 2676935,
+          "cacheReadTokens": 8197276,
+          "cost": 4.57
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 1615415,
+          "outputTokens": 369987,
+          "cacheCreationTokens": 2676935,
+          "cacheReadTokens": 8197276,
+          "cost": 4.57
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 1615415,
+          "outputTokens": 369987,
+          "cacheCreationTokens": 2676935,
+          "cacheReadTokens": 8197276,
+          "cost": 4.57
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 2153887,
+          "outputTokens": 493316,
+          "cacheCreationTokens": 3569246,
+          "cacheReadTokens": 10929701,
+          "cost": 6.09
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 2153887,
+          "outputTokens": 493316,
+          "cacheCreationTokens": 3569246,
+          "cacheReadTokens": 10929701,
+          "cost": 6.09
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 2153887,
+          "outputTokens": 493316,
+          "cacheCreationTokens": 3569246,
+          "cacheReadTokens": 10929701,
+          "cost": 6.09
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 2153887,
+          "outputTokens": 493316,
+          "cacheCreationTokens": 3569246,
+          "cacheReadTokens": 10929701,
+          "cost": 6.09
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 2153887,
+          "outputTokens": 493316,
+          "cacheCreationTokens": 3569246,
+          "cacheReadTokens": 10929701,
+          "cost": 6.09
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 2153887,
+          "outputTokens": 493316,
+          "cacheCreationTokens": 3569246,
+          "cacheReadTokens": 10929701,
+          "cost": 6.09
+        }
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "inputTokens": 8369701,
+      "outputTokens": 520123,
+      "cacheCreationTokens": 12773702,
+      "cacheReadTokens": 25048131,
+      "totalCost": 25.19,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 2789900,
+          "outputTokens": 173374,
+          "cacheCreationTokens": 4257900,
+          "cacheReadTokens": 8349377,
+          "cost": 8.4
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 2789900,
+          "outputTokens": 173374,
+          "cacheCreationTokens": 4257900,
+          "cacheReadTokens": 8349377,
+          "cost": 8.4
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 2789900,
+          "outputTokens": 173374,
+          "cacheCreationTokens": 4257900,
+          "cacheReadTokens": 8349377,
+          "cost": 8.4
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 2789900,
+          "outputTokens": 173374,
+          "cacheCreationTokens": 4257900,
+          "cacheReadTokens": 8349377,
+          "cost": 8.4
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 2789900,
+          "outputTokens": 173374,
+          "cacheCreationTokens": 4257900,
+          "cacheReadTokens": 8349377,
+          "cost": 8.4
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 2789900,
+          "outputTokens": 173374,
+          "cacheCreationTokens": 4257900,
+          "cacheReadTokens": 8349377,
+          "cost": 8.4
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 2789900,
+          "outputTokens": 173374,
+          "cacheCreationTokens": 4257900,
+          "cacheReadTokens": 8349377,
+          "cost": 8.4
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 2789900,
+          "outputTokens": 173374,
+          "cacheCreationTokens": 4257900,
+          "cacheReadTokens": 8349377,
+          "cost": 8.4
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 2789900,
+          "outputTokens": 173374,
+          "cacheCreationTokens": 4257900,
+          "cacheReadTokens": 8349377,
+          "cost": 8.4
+        }
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "inputTokens": 2410616,
+      "outputTokens": 1337179,
+      "cacheCreationTokens": 5756564,
+      "cacheReadTokens": 42061679,
+      "totalCost": 16.96,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5",
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 602654,
+          "outputTokens": 334294,
+          "cacheCreationTokens": 1439141,
+          "cacheReadTokens": 10515419,
+          "cost": 4.24
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 602654,
+          "outputTokens": 334294,
+          "cacheCreationTokens": 1439141,
+          "cacheReadTokens": 10515419,
+          "cost": 4.24
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 602654,
+          "outputTokens": 334294,
+          "cacheCreationTokens": 1439141,
+          "cacheReadTokens": 10515419,
+          "cost": 4.24
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 602654,
+          "outputTokens": 334294,
+          "cacheCreationTokens": 1439141,
+          "cacheReadTokens": 10515419,
+          "cost": 4.24
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 803538,
+          "outputTokens": 445726,
+          "cacheCreationTokens": 1918854,
+          "cacheReadTokens": 14020559,
+          "cost": 5.65
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 803538,
+          "outputTokens": 445726,
+          "cacheCreationTokens": 1918854,
+          "cacheReadTokens": 14020559,
+          "cost": 5.65
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 803538,
+          "outputTokens": 445726,
+          "cacheCreationTokens": 1918854,
+          "cacheReadTokens": 14020559,
+          "cost": 5.65
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 803538,
+          "outputTokens": 445726,
+          "cacheCreationTokens": 1918854,
+          "cacheReadTokens": 14020559,
+          "cost": 5.65
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 803538,
+          "outputTokens": 445726,
+          "cacheCreationTokens": 1918854,
+          "cacheReadTokens": 14020559,
+          "cost": 5.65
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 803538,
+          "outputTokens": 445726,
+          "cacheCreationTokens": 1918854,
+          "cacheReadTokens": 14020559,
+          "cost": 5.65
+        }
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "inputTokens": 7211152,
+      "outputTokens": 1335058,
+      "cacheCreationTokens": 4511808,
+      "cacheReadTokens": 54063983,
+      "totalCost": 18.14,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 3605576,
+          "outputTokens": 667529,
+          "cacheCreationTokens": 2255904,
+          "cacheReadTokens": 27031991,
+          "cost": 9.07
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 3605576,
+          "outputTokens": 667529,
+          "cacheCreationTokens": 2255904,
+          "cacheReadTokens": 27031991,
+          "cost": 9.07
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 2403717,
+          "outputTokens": 445019,
+          "cacheCreationTokens": 1503936,
+          "cacheReadTokens": 18021327,
+          "cost": 6.05
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 2403717,
+          "outputTokens": 445019,
+          "cacheCreationTokens": 1503936,
+          "cacheReadTokens": 18021327,
+          "cost": 6.05
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 2403717,
+          "outputTokens": 445019,
+          "cacheCreationTokens": 1503936,
+          "cacheReadTokens": 18021327,
+          "cost": 6.05
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 2403717,
+          "outputTokens": 445019,
+          "cacheCreationTokens": 1503936,
+          "cacheReadTokens": 18021327,
+          "cost": 6.05
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 2403717,
+          "outputTokens": 445019,
+          "cacheCreationTokens": 1503936,
+          "cacheReadTokens": 18021327,
+          "cost": 6.05
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 2403717,
+          "outputTokens": 445019,
+          "cacheCreationTokens": 1503936,
+          "cacheReadTokens": 18021327,
+          "cost": 6.05
+        }
+      ]
+    },
+    {
+      "date": "2026-07-05",
+      "inputTokens": 2769054,
+      "outputTokens": 561098,
+      "cacheCreationTokens": 8704280,
+      "cacheReadTokens": 55888319,
+      "totalCost": 32.02,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 923018,
+          "outputTokens": 187032,
+          "cacheCreationTokens": 2901426,
+          "cacheReadTokens": 18629439,
+          "cost": 10.67
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 923018,
+          "outputTokens": 187032,
+          "cacheCreationTokens": 2901426,
+          "cacheReadTokens": 18629439,
+          "cost": 10.67
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 923018,
+          "outputTokens": 187032,
+          "cacheCreationTokens": 2901426,
+          "cacheReadTokens": 18629439,
+          "cost": 10.67
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 923018,
+          "outputTokens": 187032,
+          "cacheCreationTokens": 2901426,
+          "cacheReadTokens": 18629439,
+          "cost": 10.67
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 923018,
+          "outputTokens": 187032,
+          "cacheCreationTokens": 2901426,
+          "cacheReadTokens": 18629439,
+          "cost": 10.67
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 923018,
+          "outputTokens": 187032,
+          "cacheCreationTokens": 2901426,
+          "cacheReadTokens": 18629439,
+          "cost": 10.67
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 923018,
+          "outputTokens": 187032,
+          "cacheCreationTokens": 2901426,
+          "cacheReadTokens": 18629439,
+          "cost": 10.67
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 923018,
+          "outputTokens": 187032,
+          "cacheCreationTokens": 2901426,
+          "cacheReadTokens": 18629439,
+          "cost": 10.67
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 923018,
+          "outputTokens": 187032,
+          "cacheCreationTokens": 2901426,
+          "cacheReadTokens": 18629439,
+          "cost": 10.67
+        }
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "inputTokens": 3449816,
+      "outputTokens": 940172,
+      "cacheCreationTokens": 7903827,
+      "cacheReadTokens": 17767319,
+      "totalCost": 9.34,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 1724908,
+          "outputTokens": 470086,
+          "cacheCreationTokens": 3951913,
+          "cacheReadTokens": 8883659,
+          "cost": 4.67
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 1724908,
+          "outputTokens": 470086,
+          "cacheCreationTokens": 3951913,
+          "cacheReadTokens": 8883659,
+          "cost": 4.67
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1149938,
+          "outputTokens": 313390,
+          "cacheCreationTokens": 2634609,
+          "cacheReadTokens": 5922439,
+          "cost": 3.11
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1149938,
+          "outputTokens": 313390,
+          "cacheCreationTokens": 2634609,
+          "cacheReadTokens": 5922439,
+          "cost": 3.11
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1149938,
+          "outputTokens": 313390,
+          "cacheCreationTokens": 2634609,
+          "cacheReadTokens": 5922439,
+          "cost": 3.11
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1149938,
+          "outputTokens": 313390,
+          "cacheCreationTokens": 2634609,
+          "cacheReadTokens": 5922439,
+          "cost": 3.11
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1149938,
+          "outputTokens": 313390,
+          "cacheCreationTokens": 2634609,
+          "cacheReadTokens": 5922439,
+          "cost": 3.11
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1149938,
+          "outputTokens": 313390,
+          "cacheCreationTokens": 2634609,
+          "cacheReadTokens": 5922439,
+          "cost": 3.11
+        }
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "inputTokens": 3095266,
+      "outputTokens": 343064,
+      "cacheCreationTokens": 2556482,
+      "cacheReadTokens": 59964685,
+      "totalCost": 27.14,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5",
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 773816,
+          "outputTokens": 85766,
+          "cacheCreationTokens": 639120,
+          "cacheReadTokens": 14991171,
+          "cost": 6.79
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 773816,
+          "outputTokens": 85766,
+          "cacheCreationTokens": 639120,
+          "cacheReadTokens": 14991171,
+          "cost": 6.79
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 773816,
+          "outputTokens": 85766,
+          "cacheCreationTokens": 639120,
+          "cacheReadTokens": 14991171,
+          "cost": 6.79
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 773816,
+          "outputTokens": 85766,
+          "cacheCreationTokens": 639120,
+          "cacheReadTokens": 14991171,
+          "cost": 6.79
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1031755,
+          "outputTokens": 114354,
+          "cacheCreationTokens": 852160,
+          "cacheReadTokens": 19988228,
+          "cost": 9.05
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1031755,
+          "outputTokens": 114354,
+          "cacheCreationTokens": 852160,
+          "cacheReadTokens": 19988228,
+          "cost": 9.05
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1031755,
+          "outputTokens": 114354,
+          "cacheCreationTokens": 852160,
+          "cacheReadTokens": 19988228,
+          "cost": 9.05
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1031755,
+          "outputTokens": 114354,
+          "cacheCreationTokens": 852160,
+          "cacheReadTokens": 19988228,
+          "cost": 9.05
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1031755,
+          "outputTokens": 114354,
+          "cacheCreationTokens": 852160,
+          "cacheReadTokens": 19988228,
+          "cost": 9.05
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1031755,
+          "outputTokens": 114354,
+          "cacheCreationTokens": 852160,
+          "cacheReadTokens": 19988228,
+          "cost": 9.05
+        }
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "inputTokens": 7423924,
+      "outputTokens": 722400,
+      "cacheCreationTokens": 6036245,
+      "cacheReadTokens": 42440821,
+      "totalCost": 10.04,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 2474641,
+          "outputTokens": 240800,
+          "cacheCreationTokens": 2012081,
+          "cacheReadTokens": 14146940,
+          "cost": 3.35
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 2474641,
+          "outputTokens": 240800,
+          "cacheCreationTokens": 2012081,
+          "cacheReadTokens": 14146940,
+          "cost": 3.35
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 2474641,
+          "outputTokens": 240800,
+          "cacheCreationTokens": 2012081,
+          "cacheReadTokens": 14146940,
+          "cost": 3.35
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 2474641,
+          "outputTokens": 240800,
+          "cacheCreationTokens": 2012081,
+          "cacheReadTokens": 14146940,
+          "cost": 3.35
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 2474641,
+          "outputTokens": 240800,
+          "cacheCreationTokens": 2012081,
+          "cacheReadTokens": 14146940,
+          "cost": 3.35
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 2474641,
+          "outputTokens": 240800,
+          "cacheCreationTokens": 2012081,
+          "cacheReadTokens": 14146940,
+          "cost": 3.35
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 2474641,
+          "outputTokens": 240800,
+          "cacheCreationTokens": 2012081,
+          "cacheReadTokens": 14146940,
+          "cost": 3.35
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 2474641,
+          "outputTokens": 240800,
+          "cacheCreationTokens": 2012081,
+          "cacheReadTokens": 14146940,
+          "cost": 3.35
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 2474641,
+          "outputTokens": 240800,
+          "cacheCreationTokens": 2012081,
+          "cacheReadTokens": 14146940,
+          "cost": 3.35
+        }
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "inputTokens": 4296207,
+      "outputTokens": 891315,
+      "cacheCreationTokens": 6803778,
+      "cacheReadTokens": 24010996,
+      "totalCost": 52.76,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 1432069,
+          "outputTokens": 297105,
+          "cacheCreationTokens": 2267926,
+          "cacheReadTokens": 8003665,
+          "cost": 17.59
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 1432069,
+          "outputTokens": 297105,
+          "cacheCreationTokens": 2267926,
+          "cacheReadTokens": 8003665,
+          "cost": 17.59
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 1432069,
+          "outputTokens": 297105,
+          "cacheCreationTokens": 2267926,
+          "cacheReadTokens": 8003665,
+          "cost": 17.59
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 1432069,
+          "outputTokens": 297105,
+          "cacheCreationTokens": 2267926,
+          "cacheReadTokens": 8003665,
+          "cost": 17.59
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 1432069,
+          "outputTokens": 297105,
+          "cacheCreationTokens": 2267926,
+          "cacheReadTokens": 8003665,
+          "cost": 17.59
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 1432069,
+          "outputTokens": 297105,
+          "cacheCreationTokens": 2267926,
+          "cacheReadTokens": 8003665,
+          "cost": 17.59
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 1432069,
+          "outputTokens": 297105,
+          "cacheCreationTokens": 2267926,
+          "cacheReadTokens": 8003665,
+          "cost": 17.59
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 1432069,
+          "outputTokens": 297105,
+          "cacheCreationTokens": 2267926,
+          "cacheReadTokens": 8003665,
+          "cost": 17.59
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 1432069,
+          "outputTokens": 297105,
+          "cacheCreationTokens": 2267926,
+          "cacheReadTokens": 8003665,
+          "cost": 17.59
+        }
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "inputTokens": 1443027,
+      "outputTokens": 1032618,
+      "cacheCreationTokens": 12427306,
+      "cacheReadTokens": 18634326,
+      "totalCost": 52.04,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5",
+        "claude-sonnet-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 481009,
+          "outputTokens": 344206,
+          "cacheCreationTokens": 4142435,
+          "cacheReadTokens": 6211442,
+          "cost": 17.35
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 481009,
+          "outputTokens": 344206,
+          "cacheCreationTokens": 4142435,
+          "cacheReadTokens": 6211442,
+          "cost": 17.35
+        },
+        {
+          "modelName": "claude-sonnet-5",
+          "inputTokens": 481009,
+          "outputTokens": 344206,
+          "cacheCreationTokens": 4142435,
+          "cacheReadTokens": 6211442,
+          "cost": 17.35
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 481009,
+          "outputTokens": 344206,
+          "cacheCreationTokens": 4142435,
+          "cacheReadTokens": 6211442,
+          "cost": 17.35
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 481009,
+          "outputTokens": 344206,
+          "cacheCreationTokens": 4142435,
+          "cacheReadTokens": 6211442,
+          "cost": 17.35
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 481009,
+          "outputTokens": 344206,
+          "cacheCreationTokens": 4142435,
+          "cacheReadTokens": 6211442,
+          "cost": 17.35
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 481009,
+          "outputTokens": 344206,
+          "cacheCreationTokens": 4142435,
+          "cacheReadTokens": 6211442,
+          "cost": 17.35
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 481009,
+          "outputTokens": 344206,
+          "cacheCreationTokens": 4142435,
+          "cacheReadTokens": 6211442,
+          "cost": 17.35
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 481009,
+          "outputTokens": 344206,
+          "cacheCreationTokens": 4142435,
+          "cacheReadTokens": 6211442,
+          "cost": 17.35
+        }
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "inputTokens": 8821951,
+      "outputTokens": 1311703,
+      "cacheCreationTokens": 13350076,
+      "cacheReadTokens": 54996448,
+      "totalCost": 23.43,
+      "modelsUsed": [
+        "claude-opus-4-8",
+        "claude-fable-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-4-8",
+          "inputTokens": 4410975,
+          "outputTokens": 655851,
+          "cacheCreationTokens": 6675038,
+          "cacheReadTokens": 27498224,
+          "cost": 11.72
+        },
+        {
+          "modelName": "claude-fable-5",
+          "inputTokens": 4410975,
+          "outputTokens": 655851,
+          "cacheCreationTokens": 6675038,
+          "cacheReadTokens": 27498224,
+          "cost": 11.72
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Fieldnote",
+          "inputTokens": 2940650,
+          "outputTokens": 437234,
+          "cacheCreationTokens": 4450025,
+          "cacheReadTokens": 18332149,
+          "cost": 7.81
+        },
+        {
+          "project": "Northslope",
+          "inputTokens": 2940650,
+          "outputTokens": 437234,
+          "cacheCreationTokens": 4450025,
+          "cacheReadTokens": 18332149,
+          "cost": 7.81
+        },
+        {
+          "project": "EssayEngine",
+          "inputTokens": 2940650,
+          "outputTokens": 437234,
+          "cacheCreationTokens": 4450025,
+          "cacheReadTokens": 18332149,
+          "cost": 7.81
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "claude",
+          "inputTokens": 2940650,
+          "outputTokens": 437234,
+          "cacheCreationTokens": 4450025,
+          "cacheReadTokens": 18332149,
+          "cost": 7.81
+        },
+        {
+          "agent": "codex",
+          "inputTokens": 2940650,
+          "outputTokens": 437234,
+          "cacheCreationTokens": 4450025,
+          "cacheReadTokens": 18332149,
+          "cost": 7.81
+        },
+        {
+          "agent": "cowork",
+          "inputTokens": 2940650,
+          "outputTokens": 437234,
+          "cacheCreationTokens": 4450025,
+          "cacheReadTokens": 18332149,
+          "cost": 7.81
+        }
+      ]
+    }
+  ],
+  "projectTotals": [
+    {
+      "project": "Fieldnote",
+      "inputTokens": 18797485,
+      "outputTokens": 3864958,
+      "cacheCreationTokens": 31755580,
+      "cacheReadTokens": 146124793,
+      "cost": 133.02
+    },
+    {
+      "project": "Northslope",
+      "inputTokens": 18797485,
+      "outputTokens": 3864958,
+      "cacheCreationTokens": 31755580,
+      "cacheReadTokens": 146124793,
+      "cost": 133.02
+    },
+    {
+      "project": "EssayEngine",
+      "inputTokens": 18797485,
+      "outputTokens": 3864958,
+      "cacheCreationTokens": 31755580,
+      "cacheReadTokens": 146124793,
+      "cost": 133.02
+    },
+    {
+      "project": "portfolio-site",
+      "inputTokens": 18797485,
+      "outputTokens": 3864958,
+      "cacheCreationTokens": 31755580,
+      "cacheReadTokens": 146124793,
+      "cost": 133.02
+    },
+    {
+      "project": "design-system",
+      "inputTokens": 18797485,
+      "outputTokens": 3864958,
+      "cacheCreationTokens": 31755580,
+      "cacheReadTokens": 146124793,
+      "cost": 133.02
+    },
+    {
+      "project": "scratchpad",
+      "inputTokens": 18797485,
+      "outputTokens": 3864958,
+      "cacheCreationTokens": 31755580,
+      "cacheReadTokens": 146124793,
+      "cost": 133.02
+    },
+    {
+      "project": "components",
+      "inputTokens": 18797485,
+      "outputTokens": 3864958,
+      "cacheCreationTokens": 31755580,
+      "cacheReadTokens": 146124793,
+      "cost": 133.02
+    },
+    {
+      "project": ".claude",
+      "inputTokens": 18797485,
+      "outputTokens": 3864958,
+      "cacheCreationTokens": 31755580,
+      "cacheReadTokens": 146124793,
+      "cost": 133.02
+    }
+  ],
+  "modelTotals": [
+    {
+      "model": "claude-opus-4-8",
+      "inputTokens": 25620000,
+      "outputTokens": 10248000,
+      "cacheCreationTokens": 102480000,
+      "cacheReadTokens": 374052000,
+      "cost": 659.8
+    },
+    {
+      "model": "claude-fable-5",
+      "inputTokens": 4810000,
+      "outputTokens": 1924000,
+      "cacheCreationTokens": 19240000,
+      "cacheReadTokens": 70226000,
+      "cost": 148.99
+    },
+    {
+      "model": "claude-sonnet-5",
+      "inputTokens": 3920000,
+      "outputTokens": 1568000,
+      "cacheCreationTokens": 15680000,
+      "cacheReadTokens": 57232000,
+      "cost": 127.7
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "inputTokens": 2055000,
+      "outputTokens": 822000,
+      "cacheCreationTokens": 8220000,
+      "cacheReadTokens": 30003000,
+      "cost": 85.14
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "inputTokens": 1140000,
+      "outputTokens": 456000,
+      "cacheCreationTokens": 4560000,
+      "cacheReadTokens": 16644000,
+      "cost": 31.93
+    },
+    {
+      "model": "gpt-5.5",
+      "inputTokens": 445000,
+      "outputTokens": 178000,
+      "cacheCreationTokens": 1780000,
+      "cacheReadTokens": 6497000,
+      "cost": 10.64
+    }
+  ],
+  "agentTotals": [
+    {
+      "agent": "claude",
+      "inputTokens": 50126627,
+      "outputTokens": 10306556,
+      "cacheCreationTokens": 84681549,
+      "cacheReadTokens": 389666114,
+      "cost": 354.73
+    },
+    {
+      "agent": "codex",
+      "inputTokens": 50126627,
+      "outputTokens": 10306556,
+      "cacheCreationTokens": 84681549,
+      "cacheReadTokens": 389666114,
+      "cost": 354.73
+    },
+    {
+      "agent": "cowork",
+      "inputTokens": 50126627,
+      "outputTokens": 10306556,
+      "cacheCreationTokens": 84681549,
+      "cacheReadTokens": 389666114,
+      "cost": 354.73
+    }
+  ],
+  "sessionCounts": {
+    "total": 280,
+    "byProject": {
+      "Fieldnote": 10,
+      "Northslope": 6,
+      "EssayEngine": 4,
+      "portfolio-site": 7,
+      "design-system": 21,
+      "scratchpad": 3,
+      "components": 38,
+      ".claude": 32
+    },
+    "byAgent": {
+      "claude": 210,
+      "codex": 48,
+      "cowork": 22
+    }
+  },
+  "cacheStats": {
+    "cacheReadTokens": 1168998344,
+    "cacheCreationTokens": 254044647,
+    "uncachedInputTokens": 150379883,
+    "outputTokens": 30919670,
+    "hitRate": 0.78,
+    "savingsVsUncached": 2766.89
+  }
+}

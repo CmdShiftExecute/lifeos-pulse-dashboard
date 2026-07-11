@@ -1,0 +1,9 @@
+{
+  "status": "healthy",
+  "primary_da": "Aria",
+  "identity_loaded": true,
+  "scheduled_tasks": 4,
+  "last_heartbeat": "2026-07-11T15:30:00.000Z",
+  "diary_entries_today": 1,
+  "opinions_count": 7
+}

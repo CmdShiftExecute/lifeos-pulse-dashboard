@@ -1,0 +1,419 @@
+{
+  "nodes": [
+    {
+      "id": "fieldnote",
+      "title": "Fieldnote",
+      "category": "project",
+      "backlinkCount": 5,
+      "silo": "studio",
+      "pagerank": 0.14
+    },
+    {
+      "id": "northslope",
+      "title": "Northslope Studio",
+      "category": "project",
+      "backlinkCount": 4,
+      "silo": "studio",
+      "pagerank": 0.12
+    },
+    {
+      "id": "essay-engine",
+      "title": "Essay engine",
+      "category": "project",
+      "backlinkCount": 3,
+      "silo": "craft",
+      "pagerank": 0.08
+    },
+    {
+      "id": "alex",
+      "title": "Alex Carter",
+      "category": "people",
+      "backlinkCount": 8,
+      "silo": "people",
+      "pagerank": 0.2
+    },
+    {
+      "id": "aria",
+      "title": "Aria",
+      "category": "people",
+      "backlinkCount": 2,
+      "silo": "people",
+      "pagerank": 0.05
+    },
+    {
+      "id": "sam",
+      "title": "Sam",
+      "category": "people",
+      "backlinkCount": 2,
+      "silo": "people",
+      "pagerank": 0.04
+    },
+    {
+      "id": "runway",
+      "title": "Runway",
+      "category": "idea",
+      "backlinkCount": 3,
+      "silo": "money",
+      "pagerank": 0.07
+    },
+    {
+      "id": "10k",
+      "title": "10K goal",
+      "category": "idea",
+      "backlinkCount": 3,
+      "silo": "craft",
+      "pagerank": 0.06
+    },
+    {
+      "id": "deep-work",
+      "title": "Deep work",
+      "category": "idea",
+      "backlinkCount": 2,
+      "silo": "craft",
+      "pagerank": 0.05
+    },
+    {
+      "id": "retainers",
+      "title": "Retainers",
+      "category": "idea",
+      "backlinkCount": 2,
+      "silo": "money",
+      "pagerank": 0.05
+    },
+    {
+      "id": "runway-plan",
+      "title": "Runway plan",
+      "category": "note",
+      "backlinkCount": 4,
+      "silo": "finance",
+      "pagerank": 0.09
+    },
+    {
+      "id": "client-brief-r1",
+      "title": "Client brief: Rivertown",
+      "category": "note",
+      "backlinkCount": 3,
+      "silo": "studio",
+      "pagerank": 0.05
+    },
+    {
+      "id": "client-brief-m2",
+      "title": "Client brief: Meadowlark",
+      "category": "note",
+      "backlinkCount": 3,
+      "silo": "studio",
+      "pagerank": 0.05
+    },
+    {
+      "id": "pricing-model",
+      "title": "Retainer pricing model",
+      "category": "note",
+      "backlinkCount": 5,
+      "silo": "studio",
+      "pagerank": 0.1
+    },
+    {
+      "id": "training-log",
+      "title": "10K training log",
+      "category": "note",
+      "backlinkCount": 4,
+      "silo": "health",
+      "pagerank": 0.07
+    },
+    {
+      "id": "zone2",
+      "title": "Zone 2 base building",
+      "category": "concept",
+      "backlinkCount": 3,
+      "silo": "health",
+      "pagerank": 0.05
+    },
+    {
+      "id": "essay-11",
+      "title": "Essay #11: runways",
+      "category": "note",
+      "backlinkCount": 2,
+      "silo": "craft",
+      "pagerank": 0.04
+    },
+    {
+      "id": "essay-12",
+      "title": "Essay #12: tools as leverage",
+      "category": "note",
+      "backlinkCount": 2,
+      "silo": "craft",
+      "pagerank": 0.04
+    },
+    {
+      "id": "fieldnote-sync",
+      "title": "Fieldnote sync engine",
+      "category": "note",
+      "backlinkCount": 4,
+      "silo": "studio",
+      "pagerank": 0.08
+    },
+    {
+      "id": "local-first",
+      "title": "Local-first architecture",
+      "category": "concept",
+      "backlinkCount": 5,
+      "silo": "studio",
+      "pagerank": 0.09
+    },
+    {
+      "id": "emergency-fund",
+      "title": "Emergency fund tracker",
+      "category": "note",
+      "backlinkCount": 3,
+      "silo": "finance",
+      "pagerank": 0.06
+    },
+    {
+      "id": "weekly-review",
+      "title": "Weekly review ritual",
+      "category": "concept",
+      "backlinkCount": 4,
+      "silo": "people",
+      "pagerank": 0.08
+    },
+    {
+      "id": "design-system",
+      "title": "Northslope design system",
+      "category": "note",
+      "backlinkCount": 3,
+      "silo": "studio",
+      "pagerank": 0.06
+    },
+    {
+      "id": "book-timeless",
+      "title": "The Timeless Way of Building",
+      "category": "book",
+      "backlinkCount": 2,
+      "silo": "craft",
+      "pagerank": 0.03
+    }
+  ],
+  "edges": [
+    {
+      "source": "alex",
+      "target": "fieldnote",
+      "kind": "related"
+    },
+    {
+      "source": "alex",
+      "target": "northslope",
+      "kind": "related"
+    },
+    {
+      "source": "alex",
+      "target": "essay-engine",
+      "kind": "related"
+    },
+    {
+      "source": "northslope",
+      "target": "retainers",
+      "kind": "wikilink"
+    },
+    {
+      "source": "northslope",
+      "target": "runway",
+      "kind": "inferred"
+    },
+    {
+      "source": "essay-engine",
+      "target": "deep-work",
+      "kind": "wikilink"
+    },
+    {
+      "source": "alex",
+      "target": "10k",
+      "kind": "related"
+    },
+    {
+      "source": "sam",
+      "target": "10k",
+      "kind": "tag"
+    },
+    {
+      "source": "aria",
+      "target": "alex",
+      "kind": "related"
+    },
+    {
+      "source": "retainers",
+      "target": "runway",
+      "kind": "inferred"
+    },
+    {
+      "source": "alex",
+      "target": "deep-work",
+      "kind": "related"
+    },
+    {
+      "source": "alex",
+      "target": "weekly-review",
+      "kind": "related"
+    },
+    {
+      "source": "alex",
+      "target": "training-log",
+      "kind": "related"
+    },
+    {
+      "source": "alex",
+      "target": "runway-plan",
+      "kind": "related"
+    },
+    {
+      "source": "aria",
+      "target": "weekly-review",
+      "kind": "related"
+    },
+    {
+      "source": "aria",
+      "target": "runway-plan",
+      "kind": "maintains"
+    },
+    {
+      "source": "aria",
+      "target": "emergency-fund",
+      "kind": "maintains"
+    },
+    {
+      "source": "fieldnote",
+      "target": "fieldnote-sync",
+      "kind": "related"
+    },
+    {
+      "source": "fieldnote",
+      "target": "local-first",
+      "kind": "related"
+    },
+    {
+      "source": "fieldnote-sync",
+      "target": "local-first",
+      "kind": "related"
+    },
+    {
+      "source": "northslope",
+      "target": "client-brief-r1",
+      "kind": "related"
+    },
+    {
+      "source": "northslope",
+      "target": "client-brief-m2",
+      "kind": "related"
+    },
+    {
+      "source": "northslope",
+      "target": "pricing-model",
+      "kind": "related"
+    },
+    {
+      "source": "northslope",
+      "target": "design-system",
+      "kind": "related"
+    },
+    {
+      "source": "pricing-model",
+      "target": "runway-plan",
+      "kind": "related"
+    },
+    {
+      "source": "runway-plan",
+      "target": "emergency-fund",
+      "kind": "related"
+    },
+    {
+      "source": "essay-engine",
+      "target": "essay-11",
+      "kind": "related"
+    },
+    {
+      "source": "essay-engine",
+      "target": "essay-12",
+      "kind": "related"
+    },
+    {
+      "source": "essay-11",
+      "target": "runway-plan",
+      "kind": "wikilink"
+    },
+    {
+      "source": "essay-12",
+      "target": "local-first",
+      "kind": "wikilink"
+    },
+    {
+      "source": "training-log",
+      "target": "zone2",
+      "kind": "related"
+    },
+    {
+      "source": "sam",
+      "target": "training-log",
+      "kind": "related"
+    },
+    {
+      "source": "sam",
+      "target": "weekly-review",
+      "kind": "related"
+    },
+    {
+      "source": "book-timeless",
+      "target": "design-system",
+      "kind": "wikilink"
+    },
+    {
+      "source": "book-timeless",
+      "target": "essay-engine",
+      "kind": "wikilink"
+    },
+    {
+      "source": "deep-work",
+      "target": "weekly-review",
+      "kind": "related"
+    }
+  ],
+  "communities": [
+    {
+      "id": 0,
+      "key": "note",
+      "size": 10,
+      "lead": "Retainer pricing model"
+    },
+    {
+      "id": 1,
+      "key": "idea",
+      "size": 4,
+      "lead": "Runway"
+    },
+    {
+      "id": 2,
+      "key": "project",
+      "size": 3,
+      "lead": "Fieldnote"
+    },
+    {
+      "id": 3,
+      "key": "people",
+      "size": 3,
+      "lead": "Alex Carter"
+    },
+    {
+      "id": 4,
+      "key": "concept",
+      "size": 3,
+      "lead": "Local-first architecture"
+    },
+    {
+      "id": 5,
+      "key": "book",
+      "size": 1,
+      "lead": "The Timeless Way of Building"
+    }
+  ],
+  "built": "2026-07-11T15:30:00.000Z",
+  "nodeCount": 24,
+  "edgeCount": 36
+}

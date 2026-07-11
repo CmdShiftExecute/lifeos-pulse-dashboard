@@ -1,0 +1,102 @@
+{
+  "decisions": [
+    {
+      "date": "2026-07-10",
+      "domain": "studio",
+      "text": "Chose retainer-first pricing over hourly for new Northslope clients to smooth out feast-famine income."
+    },
+    {
+      "date": "2026-07-07",
+      "domain": "product",
+      "text": "Decided Fieldnote v1 ships local-first with an optional sync layer, rather than cloud-first."
+    },
+    {
+      "date": "2026-07-02",
+      "domain": "health",
+      "text": "Chose to hold base mileage before speed work; tempo sessions start mid-July."
+    },
+    {
+      "date": "2026-06-28",
+      "domain": "finance",
+      "text": "Set the emergency-fund target at six months of expenses, auto-funded from every invoice."
+    },
+    {
+      "date": "2026-06-21",
+      "domain": "writing",
+      "text": "Locked a one-essay-per-fortnight cadence with a protected morning drafting block."
+    },
+    {
+      "date": "2026-06-14",
+      "domain": "studio",
+      "text": "Named the studio Northslope and registered the domain."
+    }
+  ],
+  "mistakes": [
+    {
+      "date": "2026-07-09",
+      "domain": "product",
+      "text": "Over-engineered the Fieldnote sync layer before validating the core note-taking loop; simplified back to local-first."
+    },
+    {
+      "date": "2026-07-03",
+      "domain": "health",
+      "text": "Ramped weekly mileage too fast and felt a shin niggle; dialed back and added a rest day."
+    },
+    {
+      "date": "2026-06-25",
+      "domain": "studio",
+      "text": "Under-scoped a fixed-price project and ate the overrun; moved to retainers."
+    },
+    {
+      "date": "2026-06-18",
+      "domain": "writing",
+      "text": "Waited for inspiration instead of protecting the drafting block, and missed a publish date."
+    }
+  ],
+  "learnings": [
+    {
+      "file": "~/vault/learning/local-first.md",
+      "category": "product",
+      "date": "2026-07-09",
+      "title": "Local-first beats cloud-first for v1",
+      "rating": 5,
+      "feedback": "Shipped faster and testers loved the offline behavior.",
+      "summary": "Starting Fieldnote local-first removed a whole class of sync bugs and let the first cohort try it within a week. Sync can be layered on later without rework."
+    },
+    {
+      "file": "~/vault/learning/retainers.md",
+      "category": "studio",
+      "date": "2026-07-05",
+      "title": "Retainers smooth the runway",
+      "rating": 5,
+      "feedback": "Two months in, income variance is way down.",
+      "summary": "Trading a few high hourly rates for predictable monthly retainers made the whole business calmer and easier to plan."
+    },
+    {
+      "file": "~/vault/learning/base-first.md",
+      "category": "health",
+      "date": "2026-06-30",
+      "title": "Aerobic base before speed",
+      "rating": 4,
+      "feedback": "Resting HR dropped noticeably.",
+      "summary": "Weeks of easy running lowered resting heart rate and made the first tempo session feel manageable rather than punishing."
+    }
+  ],
+  "sessions": [
+    {
+      "title": "Fieldnote sync engine spike",
+      "date": "2026-07-10",
+      "body": "Spent the morning spiking the offline sync engine for Fieldnote. Landed on a local-first design with a lightweight change log that can replay to a server later. Pulled scope back from a full CRDT to a simpler last-write-wins with per-field timestamps for v1. Next: wire the change log into the editor and add a conflict banner."
+    },
+    {
+      "title": "Portfolio redesign verify pass",
+      "date": "2026-07-08",
+      "body": "Finished the studio portfolio redesign and ran a verification pass across breakpoints and both themes. Fixed two contrast issues and a layout shift on the case-study grid. The new landing copy reads more clearly with the two people I showed it to."
+    },
+    {
+      "title": "Essay drafting block",
+      "date": "2026-07-06",
+      "body": "Protected the morning block and drafted essay #11 to completion. Held the fortnightly cadence. Captured three ideas for future essays in the notes inbox."
+    }
+  ]
+}

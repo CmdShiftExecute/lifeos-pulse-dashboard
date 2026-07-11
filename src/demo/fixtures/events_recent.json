@@ -1,0 +1,2104 @@
+{
+  "events": [
+    {
+      "timestamp": "2026-07-11T22:21:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "189e5936-9d9f-4e01-116e-ca4a16340b6b",
+      "tool_name": "Bash",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 820,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-11T21:57:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "8ad733bd-e46a-40a4-9d3d-3155354c8bf4",
+      "tool_name": "Edit",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1185,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-11T20:41:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "435d2986-3939-47e9-8fb0-bff7a337012f",
+      "tool_name": "Glob",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1953,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-11T19:36:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "f13abd27-42fa-4c2b-0ec9-364eed8aeb7a",
+      "tool_name": "Edit",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1065,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-11T18:38:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "e9a2546b-2d64-4f88-a4c7-aff49de674ee",
+      "tool_name": "Read",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 601,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-11T15:43:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "1228c45f-3b63-4cb3-e17b-ed62156f5a71",
+      "tool_name": "Read",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 353,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-11T15:43:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "9b9709c6-3916-430e-34eb-2f620a6a4328",
+      "tool_name": "Edit",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1503,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-11T15:33:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "520074f3-b7a6-4522-35c5-5d9cdb0da715",
+      "tool_name": "Grep",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1413,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-11T15:09:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "bbf29731-bdf8-40ef-db50-00e297cf385f",
+      "tool_name": "Read",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 356,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-11T09:00:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "3b0f6b81-9dea-4422-75d9-2deafb0ddc58",
+      "tool_name": "Grep",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1778,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-11T07:01:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "de10ed56-dc82-48d1-d4fc-7662afbff9b3",
+      "tool_name": "Grep",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 982,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T19:12:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b94fe98c-3690-45cf-444d-9edf34dac1e7",
+      "tool_name": "Grep",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 675,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T18:35:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "58ee04b1-501a-45a1-2bae-6d62dbaa33d5",
+      "tool_name": "Read",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1473,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T17:23:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "417375a6-b10c-4ad3-cf12-54e454e0ab61",
+      "tool_name": "Bash",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 1786,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T16:29:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "fdf5f772-ab6d-4f3f-b8b5-743d8a92c1cc",
+      "tool_name": "Read",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 937,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T16:24:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "458f7656-7968-4598-7e12-c574e28bcf09",
+      "tool_name": "Grep",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1243,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T16:17:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "257dca67-3eeb-490f-6538-e3a0869b5b55",
+      "tool_name": "Write",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 790,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T15:21:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b2d7b2cd-5cad-444c-6d62-4a749a64d098",
+      "tool_name": "Grep",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 630,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T14:37:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "0b62c719-99d0-434c-c062-b9f2f974dc8b",
+      "tool_name": "Grep",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1746,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T13:47:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b6292e61-589a-4eb7-a7e6-86096a7c8227",
+      "tool_name": "Edit",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 410,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T13:02:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "3860aeac-b7de-43e5-82b5-accb3e3338e9",
+      "tool_name": "Read",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 947,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T12:25:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "69820845-27f0-4ad4-91f5-bb314eb36059",
+      "tool_name": "Glob",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1495,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T12:19:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "7157f39f-99a8-425e-e687-9c8e5885344f",
+      "tool_name": "Grep",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 2015,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T09:53:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "324f7f91-0c94-4299-71a1-581d5f6a330d",
+      "tool_name": "Read",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 911,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T09:14:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "a9771a36-5301-4f49-617a-3ec8ca92cbf6",
+      "tool_name": "Glob",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1377,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T08:26:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "e871b712-06b1-4497-ed16-d9e741334ca3",
+      "tool_name": "Read",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 790,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T08:17:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "bcd55527-6647-4160-a277-f7276b7874a3",
+      "tool_name": "Edit",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1602,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-10T07:43:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "bad67564-59e1-4990-1a02-7dfda13f0cdb",
+      "tool_name": "Grep",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 101,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-09T22:20:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "96cc3fbf-3a82-4db7-9a74-1d85ad4e7fe2",
+      "tool_name": "Glob",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 133,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-09T21:40:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "cc77382f-2749-4728-e574-a5c3042731b5",
+      "tool_name": "Grep",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1398,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-09T16:11:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "532bdc2f-63e9-45ed-2460-c77abea04fd7",
+      "tool_name": "Edit",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 357,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-09T15:56:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "ad0c3f8d-dcbd-43c3-9f3b-4e54d9715779",
+      "tool_name": "Read",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1357,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-09T15:13:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b77f72bf-48b1-434e-2d6f-4de0ad8da339",
+      "tool_name": "Write",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1828,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-09T09:33:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "3b98a3e8-a5cc-42cc-d217-76506f8ac2ed",
+      "tool_name": "Glob",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 837,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-09T08:17:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "32d87c92-34f7-49e2-f565-e3f9b717dc12",
+      "tool_name": "Write",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 483,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-09T08:05:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "511f647d-cdc3-4a87-89d6-0e082ae38633",
+      "tool_name": "Bash",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 1425,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-09T07:59:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "f3018633-02b2-46b0-e383-6b15dde801ed",
+      "tool_name": "Grep",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1097,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-09T07:35:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "8f337207-f7aa-4bc1-38ac-25b9d293ac69",
+      "tool_name": "Write",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 718,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T22:38:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "4fe03c80-e935-4d44-6418-fa9d4a30eaa6",
+      "tool_name": "Bash",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 801,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T21:13:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "4322f103-f8ae-4bc7-99d9-3b841fc6f871",
+      "tool_name": "Bash",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 514,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T21:03:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "ad9f45e5-b0ae-41db-5287-58bc9f3c4b81",
+      "tool_name": "Glob",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 2028,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T20:52:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "0621d506-f84e-4e10-ef30-e26de8d9a950",
+      "tool_name": "Edit",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 231,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T18:59:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "800d91fd-3b33-495f-b480-977e17c0733f",
+      "tool_name": "Read",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 944,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T18:25:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "1e6e67b3-8c43-4354-8389-51c9d1945e6d",
+      "tool_name": "Edit",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1335,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T18:15:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "f4d0384f-c6e4-45ce-f25e-23c3a0df2519",
+      "tool_name": "Edit",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 783,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T17:59:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b8a04779-b4d9-4820-2325-f07faf76fefc",
+      "tool_name": "Glob",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 337,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T17:38:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "f0d15a7d-9f16-42af-cee5-0ba827fdf979",
+      "tool_name": "Bash",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 1128,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T16:27:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b5096dac-f568-4fc5-3bdd-3fe4687018e5",
+      "tool_name": "Read",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1980,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T14:44:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "e4439775-7f9d-4efd-d359-402bc4ac60f5",
+      "tool_name": "Write",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 912,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T14:09:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "6fdea270-af84-4090-50d1-dc06306740b2",
+      "tool_name": "Read",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1925,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T13:31:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "4ccc0930-cc20-43b7-be7e-e29448d628e5",
+      "tool_name": "Read",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1204,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T13:14:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "14013b98-1a1b-47ca-6d62-1fa383cbe1e3",
+      "tool_name": "Edit",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 747,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T11:04:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "810ce5c1-bbcd-47f1-52ae-9bfb8fa5ae26",
+      "tool_name": "Edit",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1844,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T09:39:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "0ed9f59e-b58c-4552-f13c-22b47f485571",
+      "tool_name": "Read",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 2006,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T08:44:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "8c01ee75-1d0b-4bb1-d05e-3067ad116c71",
+      "tool_name": "Bash",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 1916,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T08:37:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "74b2cadf-40df-49c7-b39e-8e0ed9643dcf",
+      "tool_name": "Read",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 2016,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T07:43:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "a92b2478-0452-407a-f76f-beaa6de22ef4",
+      "tool_name": "Edit",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 223,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T07:34:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "601004b4-d01b-4f24-ccb0-f4433d2d740b",
+      "tool_name": "Glob",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 673,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-08T07:13:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "6bfefd2c-45b1-4627-6dff-d044805adc15",
+      "tool_name": "Glob",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 487,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T21:48:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "006461f2-2578-4209-a818-c7b1ee817fcb",
+      "tool_name": "Edit",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 89,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T20:22:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "ba4900d7-4078-472d-46f0-f182c4f6169e",
+      "tool_name": "Grep",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1290,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T20:14:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "3b8e7a03-2ac0-425e-0738-63ac521c2678",
+      "tool_name": "Read",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1515,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T19:27:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "00a60eef-03d1-4c8a-0036-3b3bdba958f5",
+      "tool_name": "Read",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1577,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T18:00:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "d32ef14c-9937-4a08-67ed-fef911982723",
+      "tool_name": "Edit",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1264,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T16:40:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "580546ad-33f4-4f73-3129-5247134f09ff",
+      "tool_name": "Edit",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 698,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T15:40:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "1bca1783-bc90-4d0a-f1a6-1a16f0539de5",
+      "tool_name": "Glob",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1698,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T15:27:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "dffe86fa-a0f8-4159-3b1d-9b4ffa669cd9",
+      "tool_name": "Grep",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1154,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T14:55:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b59025b3-bf1f-4f79-e4a8-e027bfd8b0f3",
+      "tool_name": "Glob",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1222,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T14:17:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b78c9577-82a3-4f6a-b9cd-42d6c34ecc96",
+      "tool_name": "Glob",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 662,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T13:07:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "239311bc-4223-431d-fa95-a297cb4f8c7d",
+      "tool_name": "Glob",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 883,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T10:37:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "7cb94194-ccd7-48d9-2acd-9e13cd540a3d",
+      "tool_name": "Glob",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 923,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T10:05:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "10fdc55a-a666-4470-8d38-fbfe04edeb06",
+      "tool_name": "Read",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 449,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T09:59:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "f649666c-d5c1-485d-6530-d23a79265833",
+      "tool_name": "Write",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 616,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T09:34:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "9ea333df-3c6d-4365-2ee2-d1aa7ca56f55",
+      "tool_name": "Read",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 843,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T09:33:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "21ec31d2-5756-4566-775d-4de7309e4fc6",
+      "tool_name": "Bash",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 70,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T09:26:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "934e84ac-5ad2-4ef1-7c3e-825a3be8aee3",
+      "tool_name": "Glob",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1129,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T09:11:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "a5757a29-68fe-46ee-55b8-c7ced545479e",
+      "tool_name": "Grep",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1848,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T08:58:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "367bdacd-7ada-460e-3655-47d3ba222570",
+      "tool_name": "Write",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 546,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T08:41:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "c7e30e09-8cb6-43e9-c6b0-8137c018d6c8",
+      "tool_name": "Glob",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1348,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T07:51:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "89f46c65-b0a3-482e-4b1e-18bbd53f2366",
+      "tool_name": "Bash",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 1452,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-07T07:49:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "a678deac-5a74-4729-2427-253902f6ea7f",
+      "tool_name": "Edit",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 147,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T19:16:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "4cf422ec-c341-4570-197f-c4f04af7d15d",
+      "tool_name": "Grep",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 705,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T18:39:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "3d678486-dac0-43cb-a893-f930eb874a55",
+      "tool_name": "Edit",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 941,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T18:37:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "246b46be-a06a-40bd-7023-59029a4a355d",
+      "tool_name": "Edit",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 302,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T18:28:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "768eb26e-ed4b-40b7-04c8-597e3e7b394b",
+      "tool_name": "Edit",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 241,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T17:52:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "39a0ed8c-2ccc-40b9-dd4b-d17797dc3fc1",
+      "tool_name": "Glob",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1245,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T17:12:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "3b782d2c-0f3b-4187-c698-e748c7999bdb",
+      "tool_name": "Edit",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1668,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T15:33:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "63fa112e-3509-4371-507f-d82cfa548f0d",
+      "tool_name": "Edit",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 987,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T15:27:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "49e50303-e5f6-4510-e04d-082246ce0cd2",
+      "tool_name": "Glob",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 11,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T15:25:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b5cfbc32-c08d-4ea5-5ea3-663da0be9a07",
+      "tool_name": "Bash",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 1106,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T14:39:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "ccd71358-0b28-463c-a456-a329bab09b5a",
+      "tool_name": "Bash",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 59,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T14:38:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "e68bf0aa-b173-4a39-8de2-4d2e47118e18",
+      "tool_name": "Grep",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 118,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T12:52:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "55953fd1-14c6-400f-66c3-4b248be4f9a0",
+      "tool_name": "Write",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 808,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T12:12:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "3274f76e-5f89-4a20-6090-f63bacc2e0e0",
+      "tool_name": "Bash",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 363,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T11:31:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "0320b00c-b8c9-4b3f-722e-e37dde596304",
+      "tool_name": "Grep",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 232,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T11:05:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "61f73c78-f742-4d40-a3a4-54503f46f10a",
+      "tool_name": "Edit",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1103,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T09:55:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "2ec60148-b353-4d94-ec64-5ba94d83260e",
+      "tool_name": "Read",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1558,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T09:40:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "f6059750-2a82-45f1-aca8-34c63f959dcf",
+      "tool_name": "Grep",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1346,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T08:54:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "247765f5-7a99-41a6-95f2-a3670883fbda",
+      "tool_name": "Read",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 348,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-06T07:45:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "9a37196c-72c0-4cd6-bed0-375aab55f30f",
+      "tool_name": "Grep",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1050,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T22:20:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "30be0259-5f62-4667-8894-beccdcaf31e8",
+      "tool_name": "Glob",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 2024,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T21:58:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "06764ea7-568f-4148-0d78-800bcd0c00ba",
+      "tool_name": "Read",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1317,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T21:55:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "804d610f-363d-4f47-a390-805ec8fcf710",
+      "tool_name": "Write",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1433,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T20:47:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "03cb80e8-2fb2-4dc5-e42a-caa9c97db924",
+      "tool_name": "Glob",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1763,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T19:32:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b6d69241-95b3-416c-8fdc-d01ed37871fc",
+      "tool_name": "Read",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1253,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T18:39:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "46d7ba8f-0db8-4060-dc51-b68ccab60b13",
+      "tool_name": "Read",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 983,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T18:28:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "736005f0-fd86-44c3-447d-90ee75163dd7",
+      "tool_name": "Write",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1923,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T17:49:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "8946caa0-693e-4349-2b38-e931aa344b07",
+      "tool_name": "Glob",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1598,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T17:15:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "561567d5-7b58-41b5-b95f-4d71f2bc4e24",
+      "tool_name": "Edit",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 987,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T16:23:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "5fdc5370-40e9-4018-aef5-89b2545f9fcf",
+      "tool_name": "Write",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1440,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T15:55:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b3afaea8-2d91-4820-e180-e99db59d67ea",
+      "tool_name": "Bash",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 1983,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T14:20:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "63cb9598-23fa-4eb4-2759-e7dc9c8b8527",
+      "tool_name": "Bash",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 1379,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T12:23:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b4dae784-fdc1-425e-0aa8-4d502a91ca8b",
+      "tool_name": "Edit",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 192,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T12:11:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "ee6399e9-52e0-456e-34f2-8e0f4b029fb2",
+      "tool_name": "Edit",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1288,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T12:08:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "4443d886-a5ac-40a0-863a-31a4109b4ddc",
+      "tool_name": "Read",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 280,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T11:24:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "d9ea9855-ede1-4cb7-dcd9-36050c9d5757",
+      "tool_name": "Bash",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 536,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T11:16:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "df2c111d-0213-47e0-5645-dc5a278a200b",
+      "tool_name": "Write",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1693,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T10:46:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "0469229d-c291-4646-40ee-b7244a6fc048",
+      "tool_name": "Edit",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1794,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T09:30:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "f0b7020b-1479-4907-c3e7-98ba1123726b",
+      "tool_name": "Edit",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1131,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T08:24:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "7f802aea-b59a-426a-c202-ec073c0ca6b8",
+      "tool_name": "Read",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 479,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T08:17:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "d1d03daa-a988-4809-5e8d-dc79cd4a55fc",
+      "tool_name": "Bash",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 1933,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T07:58:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "4bf1d2bd-5588-4d94-cc93-7e29d5182e16",
+      "tool_name": "Glob",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1563,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-05T07:18:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "b923d13a-6525-49a4-ffcf-9259dc1b8f04",
+      "tool_name": "Grep",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1206,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T22:30:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "f6d1cd58-901d-4c6f-3796-5ca7b6363d98",
+      "tool_name": "Write",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1579,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T22:25:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "d170d34f-d475-4fd3-98ea-c82d692c7b09",
+      "tool_name": "Edit",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 551,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T21:58:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "1a06a08b-ccae-49c1-9bd7-e627d6e06822",
+      "tool_name": "Write",
+      "tool_input_preview": "read the finances envelope",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 59,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T19:02:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "5230c04c-871e-4cf3-46d4-093d30cb9d7e",
+      "tool_name": "Write",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 768,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T18:58:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "4ffe063f-4df0-43bf-1e37-7b0a2e2da731",
+      "tool_name": "Write",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 2017,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T17:50:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "a94d76fd-359f-4ff7-7823-3550526f0f39",
+      "tool_name": "Bash",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 1173,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T15:45:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "ed5a4382-69d4-49da-9902-6accb50f2c3b",
+      "tool_name": "Glob",
+      "tool_input_preview": "fill in the sync change log",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1840,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T14:33:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "f3793f69-49ae-4fb1-0c05-35b9510ab88f",
+      "tool_name": "Glob",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 664,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T13:48:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "d7470bd8-106a-41c0-9f2f-b6b6ebc28046",
+      "tool_name": "Bash",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 249,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T13:38:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "7d298c20-2479-47cc-8ca2-ad83375e56cf",
+      "tool_name": "Read",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1959,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T12:42:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "da198844-0d19-4cba-3630-a29385853678",
+      "tool_name": "Bash",
+      "tool_input_preview": "bun run tsc --noEmit",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 21,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T12:30:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "2720a2ea-9988-49a0-ea36-320561fe87fe",
+      "tool_name": "Grep",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 24,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T10:38:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "f02d92ba-1bc8-41ea-04b7-1618d6eb712e",
+      "tool_name": "Write",
+      "tool_input_preview": "git status --short",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 2007,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T08:40:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "00be320a-3d3d-4ed4-fc67-595858070f37",
+      "tool_name": "Write",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 1617,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T08:28:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "0732de2c-9eaa-47a4-a3ea-8d6008b87517",
+      "tool_name": "Edit",
+      "tool_input_preview": "rg -n 'sync' src/lib",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 247,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T08:28:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "891d8af7-8c4d-4aef-0c00-da1ab2f2a154",
+      "tool_name": "Bash",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "bun run tsc --noEmit",
+        "stdout_preview": "No type errors found.",
+        "stdout_bytes": 1180,
+        "stderr_preview": ""
+      }
+    },
+    {
+      "timestamp": "2026-07-04T08:08:00.000Z",
+      "event": "PostToolUse",
+      "source": "claude",
+      "type": "tool_use",
+      "session_id": "0fc970bb-1492-4738-f765-35f900fb9663",
+      "tool_name": "Write",
+      "tool_input_preview": "src/app/fieldnote/editor.tsx",
+      "ground_truth": {
+        "command": "",
+        "stdout_preview": "",
+        "stdout_bytes": 653,
+        "stderr_preview": ""
+      }
+    }
+  ]
+}

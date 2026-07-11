@@ -1,0 +1,370 @@
+[
+  {
+    "timestamp": "2026-07-11T20:43:00.000Z",
+    "event": "tool_failure",
+    "session_id": "34c0f5f6-f21f-4c8d-db06-23b23baf6736",
+    "tool_name": "StructuredOutput",
+    "error": "File has not been read yet",
+    "tool_input_preview": "read out/index.html"
+  },
+  {
+    "timestamp": "2026-07-11T20:36:00.000Z",
+    "event": "tool_failure",
+    "session_id": "c969ba0b-e327-4764-6fc7-2d9662da4379",
+    "tool_name": "StructuredOutput",
+    "error": "No matches found for that query",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-11T14:29:00.000Z",
+    "event": "tool_failure",
+    "session_id": "06e4333e-75ae-4422-c3c8-5826509000e0",
+    "tool_name": "Read",
+    "error": "Command exited with status 1",
+    "tool_input_preview": "read out/index.html"
+  },
+  {
+    "timestamp": "2026-07-11T09:50:00.000Z",
+    "event": "tool_failure",
+    "session_id": "39a5232c-19e8-4c45-2a81-655a387b4dd4",
+    "tool_name": "Bash",
+    "error": "File has not been read yet",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-07-11T09:23:00.000Z",
+    "event": "tool_failure",
+    "session_id": "73ad0960-ca80-48a8-7ce2-33135971190d",
+    "tool_name": "Read",
+    "error": "No matches found for that query",
+    "tool_input_preview": "bun run build"
+  },
+  {
+    "timestamp": "2026-07-11T08:36:00.000Z",
+    "event": "tool_failure",
+    "session_id": "ffa07150-3553-43cb-5deb-317db387ef13",
+    "tool_name": "Grep",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-10T14:57:00.000Z",
+    "event": "tool_failure",
+    "session_id": "c2708d3e-59be-4858-af8c-8a734b0d63f0",
+    "tool_name": "Bash",
+    "error": "File has not been read yet",
+    "tool_input_preview": "bun run build"
+  },
+  {
+    "timestamp": "2026-07-10T08:47:00.000Z",
+    "event": "tool_failure",
+    "session_id": "8f3b5b99-4510-4eb5-9ca0-78bade38d92a",
+    "tool_name": "Bash",
+    "error": "File has not been read yet",
+    "tool_input_preview": "bun run build"
+  },
+  {
+    "timestamp": "2026-07-10T08:33:00.000Z",
+    "event": "tool_failure",
+    "session_id": "cd758e03-5940-4039-1234-2e35913a7942",
+    "tool_name": "StructuredOutput",
+    "error": "No matches found for that query",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-09T15:40:00.000Z",
+    "event": "tool_failure",
+    "session_id": "5500e993-0cfd-400d-4eea-84d799ba2cbb",
+    "tool_name": "StructuredOutput",
+    "error": "Command exited with status 1",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-09T12:50:00.000Z",
+    "event": "tool_failure",
+    "session_id": "b7430274-0d12-42bb-8d9d-66bc2cc74ec1",
+    "tool_name": "Bash",
+    "error": "No matches found for that query",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-07-09T09:56:00.000Z",
+    "event": "tool_failure",
+    "session_id": "fb7e3c71-0184-4fb2-288d-e512aa5acfc9",
+    "tool_name": "Read",
+    "error": "File has not been read yet",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-08T10:02:00.000Z",
+    "event": "tool_failure",
+    "session_id": "39c011bd-e590-4222-59d9-b7d04c0df2ee",
+    "tool_name": "Write",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "bun run build"
+  },
+  {
+    "timestamp": "2026-07-07T20:16:00.000Z",
+    "event": "tool_failure",
+    "session_id": "467a4703-c0ed-4ad5-42c4-d439195f707c",
+    "tool_name": "Grep",
+    "error": "File has not been read yet",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-07T15:09:00.000Z",
+    "event": "tool_failure",
+    "session_id": "f833e2e0-ce86-46a0-dd6d-7e0dcc579b00",
+    "tool_name": "Bash",
+    "error": "No matches found for that query",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-07-07T11:50:00.000Z",
+    "event": "tool_failure",
+    "session_id": "cad9cddc-7239-433c-35b0-55821cffd9d1",
+    "tool_name": "StructuredOutput",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-07T08:58:00.000Z",
+    "event": "tool_failure",
+    "session_id": "28243cee-ce6d-475d-f963-18d2baa07406",
+    "tool_name": "Bash",
+    "error": "Command exited with status 1",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-06T19:06:00.000Z",
+    "event": "tool_failure",
+    "session_id": "092a01b4-fe0f-4734-5bbc-7060491a805b",
+    "tool_name": "Read",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-07-06T16:12:00.000Z",
+    "event": "tool_failure",
+    "session_id": "ec9533ae-886b-4623-e2f8-27f4b1c77ace",
+    "tool_name": "Bash",
+    "error": "File has not been read yet",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-05T20:55:00.000Z",
+    "event": "tool_failure",
+    "session_id": "c13d1276-3ba9-4dba-c83a-f2a3e3fc150f",
+    "tool_name": "StructuredOutput",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "read out/index.html"
+  },
+  {
+    "timestamp": "2026-07-05T09:58:00.000Z",
+    "event": "tool_failure",
+    "session_id": "d4a5f02d-fce2-4fdb-4e82-db0ac7d30537",
+    "tool_name": "Bash",
+    "error": "No matches found for that query",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-05T08:02:00.000Z",
+    "event": "tool_failure",
+    "session_id": "cb10484d-64bf-43b7-c629-0da500091cdc",
+    "tool_name": "Grep",
+    "error": "Timed out after 120000ms",
+    "tool_input_preview": "read out/index.html"
+  },
+  {
+    "timestamp": "2026-07-04T19:08:00.000Z",
+    "event": "tool_failure",
+    "session_id": "f2c3e6fc-7433-4c0e-faf4-5682f1093dfb",
+    "tool_name": "StructuredOutput",
+    "error": "File has not been read yet",
+    "tool_input_preview": "read out/index.html"
+  },
+  {
+    "timestamp": "2026-07-04T16:33:00.000Z",
+    "event": "tool_failure",
+    "session_id": "9edb070e-d754-417a-eeb3-19b02903fe89",
+    "tool_name": "Read",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-07-04T15:48:00.000Z",
+    "event": "tool_failure",
+    "session_id": "9adcab7d-c21c-4142-7d9f-55b03643d9b0",
+    "tool_name": "StructuredOutput",
+    "error": "Command exited with status 1",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-04T15:45:00.000Z",
+    "event": "tool_failure",
+    "session_id": "0c9cd7d5-e2c3-4a35-9d63-8ba7aaa6c853",
+    "tool_name": "Write",
+    "error": "Timed out after 120000ms",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-07-04T13:16:00.000Z",
+    "event": "tool_failure",
+    "session_id": "45a3332e-a168-45dd-a599-724544934bc1",
+    "tool_name": "StructuredOutput",
+    "error": "Timed out after 120000ms",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-03T21:19:00.000Z",
+    "event": "tool_failure",
+    "session_id": "4c74251a-45b6-4004-f9de-cbd22c0dbe82",
+    "tool_name": "Read",
+    "error": "Timed out after 120000ms",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-07-03T12:35:00.000Z",
+    "event": "tool_failure",
+    "session_id": "95ef0ec8-0dd1-46e3-9f6a-85f082db6a0a",
+    "tool_name": "StructuredOutput",
+    "error": "Command exited with status 1",
+    "tool_input_preview": "read out/index.html"
+  },
+  {
+    "timestamp": "2026-07-03T11:43:00.000Z",
+    "event": "tool_failure",
+    "session_id": "843f33ce-c482-4241-ed7e-c5e176050bad",
+    "tool_name": "Grep",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "read out/index.html"
+  },
+  {
+    "timestamp": "2026-07-03T10:48:00.000Z",
+    "event": "tool_failure",
+    "session_id": "6ceb46fd-166f-4168-d1fb-61dccc46f0d7",
+    "tool_name": "Bash",
+    "error": "File has not been read yet",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-07-02T20:54:00.000Z",
+    "event": "tool_failure",
+    "session_id": "7f69c55e-e4d9-4212-8d56-1fb3769cbd72",
+    "tool_name": "StructuredOutput",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "read out/index.html"
+  },
+  {
+    "timestamp": "2026-07-02T18:24:00.000Z",
+    "event": "tool_failure",
+    "session_id": "32fae13a-ce3c-4da2-64c5-fe0b849a3288",
+    "tool_name": "Edit",
+    "error": "No matches found for that query",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-07-02T13:04:00.000Z",
+    "event": "tool_failure",
+    "session_id": "e0f14b56-616b-414a-12b9-75774536fbe6",
+    "tool_name": "Grep",
+    "error": "File has not been read yet",
+    "tool_input_preview": "bun run build"
+  },
+  {
+    "timestamp": "2026-07-02T12:29:00.000Z",
+    "event": "tool_failure",
+    "session_id": "85c1bf38-c878-42a3-ec63-3f7eb243b316",
+    "tool_name": "Bash",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "bun run build"
+  },
+  {
+    "timestamp": "2026-07-01T20:02:00.000Z",
+    "event": "tool_failure",
+    "session_id": "91f78dce-f1da-4230-515d-b42590258f1e",
+    "tool_name": "Grep",
+    "error": "No matches found for that query",
+    "tool_input_preview": "read out/index.html"
+  },
+  {
+    "timestamp": "2026-07-01T19:57:00.000Z",
+    "event": "tool_failure",
+    "session_id": "f4d9bdf5-efcd-4579-55e2-0674e4aee0a7",
+    "tool_name": "Write",
+    "error": "Command exited with status 1",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-07-01T19:44:00.000Z",
+    "event": "tool_failure",
+    "session_id": "ddd29060-4a68-4075-5beb-1e71d791caa1",
+    "tool_name": "Edit",
+    "error": "Timed out after 120000ms",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-06-30T20:53:00.000Z",
+    "event": "tool_failure",
+    "session_id": "c0c711f6-a4c9-477b-b5f2-ed7d60da03ff",
+    "tool_name": "Bash",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "read out/index.html"
+  },
+  {
+    "timestamp": "2026-06-29T10:28:00.000Z",
+    "event": "tool_failure",
+    "session_id": "73b51fe2-4e6e-441a-df2e-16ef6ad1811a",
+    "tool_name": "Bash",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-06-28T13:29:00.000Z",
+    "event": "tool_failure",
+    "session_id": "edbec706-cf81-4f1b-3fbb-61d9e2ead073",
+    "tool_name": "Grep",
+    "error": "No matches found for that query",
+    "tool_input_preview": "bun run build"
+  },
+  {
+    "timestamp": "2026-06-27T21:34:00.000Z",
+    "event": "tool_failure",
+    "session_id": "1964e237-e1d8-4dcf-fdef-06e5b1686ae7",
+    "tool_name": "Write",
+    "error": "No matches found for that query",
+    "tool_input_preview": "bun run build"
+  },
+  {
+    "timestamp": "2026-06-27T20:03:00.000Z",
+    "event": "tool_failure",
+    "session_id": "22a9cd5e-fdf4-441a-d78d-51c032bb7951",
+    "tool_name": "Write",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "edit src/lib/sync.ts"
+  },
+  {
+    "timestamp": "2026-06-26T18:27:00.000Z",
+    "event": "tool_failure",
+    "session_id": "9bcda778-d5b1-470a-addf-797447674180",
+    "tool_name": "StructuredOutput",
+    "error": "File has not been read yet",
+    "tool_input_preview": "bun run build"
+  },
+  {
+    "timestamp": "2026-06-26T16:28:00.000Z",
+    "event": "tool_failure",
+    "session_id": "c517e47a-3d3f-41c5-5e45-bc1fb2f56a0d",
+    "tool_name": "Grep",
+    "error": "Timed out after 120000ms",
+    "tool_input_preview": "rg 'todo' src"
+  },
+  {
+    "timestamp": "2026-06-26T08:34:00.000Z",
+    "event": "tool_failure",
+    "session_id": "9c4b63bd-780f-4319-f5e4-7996b7a7e4f4",
+    "tool_name": "StructuredOutput",
+    "error": "String to replace not found in file",
+    "tool_input_preview": "read out/index.html"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "total_files": 84,
+    "by_publish": {
+      "daemon": 6,
+      "daemon-summary": 3,
+      "manual": 40,
+      "auto": 35
+    },
+    "by_category": {
+      "people": 9,
+      "projects": 12,
+      "ideas": 21,
+      "system": 24,
+      "research": 18
+    }
+  },
+  "by_category": {
+    "people": 9,
+    "projects": 12,
+    "ideas": 21,
+    "system": 24,
+    "research": 18
+  },
+  "interview_gaps": [
+    "health history",
+    "long-term financial plan"
+  ]
+}

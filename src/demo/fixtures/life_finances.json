@@ -1,0 +1,430 @@
+{
+  "version": 2,
+  "income": {
+    "streams": [
+      {
+        "label": "Studio retainers",
+        "annual": 78000
+      },
+      {
+        "label": "One-off design projects",
+        "annual": 24000
+      }
+    ],
+    "annual": 102000,
+    "monthly": 8500,
+    "mrr_monthly": 6500,
+    "mrr_annual": 78000
+  },
+  "outbound": {
+    "vendors": [
+      {
+        "id": "v001",
+        "name": "Design tooling suite",
+        "scope": "business",
+        "monthly_usd": 52,
+        "annual_usd": 624,
+        "source": "statement",
+        "cadence": "monthly",
+        "tags": [
+          "tools"
+        ],
+        "notes": "core"
+      },
+      {
+        "id": "v002",
+        "name": "Cloud hosting",
+        "scope": "business",
+        "monthly_usd": 28,
+        "annual_usd": 336,
+        "source": "statement",
+        "cadence": "monthly",
+        "tags": [
+          "infra"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "v003",
+        "name": "Accounting software",
+        "scope": "business",
+        "monthly_usd": 20,
+        "annual_usd": 240,
+        "source": "statement",
+        "cadence": "monthly",
+        "tags": [
+          "ops"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "v004",
+        "name": "Email + calendar",
+        "scope": "business",
+        "monthly_usd": 12,
+        "annual_usd": 144,
+        "source": "statement",
+        "cadence": "monthly",
+        "tags": [
+          "ops"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "v005",
+        "name": "Font licenses",
+        "scope": "business",
+        "monthly_usd": 15,
+        "annual_usd": 180,
+        "source": "manual",
+        "cadence": "monthly",
+        "tags": [
+          "tools"
+        ],
+        "notes": ""
+      }
+    ],
+    "obligations": [
+      {
+        "id": "o001",
+        "name": "Rent",
+        "scope": "personal",
+        "monthly_usd": 1650,
+        "annual_usd": 19800,
+        "source": "manual",
+        "cadence": "monthly",
+        "tags": [
+          "housing"
+        ]
+      },
+      {
+        "id": "o002",
+        "name": "Groceries",
+        "scope": "personal",
+        "monthly_usd": 520,
+        "annual_usd": 6240,
+        "source": "statement",
+        "cadence": "monthly",
+        "tags": [
+          "food"
+        ]
+      },
+      {
+        "id": "o003",
+        "name": "Health insurance",
+        "scope": "personal",
+        "monthly_usd": 340,
+        "annual_usd": 4080,
+        "source": "manual",
+        "cadence": "monthly",
+        "tags": [
+          "health"
+        ]
+      },
+      {
+        "id": "o004",
+        "name": "Utilities",
+        "scope": "personal",
+        "monthly_usd": 180,
+        "annual_usd": 2160,
+        "source": "statement",
+        "cadence": "monthly",
+        "tags": [
+          "housing"
+        ]
+      },
+      {
+        "id": "o005",
+        "name": "Transit",
+        "scope": "personal",
+        "monthly_usd": 95,
+        "annual_usd": 1140,
+        "source": "statement",
+        "cadence": "monthly",
+        "tags": [
+          "transport"
+        ]
+      }
+    ],
+    "other": [],
+    "annual": 34944,
+    "monthly": 2912,
+    "vendors_annual": 1524,
+    "obligations_annual": 33420,
+    "other_annual": 0
+  },
+  "overall": {
+    "net_pre_tax_annual": 67056,
+    "net_pre_tax_monthly": 5588,
+    "net_post_tax_annual": 53645,
+    "net_post_tax_monthly": 4470,
+    "effective_tax_rate": 20,
+    "effective_tax_rate_source": "manual",
+    "trend": [
+      {
+        "month": "2026-01",
+        "income": 7456,
+        "outbound": 4595,
+        "net": 2861
+      },
+      {
+        "month": "2026-02",
+        "income": 9126,
+        "outbound": 4718,
+        "net": 4408
+      },
+      {
+        "month": "2026-03",
+        "income": 8404,
+        "outbound": 4930,
+        "net": 3474
+      },
+      {
+        "month": "2026-04",
+        "income": 11127,
+        "outbound": 4886,
+        "net": 6241
+      },
+      {
+        "month": "2026-05",
+        "income": 9610,
+        "outbound": 4808,
+        "net": 4802
+      },
+      {
+        "month": "2026-06",
+        "income": 9650,
+        "outbound": 5237,
+        "net": 4413
+      },
+      {
+        "month": "2026-07",
+        "income": 6830,
+        "outbound": 5136,
+        "net": 1694
+      },
+      {
+        "month": "2026-08",
+        "income": 9917,
+        "outbound": 5393,
+        "net": 4524
+      },
+      {
+        "month": "2026-09",
+        "income": 8001,
+        "outbound": 4640,
+        "net": 3361
+      },
+      {
+        "month": "2026-10",
+        "income": 10086,
+        "outbound": 4641,
+        "net": 5445
+      },
+      {
+        "month": "2026-11",
+        "income": 7472,
+        "outbound": 4907,
+        "net": 2565
+      },
+      {
+        "month": "2026-12",
+        "income": 7629,
+        "outbound": 5270,
+        "net": 2359
+      }
+    ]
+  },
+  "collector_status": {
+    "configured_vendors": 5,
+    "active_collectors": [],
+    "jsonl_path": "~/vault/finances/statements.jsonl"
+  },
+  "insights": {
+    "top_bills": [],
+    "top_ai_services": [],
+    "top_infrastructure_services": [],
+    "cut_candidates": [],
+    "by_category": [],
+    "total_annualized": 34944,
+    "statement_spend": {
+      "generated_at": null,
+      "record_count": 0,
+      "jsonl_path": "~/vault/finances/statements.jsonl",
+      "tool": "statement importer (not configured in demo)"
+    }
+  },
+  "accounts": [
+    {
+      "heading": "Checking",
+      "body": "Operating account for the studio and day-to-day spending. Balance floats between one and two months of expenses."
+    },
+    {
+      "heading": "Emergency fund",
+      "body": "High-yield savings holding $12,400 against an $18,000 six-month target. Auto-funded from every invoice."
+    },
+    {
+      "heading": "Brokerage",
+      "body": "Low-cost index funds, contributed to only after the emergency fund target is met."
+    }
+  ],
+  "expenses": [
+    {
+      "heading": "Housing",
+      "body": "Rent and utilities are the largest fixed line at roughly $1,830 a month."
+    },
+    {
+      "heading": "Food",
+      "body": "Groceries plus the occasional coffee-shop working session."
+    },
+    {
+      "heading": "Tools",
+      "body": "Design software, hosting, and fonts for the studio."
+    }
+  ],
+  "investments": [
+    {
+      "heading": "Index funds",
+      "body": "A simple three-fund portfolio, contributed to monthly once the runway is safe."
+    },
+    {
+      "heading": "Emergency fund",
+      "body": "Not an investment, but the foundation everything else sits on."
+    }
+  ],
+  "goals": [
+    {
+      "heading": "6-month emergency fund",
+      "body": "$12,400 of $18,000"
+    },
+    {
+      "heading": "Zero consumer debt",
+      "body": "Maintained"
+    }
+  ],
+  "taxes": [
+    {
+      "heading": "Quarterly estimates",
+      "body": "Set aside 20% of every invoice for self-employment tax."
+    },
+    {
+      "heading": "Deductions",
+      "body": "Home office, software, and professional development."
+    }
+  ],
+  "overview": [
+    {
+      "heading": "Position",
+      "body": "A healthy but lumpy independent income with a growing runway. The emergency fund is the current priority, followed by steady index-fund contributions."
+    }
+  ],
+  "incomeStreams": [
+    {
+      "label": "Studio retainers",
+      "annual": 78000
+    },
+    {
+      "label": "One-off design projects",
+      "annual": 24000
+    }
+  ],
+  "expenseCategories": [
+    {
+      "label": "Housing",
+      "annual": 21960
+    },
+    {
+      "label": "Food",
+      "annual": 6240
+    },
+    {
+      "label": "Health",
+      "annual": 4080
+    },
+    {
+      "label": "Transport",
+      "annual": 1140
+    },
+    {
+      "label": "Tools",
+      "annual": 1524
+    }
+  ],
+  "annualIncome": 102000,
+  "annualExpenses": 34944,
+  "monthlyIncome": 8500,
+  "monthlyExpenses": 2912,
+  "net": 67056,
+  "freshness": {
+    "dataDate": "2026-07-09",
+    "label": "2 days old",
+    "daysOld": 2,
+    "tier": "fresh",
+    "perFile": [
+      {
+        "name": "income.md",
+        "date": "2026-07-09",
+        "source": "manual"
+      },
+      {
+        "name": "statements.jsonl",
+        "date": "2026-07-08",
+        "source": "collector"
+      }
+    ]
+  },
+  "freshness_per_card": {
+    "income": {
+      "dataDate": "2026-07-09",
+      "label": "2 days old",
+      "daysOld": 2,
+      "tier": "fresh",
+      "perFile": [
+        {
+          "name": "income.md",
+          "date": "2026-07-09",
+          "source": "manual"
+        }
+      ]
+    },
+    "outbound": {
+      "dataDate": "2026-07-08",
+      "label": "3 days old",
+      "daysOld": 3,
+      "tier": "fresh",
+      "perFile": [
+        {
+          "name": "statements.jsonl",
+          "date": "2026-07-08",
+          "source": "collector"
+        }
+      ]
+    },
+    "overall": {
+      "dataDate": "2026-07-09",
+      "label": "2 days old",
+      "daysOld": 2,
+      "tier": "fresh",
+      "perFile": [
+        {
+          "name": "overview.md",
+          "date": "2026-07-09",
+          "source": "manual"
+        }
+      ]
+    },
+    "accounts": {
+      "dataDate": "2026-07-07",
+      "label": "4 days old",
+      "daysOld": 4,
+      "tier": "fresh",
+      "perFile": [
+        {
+          "name": "accounts.md",
+          "date": "2026-07-07",
+          "source": "manual"
+        }
+      ]
+    }
+  }
+}

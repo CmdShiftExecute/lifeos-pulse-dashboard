@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "local-first-notes",
+      "title": "Local-first notes",
+      "category": "knowledge",
+      "quality": null,
+      "backlinkCount": 5
+    },
+    {
+      "id": "retainer-pricing",
+      "title": "Retainer pricing",
+      "category": "knowledge",
+      "quality": null,
+      "backlinkCount": 2
+    },
+    {
+      "id": "aerobic-base",
+      "title": "Aerobic base training",
+      "category": "knowledge",
+      "quality": null,
+      "backlinkCount": 1
+    },
+    {
+      "id": "deep-work-blocks",
+      "title": "Deep work blocks",
+      "category": "knowledge",
+      "quality": null,
+      "backlinkCount": 3
+    },
+    {
+      "id": "index-fund-basics",
+      "title": "Index fund basics",
+      "category": "knowledge",
+      "quality": null,
+      "backlinkCount": 0
+    },
+    {
+      "id": "design-tokens",
+      "title": "Design tokens",
+      "category": "knowledge",
+      "quality": null,
+      "backlinkCount": 2
+    }
+  ],
+  "edges": [
+    {
+      "source": "local-first-notes",
+      "target": "design-tokens"
+    },
+    {
+      "source": "retainer-pricing",
+      "target": "index-fund-basics"
+    },
+    {
+      "source": "deep-work-blocks",
+      "target": "aerobic-base"
+    }
+  ]
+}

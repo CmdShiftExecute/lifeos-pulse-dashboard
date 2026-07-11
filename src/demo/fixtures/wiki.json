@@ -1,0 +1,162 @@
+{
+  "tree": [
+    {
+      "label": "Knowledge",
+      "count": 42,
+      "children": [
+        {
+          "label": "Craft",
+          "count": 12,
+          "children": [
+            {
+              "label": "Local-first notes",
+              "slug": "local-first-notes",
+              "category": "knowledge"
+            },
+            {
+              "label": "Design tokens",
+              "slug": "design-tokens",
+              "category": "knowledge"
+            }
+          ]
+        },
+        {
+          "label": "Health",
+          "count": 8,
+          "children": [
+            {
+              "label": "Aerobic base training",
+              "slug": "aerobic-base",
+              "category": "knowledge"
+            }
+          ]
+        },
+        {
+          "label": "Money",
+          "count": 10,
+          "children": [
+            {
+              "label": "Retainer pricing",
+              "slug": "retainer-pricing",
+              "category": "knowledge"
+            },
+            {
+              "label": "Index fund basics",
+              "slug": "index-fund-basics",
+              "category": "knowledge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "People",
+      "count": 3,
+      "children": [
+        {
+          "label": "Contacts",
+          "count": 3,
+          "children": [
+            {
+              "label": "Sam",
+              "slug": "person-sam",
+              "category": "people"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recentChanges": [
+    {
+      "slug": "local-first-notes",
+      "title": "Local-first notes",
+      "category": "knowledge",
+      "tags": [],
+      "quality": null,
+      "lastModified": "2026-07-11T10:00:00.000Z",
+      "wordCount": 617,
+      "wikilinks": [],
+      "filePath": "~/vault/knowledge/local-first-notes.md",
+      "group": "Knowledge",
+      "related": []
+    },
+    {
+      "slug": "retainer-pricing",
+      "title": "Retainer pricing",
+      "category": "knowledge",
+      "tags": [],
+      "quality": null,
+      "lastModified": "2026-07-10T10:00:00.000Z",
+      "wordCount": 458,
+      "wikilinks": [],
+      "filePath": "~/vault/knowledge/retainer-pricing.md",
+      "group": "Knowledge",
+      "related": []
+    },
+    {
+      "slug": "aerobic-base",
+      "title": "Aerobic base training",
+      "category": "knowledge",
+      "tags": [],
+      "quality": null,
+      "lastModified": "2026-07-09T10:00:00.000Z",
+      "wordCount": 547,
+      "wikilinks": [],
+      "filePath": "~/vault/knowledge/aerobic-base.md",
+      "group": "Knowledge",
+      "related": []
+    },
+    {
+      "slug": "deep-work-blocks",
+      "title": "Deep work blocks",
+      "category": "knowledge",
+      "tags": [],
+      "quality": null,
+      "lastModified": "2026-07-08T10:00:00.000Z",
+      "wordCount": 424,
+      "wikilinks": [],
+      "filePath": "~/vault/knowledge/deep-work-blocks.md",
+      "group": "Knowledge",
+      "related": []
+    },
+    {
+      "slug": "index-fund-basics",
+      "title": "Index fund basics",
+      "category": "knowledge",
+      "tags": [],
+      "quality": null,
+      "lastModified": "2026-07-07T10:00:00.000Z",
+      "wordCount": 865,
+      "wikilinks": [],
+      "filePath": "~/vault/knowledge/index-fund-basics.md",
+      "group": "Knowledge",
+      "related": []
+    },
+    {
+      "slug": "design-tokens",
+      "title": "Design tokens",
+      "category": "knowledge",
+      "tags": [],
+      "quality": null,
+      "lastModified": "2026-07-06T10:00:00.000Z",
+      "wordCount": 778,
+      "wikilinks": [],
+      "filePath": "~/vault/knowledge/design-tokens.md",
+      "group": "Knowledge",
+      "related": []
+    }
+  ],
+  "stats": {
+    "totalPages": 48,
+    "totalSystem": 24,
+    "totalPeople": 3,
+    "totalCompanies": 2,
+    "totalIdeas": 21,
+    "totalBlogs": 11,
+    "totalResearch": 18,
+    "totalTools": 6,
+    "totalBookmarks": 9
+  },
+  "lastIndexedAt": "2026-07-11T15:30:00.000Z"
+}

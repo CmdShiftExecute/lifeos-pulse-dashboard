@@ -1,0 +1,50 @@
+{
+  "projects": [
+    {
+      "name": "Fieldnote app",
+      "path": "~/code/fieldnote",
+      "url": ""
+    },
+    {
+      "name": "Northslope client pipeline",
+      "path": "~/studio/northslope",
+      "url": ""
+    },
+    {
+      "name": "Essay engine",
+      "path": "~/vault/essays",
+      "url": ""
+    },
+    {
+      "name": "Portfolio site",
+      "path": "~/code/portfolio-site",
+      "url": ""
+    }
+  ],
+  "currentFocus": "Land the first three retainer clients for Northslope Studio and ship Fieldnote v1 without breaking the writing streak.",
+  "currentProject": "Fieldnote app",
+  "activeWorkstreams": "Northslope client pipeline, Fieldnote v1 build, the weekly essay engine, and a self-directed 10K training block.",
+  "algorithmSessions": [
+    {
+      "slug": "fieldnote-sync-engine",
+      "task": "Build the offline sync engine for Fieldnote",
+      "phase": "BUILD",
+      "progress": "3/5",
+      "effort": "E3"
+    },
+    {
+      "slug": "portfolio-redesign",
+      "task": "Redesign the studio portfolio landing page",
+      "phase": "VERIFY",
+      "progress": "4/4",
+      "effort": "E2"
+    },
+    {
+      "slug": "essay-draft-pipeline",
+      "task": "Draft the twelfth essay of the year",
+      "phase": "THINK",
+      "progress": "1/3",
+      "effort": "E2"
+    }
+  ]
+}

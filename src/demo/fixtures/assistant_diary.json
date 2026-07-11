@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "date": "2026-07-10",
+      "interaction_count": 14,
+      "topics": [
+        "Fieldnote sync",
+        "essay #11"
+      ],
+      "mood": "positive",
+      "avg_rating": 4.6,
+      "notable_moments": [
+        "Shipped the sync spike",
+        "Held the writing block"
+      ],
+      "learning": "Local-first removed a whole class of bugs."
+    },
+    {
+      "date": "2026-07-09",
+      "interaction_count": 9,
+      "topics": [
+        "portfolio redesign"
+      ],
+      "mood": "neutral",
+      "avg_rating": 4.2,
+      "notable_moments": [
+        "Verification pass across themes"
+      ],
+      "learning": null
+    },
+    {
+      "date": "2026-07-08",
+      "interaction_count": 11,
+      "topics": [
+        "client proposal",
+        "training log"
+      ],
+      "mood": "positive",
+      "avg_rating": 4.8,
+      "notable_moments": [
+        "Sent the proposal follow-up"
+      ],
+      "learning": "Retainers keep the calendar calm."
+    }
+  ]
+}

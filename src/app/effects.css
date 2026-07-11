@@ -1,0 +1,189 @@
+/* =============================================================================
+   LifeOS Pulse — Sci-fi effects toolkit (v8)
+   Token-driven utilities: they re-theme automatically with [data-theme].
+   Unlayered so they compose predictably with Tailwind utilities.
+   ========================================================================== */
+
+:root { --app-header-h: 4rem; }
+
+/* ---- ambient page background (fixed, behind everything) ------------------- */
+.pulse-ambient {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(1200px 800px at 78% -8%, var(--bg-grad-1), transparent 60%),
+    radial-gradient(1000px 700px at 12% 108%, var(--bg-grad-1), transparent 58%),
+    var(--bg-deep);
+  transition: background 500ms ease;
+}
+.pulse-grid {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 40%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 40%, transparent 100%);
+  animation: grid-pan 40s linear infinite;
+}
+
+/* ---- glass surfaces ------------------------------------------------------- */
+.glass {
+  background: var(--surface-1);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+}
+.glass-2 {
+  background: var(--surface-2);
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+}
+.glass-strong {
+  background: var(--surface-3);
+  backdrop-filter: blur(24px) saturate(160%);
+  -webkit-backdrop-filter: blur(24px) saturate(160%);
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--radius);
+}
+
+/* ---- neon accents -------------------------------------------------------- */
+.neon-ring {
+  box-shadow: 0 0 0 1px var(--hairline-strong), 0 0 32px -4px var(--glow), inset 0 0 24px -18px var(--glow);
+}
+.glow-md { box-shadow: 0 0 34px -6px var(--glow); }
+.glow-lg { box-shadow: 0 0 60px -8px var(--glow); }
+
+/* thin top hairline highlight used on cards/headers */
+.edge-top::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--hairline-strong), transparent);
+}
+
+/* corner-bracket framing for "HUD" panels */
+.hud-corners { position: relative; }
+.hud-corners::before,
+.hud-corners::after {
+  content: "";
+  position: absolute;
+  width: 14px; height: 14px;
+  border: 1.5px solid var(--neon);
+  opacity: 0.7;
+  pointer-events: none;
+}
+.hud-corners::before { top: 8px; left: 8px; border-right: 0; border-bottom: 0; }
+.hud-corners::after { bottom: 8px; right: 8px; border-left: 0; border-top: 0; }
+
+/* scanline overlay (subtle) */
+.scanlines::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    var(--scanline) 0px,
+    var(--scanline) 1px,
+    transparent 2px,
+    transparent 4px
+  );
+  border-radius: inherit;
+  opacity: 0.6;
+}
+
+/* ---- interaction --------------------------------------------------------- */
+.hover-lift {
+  transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 260ms ease, border-color 260ms ease, background 260ms ease;
+  will-change: transform;
+}
+.hover-lift:hover {
+  transform: translateY(-3px);
+  border-color: var(--hairline-strong);
+  box-shadow: 0 18px 50px -22px var(--glow), 0 0 0 1px var(--hairline);
+}
+
+/* accent: animated gradient UNDERLINE for hero words.
+   (Gradient *text* via background-clip:text is an impeccable absolute ban — use a
+   solid color for the text itself and let this rule draw the moving accent line.) */
+.accent-underline { position: relative; }
+.accent-underline::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -0.12em;
+  height: 2px;
+  background: linear-gradient(90deg, var(--neon), var(--neon-2), transparent);
+  background-size: 220% 100%;
+  animation: aurora 6s ease infinite;
+  border-radius: 2px;
+}
+
+/* ---- scroll reveal (paired with a tiny IntersectionObserver in JS) -------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 700ms cubic-bezier(0.22, 1, 0.36, 1),
+              transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+/* directional variants (kit Reveal `from` prop) */
+.reveal.reveal-left { transform: translateX(-26px); }
+.reveal.reveal-right { transform: translateX(26px); }
+.reveal.reveal-left.in,
+.reveal.reveal-right.in { transform: none; }
+
+/* section-header rule — a theme-neon line that draws in when its Reveal lands,
+   then keeps breathing with the same aurora pulse as the hero underline */
+.section-rule {
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--neon), var(--neon-2) 45%, var(--neon) 80%, transparent);
+  background-size: 220% 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 900ms cubic-bezier(0.22, 1, 0.36, 1) 120ms;
+}
+.reveal.in .section-rule {
+  transform: scaleX(1);
+  animation: aurora 6s ease infinite;
+}
+
+/* ---- keyframes ----------------------------------------------------------- */
+@keyframes grid-pan { from { background-position: 0 0, 0 0; } to { background-position: 48px 48px, 48px 48px; } }
+@keyframes aurora { 0%,100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+@keyframes float-y { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes shimmer { from { background-position: -200% 0; } to { background-position: 200% 0; } }
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+@keyframes spin-rev { to { transform: rotate(-360deg); } }
+@keyframes glow-breathe { 0%,100% { opacity: 0.55; } 50% { opacity: 1; } }
+@keyframes core-sweep { 0% { transform: translateX(-120%); } 100% { transform: translateX(320%); } }
+
+.anim-float { animation: float-y 6s ease-in-out infinite; }
+.anim-spin-slow { animation: spin-slow 60s linear infinite; }
+.anim-spin-rev { animation: spin-rev 90s linear infinite; }
+.anim-breathe { animation: glow-breathe 3.5s ease-in-out infinite; }
+
+/* respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .pulse-grid,
+  .text-aurora,
+  .anim-float,
+  .anim-spin-slow,
+  .anim-spin-rev,
+  .anim-breathe { animation: none !important; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .section-rule { transform: none; transition: none; animation: none !important; }
+  .hover-lift { transition: none; }
+}

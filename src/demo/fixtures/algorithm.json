@@ -1,0 +1,207 @@
+{
+  "algorithms": [
+    {
+      "active": true,
+      "sessionId": "fieldnote-sync-engine-3bacc2e0",
+      "taskDescription": "Build Fieldnote offline sync",
+      "currentPhase": "BUILD",
+      "phaseStartedAt": 1783780200000,
+      "algorithmStartedAt": 1783769400000,
+      "effortLevel": "Deep",
+      "criteria": [
+        {
+          "id": "c1",
+          "description": "Change log replays to server without data loss",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "c2",
+          "description": "Per-field last-write-wins resolves conflicts",
+          "type": "criterion",
+          "status": "in_progress",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "c3",
+          "description": "Editor stays responsive while syncing",
+          "type": "criterion",
+          "status": "pending",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "c4",
+          "description": "No full CRDT dependency in v1",
+          "type": "anti-criterion",
+          "status": "completed",
+          "createdInPhase": "THINK"
+        }
+      ],
+      "agents": [
+        {
+          "name": "sync-builder",
+          "agentType": "general-purpose",
+          "status": "active",
+          "task": "Wire the change log into the editor",
+          "phase": "BUILD"
+        }
+      ],
+      "capabilities": [
+        "Read",
+        "Edit",
+        "Bash"
+      ],
+      "phaseHistory": [
+        {
+          "phase": "OBSERVE",
+          "startedAt": 1783769400000,
+          "completedAt": 1783770840000,
+          "criteriaCount": 0,
+          "agentCount": 0
+        },
+        {
+          "phase": "THINK",
+          "startedAt": 1783770840000,
+          "completedAt": 1783773000000,
+          "criteriaCount": 1,
+          "agentCount": 0
+        },
+        {
+          "phase": "PLAN",
+          "startedAt": 1783773000000,
+          "completedAt": 1783776600000,
+          "criteriaCount": 4,
+          "agentCount": 0
+        },
+        {
+          "phase": "BUILD",
+          "startedAt": 1783776600000,
+          "criteriaCount": 4,
+          "agentCount": 1
+        }
+      ],
+      "progress": {
+        "done": 2,
+        "total": 4
+      },
+      "mode": "interactive",
+      "rawTask": "Build the offline sync engine for Fieldnote, local-first, with a replayable change log.",
+      "reworkCount": 0,
+      "currentMode": "algorithm",
+      "modeHistory": [
+        {
+          "mode": "algorithm",
+          "startedAt": 1783769400000
+        }
+      ],
+      "ratings": [],
+      "minimalCount": 0,
+      "sessionUUID": "ec645ba9-4d83-4260-e0c0-6c0d7470bd81"
+    },
+    {
+      "active": false,
+      "sessionId": "portfolio-redesign-06a1c09f",
+      "taskDescription": "Redesign studio portfolio",
+      "currentPhase": "COMPLETE",
+      "phaseStartedAt": 1783690200000,
+      "algorithmStartedAt": 1783675800000,
+      "effortLevel": "Extended",
+      "criteria": [
+        {
+          "id": "c1",
+          "description": "Landing reads clearly on mobile and desktop",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "c2",
+          "description": "Passes contrast checks in both themes",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "PLAN"
+        },
+        {
+          "id": "c3",
+          "description": "No layout shift on the case-study grid",
+          "type": "criterion",
+          "status": "completed",
+          "createdInPhase": "VERIFY"
+        }
+      ],
+      "agents": [],
+      "capabilities": [
+        "Read",
+        "Edit"
+      ],
+      "phaseHistory": [
+        {
+          "phase": "PLAN",
+          "startedAt": 1783675800000,
+          "completedAt": 1783679400000,
+          "criteriaCount": 3,
+          "agentCount": 0
+        },
+        {
+          "phase": "BUILD",
+          "startedAt": 1783679400000,
+          "completedAt": 1783686600000,
+          "criteriaCount": 3,
+          "agentCount": 0
+        },
+        {
+          "phase": "VERIFY",
+          "startedAt": 1783686600000,
+          "completedAt": 1783690200000,
+          "criteriaCount": 3,
+          "agentCount": 0
+        }
+      ],
+      "progress": {
+        "done": 3,
+        "total": 3
+      },
+      "mode": "interactive",
+      "rawTask": "Redesign the Northslope portfolio landing page.",
+      "reworkCount": 0,
+      "currentMode": "algorithm",
+      "modeHistory": [
+        {
+          "mode": "algorithm",
+          "startedAt": 1783675800000,
+          "endedAt": 1783690200000
+        }
+      ],
+      "ratings": [
+        {
+          "value": 5,
+          "timestamp": 1783690200000,
+          "message": "Clean pass, shipped."
+        }
+      ],
+      "minimalCount": 0,
+      "sessionUUID": "b2478045-207a-4f76-fbea-a6de22ef4513",
+      "completedAt": 1783690200000,
+      "summary": "Portfolio redesign shipped and verified across breakpoints and themes."
+    }
+  ],
+  "active": true,
+  "pulseStrip": [
+    {
+      "value": 5,
+      "timestamp": 1783690200000,
+      "message": "Portfolio shipped"
+    },
+    {
+      "value": 4,
+      "timestamp": 1783711800000,
+      "message": "Essay published"
+    },
+    {
+      "value": 5,
+      "timestamp": 1783776600000,
+      "message": "Sync spike landed"
+    }
+  ]
+}

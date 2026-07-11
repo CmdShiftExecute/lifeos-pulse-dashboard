@@ -1,0 +1,297 @@
+{
+  "days": 30,
+  "from": null,
+  "to": null,
+  "totalSessions": 280,
+  "totalCost": 1064.19,
+  "totalTokens": 759800000,
+  "avgCostPerSession": 3.8,
+  "costBreakdown": {
+    "input": 63.85,
+    "output": 234.12,
+    "cacheWrite": 383.11,
+    "cacheRead": 383.11
+  },
+  "byModel": [
+    {
+      "model": "claude-opus-4-8",
+      "cost": 659.8,
+      "sessions": 41,
+      "tokens": 512400000
+    },
+    {
+      "model": "claude-fable-5",
+      "cost": 148.99,
+      "sessions": 9,
+      "tokens": 96200000
+    },
+    {
+      "model": "claude-sonnet-5",
+      "cost": 127.7,
+      "sessions": 22,
+      "tokens": 78400000
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "cost": 85.14,
+      "sessions": 138,
+      "tokens": 41100000
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cost": 31.93,
+      "sessions": 64,
+      "tokens": 22800000
+    },
+    {
+      "model": "gpt-5.5",
+      "cost": 10.64,
+      "sessions": 6,
+      "tokens": 8900000
+    }
+  ],
+  "dailyCosts": [
+    {
+      "day": "2026-06-12",
+      "cost": 19.87
+    },
+    {
+      "day": "2026-06-13",
+      "cost": 47.82
+    },
+    {
+      "day": "2026-06-14",
+      "cost": 28.61
+    },
+    {
+      "day": "2026-06-15",
+      "cost": 45.23
+    },
+    {
+      "day": "2026-06-16",
+      "cost": 34.98
+    },
+    {
+      "day": "2026-06-17",
+      "cost": 48.08
+    },
+    {
+      "day": "2026-06-18",
+      "cost": 18.78
+    },
+    {
+      "day": "2026-06-19",
+      "cost": 33.39
+    },
+    {
+      "day": "2026-06-20",
+      "cost": 7.15
+    },
+    {
+      "day": "2026-06-21",
+      "cost": 16.12
+    },
+    {
+      "day": "2026-06-22",
+      "cost": 11.93
+    },
+    {
+      "day": "2026-06-23",
+      "cost": 36.75
+    },
+    {
+      "day": "2026-06-24",
+      "cost": 44.4
+    },
+    {
+      "day": "2026-06-25",
+      "cost": 28.21
+    },
+    {
+      "day": "2026-06-26",
+      "cost": 46.94
+    },
+    {
+      "day": "2026-06-27",
+      "cost": 23.16
+    },
+    {
+      "day": "2026-06-28",
+      "cost": 29.92
+    },
+    {
+      "day": "2026-06-29",
+      "cost": 53.86
+    },
+    {
+      "day": "2026-06-30",
+      "cost": 203.67
+    },
+    {
+      "day": "2026-07-01",
+      "cost": 18.26
+    },
+    {
+      "day": "2026-07-02",
+      "cost": 25.19
+    },
+    {
+      "day": "2026-07-03",
+      "cost": 16.96
+    },
+    {
+      "day": "2026-07-04",
+      "cost": 18.14
+    },
+    {
+      "day": "2026-07-05",
+      "cost": 32.02
+    },
+    {
+      "day": "2026-07-06",
+      "cost": 9.34
+    },
+    {
+      "day": "2026-07-07",
+      "cost": 27.14
+    },
+    {
+      "day": "2026-07-08",
+      "cost": 10.04
+    },
+    {
+      "day": "2026-07-09",
+      "cost": 52.76
+    },
+    {
+      "day": "2026-07-10",
+      "cost": 52.04
+    },
+    {
+      "day": "2026-07-11",
+      "cost": 23.43
+    }
+  ],
+  "topSessions": [
+    {
+      "sessionId": "8dde8228-4886-457c-8253-83e5130a0017",
+      "project": ".claude",
+      "primaryModel": "claude-sonnet-5",
+      "messageCount": 359,
+      "costTotal": 74.42,
+      "totalTokens": 196030366,
+      "firstTimestamp": "2026-06-26T08:04:00.000Z",
+      "lastTimestamp": "2026-06-26T15:31:00.000Z"
+    },
+    {
+      "sessionId": "52c9f64b-81b5-43f2-94c9-1a257922dcf9",
+      "project": "Northslope",
+      "primaryModel": "claude-haiku-4-5-20251001",
+      "messageCount": 138,
+      "costTotal": 35.67,
+      "totalTokens": 101529239,
+      "firstTimestamp": "2026-06-24T08:04:00.000Z",
+      "lastTimestamp": "2026-06-24T15:31:00.000Z"
+    },
+    {
+      "sessionId": "6e399365-1210-44be-c995-bfbda3070d8e",
+      "project": "design-system",
+      "primaryModel": "claude-sonnet-4-6",
+      "messageCount": 156,
+      "costTotal": 141.6,
+      "totalTokens": 203900173,
+      "firstTimestamp": "2026-06-18T08:04:00.000Z",
+      "lastTimestamp": "2026-06-18T15:31:00.000Z"
+    },
+    {
+      "sessionId": "5936c426-9680-4d06-4c1c-c3cb94fe98c3",
+      "project": "portfolio-site",
+      "primaryModel": "claude-sonnet-4-6",
+      "messageCount": 47,
+      "costTotal": 77.78,
+      "totalTokens": 167519525,
+      "firstTimestamp": "2026-07-06T08:04:00.000Z",
+      "lastTimestamp": "2026-07-06T15:31:00.000Z"
+    },
+    {
+      "sessionId": "444d9edf-34da-4c1e-7656-2939ea333df3",
+      "project": "components",
+      "primaryModel": "claude-sonnet-5",
+      "messageCount": 522,
+      "costTotal": 46.68,
+      "totalTokens": 95511850,
+      "firstTimestamp": "2026-07-10T08:04:00.000Z",
+      "lastTimestamp": "2026-07-10T15:31:00.000Z"
+    },
+    {
+      "sessionId": "2ee2d1aa-7ca5-46f5-5c65-0cb9a37196c7",
+      "project": "Northslope",
+      "primaryModel": "claude-haiku-4-5-20251001",
+      "messageCount": 76,
+      "costTotal": 160.52,
+      "totalTokens": 189448065,
+      "firstTimestamp": "2026-06-21T08:04:00.000Z",
+      "lastTimestamp": "2026-06-21T15:31:00.000Z"
+    },
+    {
+      "sessionId": "bed0375a-ab55-4f30-fa8c-6c6b6292e615",
+      "project": "design-system",
+      "primaryModel": "claude-sonnet-4-6",
+      "messageCount": 421,
+      "costTotal": 189.17,
+      "totalTokens": 158365540,
+      "firstTimestamp": "2026-06-25T08:04:00.000Z",
+      "lastTimestamp": "2026-06-25T15:31:00.000Z"
+    },
+    {
+      "sessionId": "a7e68609-6a7c-4822-7c34-ba73d678486d",
+      "project": "scratchpad",
+      "primaryModel": "claude-haiku-4-5-20251001",
+      "messageCount": 63,
+      "costTotal": 53.12,
+      "totalTokens": 171420696,
+      "firstTimestamp": "2026-06-25T08:04:00.000Z",
+      "lastTimestamp": "2026-06-25T15:31:00.000Z"
+    },
+    {
+      "sessionId": "a893f930-eb87-44a5-5876-87bdffe86faa",
+      "project": "Fieldnote",
+      "primaryModel": "gpt-5.5",
+      "messageCount": 353,
+      "costTotal": 17.77,
+      "totalTokens": 74423438,
+      "firstTimestamp": "2026-07-02T08:04:00.000Z",
+      "lastTimestamp": "2026-07-02T15:31:00.000Z"
+    },
+    {
+      "sessionId": "3b1d9b4f-fa66-49cd-9c9f-824bbf29731b",
+      "project": "components",
+      "primaryModel": "gpt-5.5",
+      "messageCount": 343,
+      "costTotal": 8.98,
+      "totalTokens": 198525704,
+      "firstTimestamp": "2026-06-29T08:04:00.000Z",
+      "lastTimestamp": "2026-06-29T15:31:00.000Z"
+    },
+    {
+      "sessionId": "db5000e2-97cf-4385-f722-adf8946caa06",
+      "project": "design-system",
+      "primaryModel": "claude-fable-5",
+      "messageCount": 581,
+      "costTotal": 50.5,
+      "totalTokens": 62231213,
+      "firstTimestamp": "2026-07-10T08:04:00.000Z",
+      "lastTimestamp": "2026-07-10T15:31:00.000Z"
+    },
+    {
+      "sessionId": "2b38e931-aa34-44b0-7fc3-ba546d7ba8f0",
+      "project": "components",
+      "primaryModel": "claude-haiku-4-5-20251001",
+      "messageCount": 346,
+      "costTotal": 9.76,
+      "totalTokens": 87362337,
+      "firstTimestamp": "2026-06-29T08:04:00.000Z",
+      "lastTimestamp": "2026-06-29T15:31:00.000Z"
+    }
+  ]
+}

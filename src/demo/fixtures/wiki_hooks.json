@@ -1,0 +1,48 @@
+{
+  "hooks": [
+    {
+      "event": "SessionStart",
+      "matcher": "*",
+      "type": "command",
+      "command": "load-context.ts",
+      "fileName": "LoadContext.hook.ts"
+    },
+    {
+      "event": "UserPromptSubmit",
+      "matcher": "*",
+      "type": "command",
+      "command": "route-effort.ts",
+      "fileName": "EffortRouter.hook.ts"
+    },
+    {
+      "event": "PostToolUse",
+      "matcher": "Bash",
+      "type": "command",
+      "command": "track-activity.ts",
+      "fileName": "ToolActivityTracker.hook.ts"
+    },
+    {
+      "event": "SessionEnd",
+      "matcher": "*",
+      "type": "command",
+      "command": "capture-work.ts",
+      "fileName": "WorkSync.hook.ts"
+    },
+    {
+      "event": "Stop",
+      "matcher": "*",
+      "type": "command",
+      "command": "doc-integrity.ts",
+      "fileName": "DocIntegrity.hook.ts"
+    }
+  ],
+  "total": 5,
+  "events": [
+    "SessionStart",
+    "UserPromptSubmit",
+    "PostToolUse",
+    "SessionEnd",
+    "Stop",
+    "PermissionRequest"
+  ]
+}

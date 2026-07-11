@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "city": "Boulder",
+    "region": "CO",
+    "state": "CO",
+    "generated_at": "2026-07-11T15:30:00.000Z",
+    "sources_used": [
+      "open-meteo",
+      "openaq",
+      "rss"
+    ],
+    "sources_failed": [],
+    "errors": []
+  },
+  "news": {
+    "items": [
+      {
+        "title": "City council approves new bike-lane network downtown",
+        "source": "Local News",
+        "url": "https://example.com/news/1",
+        "date": "2026-07-11T15:30:00.000Z"
+      },
+      {
+        "title": "Farmers market extends summer hours through August",
+        "source": "Local News",
+        "url": "https://example.com/news/2",
+        "date": "2026-07-11T15:30:00.000Z"
+      },
+      {
+        "title": "Open-space trails reopen after trail-maintenance week",
+        "source": "Local News",
+        "url": "https://example.com/news/3",
+        "date": "2026-07-11T15:30:00.000Z"
+      },
+      {
+        "title": "Regional startup accelerator opens applications",
+        "source": "Business Wire",
+        "url": "https://example.com/news/4",
+        "date": "2026-07-11T15:30:00.000Z"
+      },
+      {
+        "title": "Reservoir levels healthy heading into midsummer",
+        "source": "Local News",
+        "url": "https://example.com/news/5",
+        "date": "2026-07-11T15:30:00.000Z"
+      },
+      {
+        "title": "Public library launches evening maker sessions",
+        "source": "Local News",
+        "url": "https://example.com/news/6",
+        "date": "2026-07-11T15:30:00.000Z"
+      }
+    ],
+    "source_status": "ok"
+  },
+  "weather": {
+    "source_status": "ok",
+    "source": "open-meteo",
+    "url": "https://open-meteo.com",
+    "current": {
+      "temp_c": 24.5,
+      "feels_c": 23.8,
+      "humidity": 38,
+      "wind_kmh": 11.2,
+      "code": 1,
+      "label": "Clear"
+    },
+    "today": {
+      "max_c": 29,
+      "min_c": 14.5
+    }
+  },
+  "air": {
+    "source_status": "ok",
+    "source": "openaq",
+    "url": "https://openaq.org",
+    "us_aqi": 34,
+    "category": "Good",
+    "pm2_5": 6.4,
+    "pm10": 12.1,
+    "pollutants": [
+      {
+        "label": "PM2.5",
+        "value": 6.4,
+        "unit": "ug/m3"
+      },
+      {
+        "label": "PM10",
+        "value": 12.1,
+        "unit": "ug/m3"
+      },
+      {
+        "label": "O3",
+        "value": 48,
+        "unit": "ug/m3"
+      },
+      {
+        "label": "NO2",
+        "value": 9.2,
+        "unit": "ug/m3"
+      },
+      {
+        "label": "SO2",
+        "value": 1.1,
+        "unit": "ug/m3"
+      },
+      {
+        "label": "CO",
+        "value": 0.2,
+        "unit": "mg/m3"
+      }
+    ]
+  }
+}

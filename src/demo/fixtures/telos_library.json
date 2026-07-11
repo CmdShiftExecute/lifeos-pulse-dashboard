@@ -1,0 +1,85 @@
+{
+  "sections": [
+    {
+      "key": "mission",
+      "updated": "2026-07-09",
+      "title": "Mission",
+      "intro": "The four missions that shape how Alex spends a decade: craft, health, wealth, and mind.",
+      "groups": [
+        {
+          "heading": "Craft and Health",
+          "items": [
+            "Become a world-class independent product designer.",
+            "Rebuild an aerobic base after a sedentary decade."
+          ]
+        },
+        {
+          "heading": "Wealth and Mind",
+          "items": [
+            "Hold a 12-month runway and carry zero consumer debt.",
+            "Write and publish consistently."
+          ]
+        }
+      ],
+      "count": 4
+    },
+    {
+      "key": "goals",
+      "updated": "2026-07-10",
+      "title": "Goals",
+      "intro": "This year's concrete, dated goals, each serving a mission.",
+      "groups": [
+        {
+          "heading": "2026 Goals",
+          "items": [
+            "Land 3 retainer clients by December.",
+            "Run a sub-55 minute 10K in October.",
+            "Reach a 6-month emergency fund by November.",
+            "Publish 24 essays this year.",
+            "Ship Fieldnote v1."
+          ]
+        }
+      ],
+      "count": 5
+    },
+    {
+      "key": "beliefs",
+      "updated": "2026-07-05",
+      "title": "Beliefs",
+      "intro": "Operating beliefs that guide the day-to-day.",
+      "groups": [
+        {
+          "heading": "On compounding",
+          "items": [
+            "Consistency beats intensity.",
+            "A long runway lets you say no."
+          ]
+        },
+        {
+          "heading": "On tools",
+          "items": [
+            "The tool you open beats the perfect tool you never launch."
+          ]
+        }
+      ],
+      "count": 3
+    },
+    {
+      "key": "books",
+      "updated": "2026-06-28",
+      "title": "Books",
+      "intro": "Recent reads shaping the current chapter.",
+      "groups": [
+        {
+          "heading": "Reading",
+          "items": [
+            "The Timeless Way of Building",
+            "Deep Work",
+            "Your Money or Your Life"
+          ]
+        }
+      ],
+      "count": 3
+    }
+  ]
+}

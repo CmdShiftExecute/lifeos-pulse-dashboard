@@ -1,0 +1,52 @@
+{
+  "tasks": [
+    {
+      "name": "morning-brief",
+      "schedule": "daily 07:00",
+      "status": "active",
+      "source": "da",
+      "details": {}
+    },
+    {
+      "name": "invoice-sweep",
+      "schedule": "weekly Mon",
+      "status": "active",
+      "source": "da",
+      "details": {}
+    },
+    {
+      "name": "cost-collector",
+      "schedule": "hourly",
+      "status": "active",
+      "source": "pulse",
+      "details": {}
+    },
+    {
+      "name": "freshness-scan",
+      "schedule": "daily",
+      "status": "active",
+      "source": "pulse",
+      "details": {}
+    },
+    {
+      "name": "fieldnote-sync-engine",
+      "schedule": "on demand",
+      "status": "active",
+      "source": "claude-code",
+      "details": {}
+    },
+    {
+      "name": "essay-draft-pipeline",
+      "schedule": "on demand",
+      "status": "completed",
+      "source": "claude-code",
+      "details": {}
+    }
+  ],
+  "count": 6,
+  "by_source": {
+    "da": 2,
+    "pulse": 2,
+    "claude-code": 2
+  }
+}

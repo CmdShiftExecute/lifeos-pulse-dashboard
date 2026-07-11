@@ -1,0 +1,369 @@
+/* =============================================================================
+   LifeOS Pulse — Theme Engine v8
+   Six cohesive, complementary palettes. Switched via [data-theme] on <html>.
+   -----------------------------------------------------------------------------
+   Two token layers:
+   (1) shadcn/Tailwind HSL triplets  ("H S% L%", consumed as hsl(var(--x)))
+       — keeps every existing `bg-background`, `text-foreground`, `border-border`
+         utility working unchanged. ZERO breakage to existing pages.
+   (2) Pulse sci-fi tokens (full color values, used directly as var(--x))
+       — neon accents, glows, layered glass surfaces, grid, scanline, and the
+         seven life-dimension colors shared by /telos and /life.
+   Themes: deep-space (default) · orchid · amber · daylight (light) · neon · terminal
+   ========================================================================== */
+
+/* ---- defaults = deep-space, so tokens resolve before JS hydrates ---------- */
+:root,
+[data-theme="deep-space"] {
+  color-scheme: dark;
+
+  /* shadcn base */
+  --background: 222 56% 5%;
+  --foreground: 213 100% 95%;
+  --card: 222 52% 9%;
+  --card-foreground: 213 100% 95%;
+  --popover: 222 54% 7%;
+  --popover-foreground: 213 100% 95%;
+  --primary: 214 100% 65%;
+  --primary-foreground: 222 60% 6%;
+  --secondary: 223 45% 14%;
+  --secondary-foreground: 213 60% 92%;
+  --muted: 223 40% 13%;
+  --muted-foreground: 216 33% 66%;
+  --accent: 187 96% 56%;
+  --accent-foreground: 222 60% 6%;
+  --destructive: 351 92% 68%;
+  --destructive-foreground: 213 100% 97%;
+  --border: 222 44% 20%;
+  --input: 222 44% 18%;
+  --ring: 200 96% 60%;
+  --radius: 0.9rem;
+  --chart-1: 214 100% 65%;
+  --chart-2: 187 96% 56%;
+  --chart-3: 152 64% 52%;
+  --chart-4: 41 96% 60%;
+  --chart-5: 276 74% 68%;
+
+  /* Pulse sci-fi layer */
+  --bg-deep: #04070f;
+  --bg-grad-1: #071026;
+  --bg-grad-2: #04060e;
+  --surface-1: rgba(21, 33, 66, 0.42);
+  --surface-2: rgba(28, 43, 84, 0.55);
+  --surface-3: rgba(36, 54, 104, 0.72);
+  --hairline: rgba(120, 165, 255, 0.16);
+  --hairline-strong: rgba(120, 165, 255, 0.30);
+  --neon: #4c86ff;
+  --neon-2: #35e0ff;
+  --neon-3: #7cc6ff;
+  /* --brain-tint rotates brain-core.png's electric-blue web (~hue 215) toward
+     the theme neon; hue-rotate leaves the white nodes white. */
+  --brain-tint: 0deg;
+  --glow: rgba(76, 134, 255, 0.55);
+  --glow-2: rgba(53, 224, 255, 0.45);
+  --grid-line: rgba(90, 140, 230, 0.09);
+  --scanline: rgba(120, 180, 255, 0.035);
+  --positive: #34d399;
+  --warn: #fbbf24;
+  --danger: #fb7185;
+  --text-dim: #8aa0c8;
+
+  /* life dimensions (shared contract with /life + /telos) */
+  --dim-health: #34d399;
+  --dim-money: #e0a458;
+  --dim-freedom: #4c86ff;
+  --dim-creative: #f87b7b;
+  --dim-relationships: #b794f4;
+  --dim-rhythms: #2dd4bf;
+  --dim-infrastructure: #7c93c0;
+}
+
+/* ------------------------------------------------ ORCHID MAGENTA (dark) ---- */
+[data-theme="orchid"] {
+  color-scheme: dark;
+  --background: 315 32% 4%;
+  --foreground: 326 80% 96%;
+  --card: 312 28% 9%;
+  --card-foreground: 326 80% 96%;
+  --popover: 314 30% 6%;
+  --popover-foreground: 326 80% 96%;
+  --primary: 327 90% 60%;
+  --primary-foreground: 320 40% 6%;
+  --secondary: 300 24% 14%;
+  --secondary-foreground: 320 50% 92%;
+  --muted: 305 22% 13%;
+  --muted-foreground: 316 24% 70%;
+  --accent: 187 92% 58%;
+  --accent-foreground: 320 40% 6%;
+  --destructive: 351 92% 66%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 316 36% 22%;
+  --input: 316 34% 18%;
+  --ring: 327 90% 62%;
+  --chart-1: 327 90% 62%;
+  --chart-2: 187 92% 58%;
+  --chart-3: 266 80% 70%;
+  --chart-4: 41 92% 62%;
+  --chart-5: 152 60% 52%;
+
+  --bg-deep: #08050b;
+  --bg-grad-1: #1a0a18;
+  --bg-grad-2: #06040a;
+  --surface-1: rgba(40, 16, 40, 0.42);
+  --surface-2: rgba(56, 20, 54, 0.55);
+  --surface-3: rgba(74, 26, 70, 0.72);
+  --hairline: rgba(255, 61, 174, 0.16);
+  --hairline-strong: rgba(255, 61, 174, 0.34);
+  --neon: #ff3dae;
+  --neon-2: #22d3ee;
+  --neon-3: #c084fc;
+  --brain-tint: 112deg;
+  --glow: rgba(255, 61, 174, 0.55);
+  --glow-2: rgba(34, 211, 238, 0.42);
+  --grid-line: rgba(230, 90, 180, 0.09);
+  --scanline: rgba(255, 120, 200, 0.035);
+  --positive: #34d399;
+  --warn: #fbbf24;
+  --danger: #fb7185;
+  --text-dim: #c79bb9;
+
+  --dim-health: #34d399;
+  --dim-money: #f0b45e;
+  --dim-freedom: #22d3ee;
+  --dim-creative: #ff7ab0;
+  --dim-relationships: #c084fc;
+  --dim-rhythms: #2dd4bf;
+  --dim-infrastructure: #b083a6;
+}
+
+/* -------------------------------------------------- AMBER / SOLAR (dark) --- */
+[data-theme="amber"] {
+  color-scheme: dark;
+  --background: 34 40% 4%;
+  --foreground: 40 60% 94%;
+  --card: 32 30% 8%;
+  --card-foreground: 40 60% 94%;
+  --popover: 33 34% 6%;
+  --popover-foreground: 40 60% 94%;
+  --primary: 38 96% 56%;
+  --primary-foreground: 30 50% 6%;
+  --secondary: 30 24% 13%;
+  --secondary-foreground: 40 50% 90%;
+  --muted: 30 22% 12%;
+  --muted-foreground: 36 28% 68%;
+  --accent: 20 92% 60%;
+  --accent-foreground: 30 50% 6%;
+  --destructive: 4 90% 64%;
+  --destructive-foreground: 40 60% 96%;
+  --border: 34 34% 20%;
+  --input: 34 32% 17%;
+  --ring: 38 96% 58%;
+  --chart-1: 38 96% 58%;
+  --chart-2: 20 92% 60%;
+  --chart-3: 190 80% 55%;
+  --chart-4: 152 55% 52%;
+  --chart-5: 276 60% 66%;
+
+  --bg-deep: #0a0703;
+  --bg-grad-1: #1d1206;
+  --bg-grad-2: #080503;
+  --surface-1: rgba(45, 33, 12, 0.42);
+  --surface-2: rgba(60, 43, 16, 0.55);
+  --surface-3: rgba(80, 57, 20, 0.72);
+  --hairline: rgba(255, 176, 32, 0.16);
+  --hairline-strong: rgba(255, 176, 32, 0.34);
+  --neon: #ffb020;
+  --neon-2: #ff6b35;
+  --neon-3: #ffd27a;
+  --brain-tint: 178deg;
+  --glow: rgba(255, 176, 32, 0.5);
+  --glow-2: rgba(255, 107, 53, 0.42);
+  --grid-line: rgba(230, 170, 60, 0.09);
+  --scanline: rgba(255, 200, 120, 0.035);
+  --positive: #6bd39a;
+  --warn: #ffcf5c;
+  --danger: #ff7a5c;
+  --text-dim: #c2a878;
+
+  --dim-health: #6bd39a;
+  --dim-money: #ffb020;
+  --dim-freedom: #38bdf8;
+  --dim-creative: #ff7a5c;
+  --dim-relationships: #d7a0f0;
+  --dim-rhythms: #37d0be;
+  --dim-infrastructure: #c2a878;
+}
+
+/* -------------------------------------------------- DAYLIGHT (light) ------- */
+[data-theme="daylight"] {
+  color-scheme: light;
+  --background: 216 40% 97%;
+  --foreground: 220 45% 12%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 45% 12%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 220 45% 12%;
+  --primary: 221 83% 53%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 216 33% 92%;
+  --secondary-foreground: 220 45% 16%;
+  --muted: 216 30% 90%;
+  --muted-foreground: 218 20% 40%;
+  --accent: 199 89% 45%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 351 74% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 218 26% 84%;
+  --input: 218 26% 86%;
+  --ring: 221 83% 53%;
+  --chart-1: 221 83% 53%;
+  --chart-2: 199 89% 45%;
+  --chart-3: 152 55% 40%;
+  --chart-4: 38 88% 48%;
+  --chart-5: 276 60% 55%;
+
+  --bg-deep: #eef2f9;
+  --bg-grad-1: #ffffff;
+  --bg-grad-2: #e7edf7;
+  --surface-1: rgba(255, 255, 255, 0.72);
+  --surface-2: rgba(255, 255, 255, 0.85);
+  --surface-3: rgba(255, 255, 255, 0.96);
+  --hairline: rgba(37, 99, 235, 0.16);
+  --hairline-strong: rgba(37, 99, 235, 0.30);
+  --neon: #2563eb;
+  --neon-2: #0ea5e9;
+  --neon-3: #6366f1;
+  --brain-tint: 0deg;
+  --glow: rgba(37, 99, 235, 0.22);
+  --glow-2: rgba(14, 165, 233, 0.18);
+  --grid-line: rgba(37, 99, 235, 0.07);
+  --scanline: rgba(37, 99, 235, 0.02);
+  --positive: #0f9d6b;
+  --warn: #c78a12;
+  --danger: #dc3a56;
+  --text-dim: #5a6b85;
+
+  --dim-health: #0f9d6b;
+  --dim-money: #b8791f;
+  --dim-freedom: #2563eb;
+  --dim-creative: #d94b57;
+  --dim-relationships: #7c53d4;
+  --dim-rhythms: #0d9488;
+  --dim-infrastructure: #5a6b85;
+}
+
+/* -------------------------------------------------- NEON / CYBERPUNK ------- */
+[data-theme="neon"] {
+  color-scheme: dark;
+  --background: 228 60% 3%;
+  --foreground: 187 100% 95%;
+  --card: 226 48% 8%;
+  --card-foreground: 187 100% 95%;
+  --popover: 228 52% 5%;
+  --popover-foreground: 187 100% 95%;
+  --primary: 187 100% 50%;
+  --primary-foreground: 228 60% 4%;
+  --secondary: 226 40% 13%;
+  --secondary-foreground: 187 80% 92%;
+  --muted: 226 36% 12%;
+  --muted-foreground: 200 40% 68%;
+  --accent: 315 100% 58%;
+  --accent-foreground: 228 60% 4%;
+  --destructive: 351 100% 66%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 220 60% 22%;
+  --input: 220 52% 18%;
+  --ring: 187 100% 52%;
+  --chart-1: 187 100% 52%;
+  --chart-2: 315 100% 62%;
+  --chart-3: 84 90% 58%;
+  --chart-4: 41 100% 60%;
+  --chart-5: 266 90% 70%;
+
+  --bg-deep: #030409;
+  --bg-grad-1: #08122a;
+  --bg-grad-2: #060314;
+  --surface-1: rgba(10, 20, 42, 0.5);
+  --surface-2: rgba(14, 28, 58, 0.62);
+  --surface-3: rgba(18, 38, 78, 0.78);
+  --hairline: rgba(0, 240, 255, 0.18);
+  --hairline-strong: rgba(0, 240, 255, 0.38);
+  --neon: #00f0ff;
+  --neon-2: #ff2bd6;
+  --neon-3: #c6ff3d;
+  --brain-tint: -20deg;
+  --glow: rgba(0, 240, 255, 0.6);
+  --glow-2: rgba(255, 43, 214, 0.5);
+  --grid-line: rgba(0, 220, 255, 0.10);
+  --scanline: rgba(0, 240, 255, 0.045);
+  --positive: #39f5a0;
+  --warn: #ffe14d;
+  --danger: #ff4d6d;
+  --text-dim: #7fb8cc;
+
+  --dim-health: #39f5a0;
+  --dim-money: #ffd23d;
+  --dim-freedom: #00f0ff;
+  --dim-creative: #ff2bd6;
+  --dim-relationships: #b06bff;
+  --dim-rhythms: #22d3ee;
+  --dim-infrastructure: #6f8fbf;
+}
+
+/* -------------------------------------------------- TERMINAL (dark) -------- */
+[data-theme="terminal"] {
+  color-scheme: dark;
+  --background: 160 24% 4%;
+  --foreground: 150 40% 90%;
+  --card: 158 20% 8%;
+  --card-foreground: 150 40% 90%;
+  --popover: 159 22% 6%;
+  --popover-foreground: 150 40% 90%;
+  --primary: 152 78% 56%;
+  --primary-foreground: 160 30% 5%;
+  --secondary: 158 18% 13%;
+  --secondary-foreground: 150 34% 88%;
+  --muted: 158 16% 12%;
+  --muted-foreground: 152 18% 64%;
+  --accent: 42 88% 58%;
+  --accent-foreground: 160 30% 5%;
+  --destructive: 6 84% 62%;
+  --destructive-foreground: 150 40% 95%;
+  --border: 156 26% 18%;
+  --input: 156 24% 15%;
+  --ring: 152 78% 56%;
+  --chart-1: 152 78% 56%;
+  --chart-2: 42 88% 58%;
+  --chart-3: 190 70% 52%;
+  --chart-4: 276 50% 66%;
+  --chart-5: 351 70% 64%;
+
+  --bg-deep: #040a07;
+  --bg-grad-1: #0a1712;
+  --bg-grad-2: #040805;
+  --surface-1: rgba(14, 30, 22, 0.45);
+  --surface-2: rgba(18, 40, 30, 0.58);
+  --surface-3: rgba(24, 52, 38, 0.74);
+  --hairline: rgba(74, 247, 160, 0.15);
+  --hairline-strong: rgba(74, 247, 160, 0.32);
+  --neon: #4af7a0;
+  --neon-2: #e8b84b;
+  --neon-3: #8ef7c2;
+  --brain-tint: -62deg;
+  --glow: rgba(74, 247, 160, 0.5);
+  --glow-2: rgba(232, 184, 75, 0.4);
+  --grid-line: rgba(74, 220, 150, 0.08);
+  --scanline: rgba(120, 247, 190, 0.04);
+  --positive: #4af7a0;
+  --warn: #e8b84b;
+  --danger: #ff6b5c;
+  --text-dim: #7db99e;
+
+  --dim-health: #4af7a0;
+  --dim-money: #e8b84b;
+  --dim-freedom: #46c6d8;
+  --dim-creative: #ff8a72;
+  --dim-relationships: #b79af0;
+  --dim-rhythms: #37d0be;
+  --dim-infrastructure: #7db99e;
+}

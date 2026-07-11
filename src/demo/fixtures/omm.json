@@ -1,0 +1,283 @@
+{
+  "ts": "2026-07-11T15:30:00.000Z",
+  "counts": {
+    "hooks": 23,
+    "hookEvents": 7,
+    "jobsEnabled": 4,
+    "jobsTotal": 6,
+    "launchdInstalled": 3,
+    "tools": 40
+  },
+  "hooks": {
+    "hooks": [
+      {
+        "event": "SessionStart",
+        "matcher": "*",
+        "command": "load-context.ts",
+        "fileName": "LoadContext.hook.ts"
+      },
+      {
+        "event": "UserPromptSubmit",
+        "matcher": "*",
+        "command": "route-effort.ts",
+        "fileName": "EffortRouter.hook.ts"
+      },
+      {
+        "event": "PostToolUse",
+        "matcher": "Bash",
+        "command": "track-activity.ts",
+        "fileName": "ToolActivityTracker.hook.ts"
+      },
+      {
+        "event": "SessionEnd",
+        "matcher": "*",
+        "command": "capture-work.ts",
+        "fileName": "WorkSync.hook.ts"
+      },
+      {
+        "event": "Stop",
+        "matcher": "*",
+        "command": "doc-integrity.ts",
+        "fileName": "DocIntegrity.hook.ts"
+      }
+    ],
+    "total": 23,
+    "byEvent": {
+      "SessionStart": 3,
+      "UserPromptSubmit": 4,
+      "PostToolUse": 8,
+      "PostToolUseFailure": 2,
+      "SessionEnd": 3,
+      "Stop": 2,
+      "PermissionRequest": 1
+    }
+  },
+  "jobs": [
+    {
+      "name": "cost-collector",
+      "schedule": "hourly",
+      "type": "cron",
+      "command": "collect-cost.ts",
+      "output": "log",
+      "enabled": true,
+      "source": "cron",
+      "lastRun": "2026-07-11T15:30:00.000Z"
+    },
+    {
+      "name": "memory-review",
+      "schedule": "every 30m",
+      "type": "cron",
+      "command": "review-memory.ts",
+      "output": "log",
+      "enabled": true,
+      "source": "cron",
+      "lastRun": "2026-07-11T15:30:00.000Z"
+    },
+    {
+      "name": "work-sweep",
+      "schedule": "hourly",
+      "type": "cron",
+      "command": "work-sweep.ts",
+      "output": "log",
+      "enabled": true,
+      "source": "cron",
+      "lastRun": "2026-07-11T15:30:00.000Z"
+    },
+    {
+      "name": "freshness-scan",
+      "schedule": "daily",
+      "type": "cron",
+      "command": "scan-freshness.ts",
+      "output": "log",
+      "enabled": true,
+      "source": "cron",
+      "lastRun": "2026-07-11T15:30:00.000Z"
+    },
+    {
+      "name": "essay-digest",
+      "schedule": "weekly",
+      "type": "cron",
+      "command": "essay-digest.ts",
+      "output": "log",
+      "enabled": false,
+      "source": "cron",
+      "lastRun": null
+    },
+    {
+      "name": "backup",
+      "schedule": "daily",
+      "type": "cron",
+      "command": "backup-vault.ts",
+      "output": "log",
+      "enabled": false,
+      "source": "cron",
+      "lastRun": null
+    }
+  ],
+  "launchd": [
+    {
+      "name": "cost",
+      "label": "com.demo.cost",
+      "schedule": "every 3600s",
+      "what": "Collect model usage and cost into the ledger",
+      "installed": true,
+      "lastRun": null
+    },
+    {
+      "name": "review",
+      "label": "com.demo.review",
+      "schedule": "every 1800s",
+      "what": "Run the autonomic memory reviewer",
+      "installed": true,
+      "lastRun": null
+    },
+    {
+      "name": "sweep",
+      "label": "com.demo.sweep",
+      "schedule": "every 3600s",
+      "what": "Sweep for untracked work and stale items",
+      "installed": true,
+      "lastRun": null
+    }
+  ],
+  "memoryState": {
+    "reviewState": {
+      "turn_count_since_last_review": 3,
+      "last_review_at": "2026-07-11T15:30:00.000Z",
+      "last_message_at": "2026-07-11T15:30:00.000Z",
+      "pending_review": false,
+      "schema_version": 1
+    },
+    "health": {
+      "ts": "2026-07-11T15:30:00.000Z",
+      "overall": "ok",
+      "counts": {
+        "critical": 0,
+        "warn": 1,
+        "ok": 27
+      },
+      "findings": [],
+      "ok_summary": [
+        "Ledger is consistent",
+        "No orphaned references",
+        "Freshness within thresholds"
+      ]
+    }
+  },
+  "freshness": {
+    "total": 8,
+    "fresh_count": 6,
+    "stale_count": 2,
+    "overall_pct": 84,
+    "overall_grade": "A",
+    "most_stale": {
+      "slug": "health",
+      "name": "health.md",
+      "age_days": 9,
+      "threshold_days": 7,
+      "reviewed_age_days": null,
+      "pct": 61,
+      "grade": "C",
+      "why": "past threshold"
+    },
+    "files": [
+      {
+        "slug": "telos",
+        "name": "TELOS.md",
+        "age_days": 2,
+        "threshold_days": 30,
+        "reviewed_age_days": 2,
+        "pct": 96,
+        "grade": "A",
+        "stale": false
+      },
+      {
+        "slug": "goals",
+        "name": "goals.md",
+        "age_days": 1,
+        "threshold_days": 14,
+        "reviewed_age_days": 1,
+        "pct": 98,
+        "grade": "A",
+        "stale": false
+      },
+      {
+        "slug": "finances",
+        "name": "finances.md",
+        "age_days": 2,
+        "threshold_days": 14,
+        "reviewed_age_days": 2,
+        "pct": 92,
+        "grade": "A",
+        "stale": false
+      },
+      {
+        "slug": "health",
+        "name": "health.md",
+        "age_days": 9,
+        "threshold_days": 7,
+        "reviewed_age_days": 9,
+        "pct": 61,
+        "grade": "C",
+        "stale": true
+      }
+    ]
+  },
+  "kpis": {
+    "generated_at": "2026-07-11T15:30:00.000Z",
+    "goals": {
+      "G0": {
+        "kpi": "retainer clients",
+        "value": "1",
+        "target": "3 by December",
+        "pct": 40,
+        "delta": 5,
+        "source": "studio pipeline",
+        "updated_at": "2026-07-11T15:30:00.000Z",
+        "stale": false
+      },
+      "G1": {
+        "kpi": "10K time",
+        "value": "58:20",
+        "target": "sub-55:00 in Oct",
+        "pct": 55,
+        "delta": 8,
+        "source": "training log",
+        "note": "Base building on track",
+        "updated_at": "2026-07-11T15:30:00.000Z",
+        "stale": false
+      },
+      "G2": {
+        "kpi": "emergency fund",
+        "value": "$12,400",
+        "target": "$18,000 by Nov",
+        "pct": 69,
+        "delta": 4,
+        "source": "finances",
+        "note": "Auto-funded",
+        "updated_at": "2026-07-11T15:30:00.000Z",
+        "stale": false
+      },
+      "G3": {
+        "kpi": "essays published",
+        "value": "11",
+        "target": "24 this year",
+        "pct": 46,
+        "delta": 3,
+        "source": "essay engine",
+        "updated_at": "2026-07-11T15:30:00.000Z",
+        "stale": false
+      },
+      "G4": {
+        "kpi": "Fieldnote release",
+        "value": "spike",
+        "target": "v1 to testers",
+        "pct": 35,
+        "delta": 6,
+        "source": "product",
+        "updated_at": "2026-07-11T15:30:00.000Z",
+        "stale": false
+      }
+    }
+  }
+}

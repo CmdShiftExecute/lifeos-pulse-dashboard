@@ -1,0 +1,902 @@
+[
+  {
+    "timestamp": "2026-07-11T19:40:00.000Z",
+    "session_id": "974fe6ee-2dc4-4fda-85ec-ec562c478752",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 73,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-11T17:16:00.000Z",
+    "session_id": "68d51c17-830b-4e57-6855-b0f74481a6f4",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 116,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-11T16:55:00.000Z",
+    "session_id": "df21857c-2fcd-4d31-eda6-16bdf67aaeae",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 134,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 429
+  },
+  {
+    "timestamp": "2026-07-11T15:22:00.000Z",
+    "session_id": "66bfee85-0e33-4762-6370-db88a16c77e2",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 44,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-11T11:08:00.000Z",
+    "session_id": "09382325-d45b-4f5c-dbaf-537bc2f6072d",
+    "message": "Essay eleven is published.",
+    "character_count": 140,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-11T10:46:00.000Z",
+    "session_id": "aa59d06f-d9d0-4a74-1e06-a4195b1487e0",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 44,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-11T08:15:00.000Z",
+    "session_id": "e1c321a2-9def-43ee-b181-5d30b4b651da",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 41,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-10T18:10:00.000Z",
+    "session_id": "b24ef49f-c5a9-4a36-3e3e-8a4fb52b62fc",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 110,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-10T14:56:00.000Z",
+    "session_id": "57e1a8dc-47c7-4439-b7d1-5cb20fc6bd49",
+    "message": "Essay eleven is published.",
+    "character_count": 64,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-10T14:28:00.000Z",
+    "session_id": "b3760544-9ab0-4916-5f74-90110615b155",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 70,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-10T13:38:00.000Z",
+    "session_id": "f355461e-6425-4632-eb3f-ca15b32551a3",
+    "message": "Essay eleven is published.",
+    "character_count": 133,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-10T11:14:00.000Z",
+    "session_id": "587f10d4-7134-4f05-af62-3d231ea03667",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 51,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-10T11:04:00.000Z",
+    "session_id": "13bf18d4-0426-4b42-de0d-7034e93050f3",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 60,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-10T09:59:00.000Z",
+    "session_id": "29662857-3478-4b5f-0ea2-1fae04d27ec4",
+    "message": "Essay eleven is published.",
+    "character_count": 83,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-10T08:48:00.000Z",
+    "session_id": "b728fa09-4bd2-4797-0fd9-c45061cb5fa2",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 125,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-09T10:21:00.000Z",
+    "session_id": "6d013792-9ba3-4585-4dda-cfe86fa5a428",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 56,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-08T21:16:00.000Z",
+    "session_id": "628027f1-6623-4be2-1eee-747e297f9c21",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 44,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-08T17:29:00.000Z",
+    "session_id": "3967d765-7f8a-4c23-186c-1e3393764652",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 61,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-08T17:23:00.000Z",
+    "session_id": "f334863b-e627-491d-b4af-cc2f2a5b7335",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 85,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-08T14:09:00.000Z",
+    "session_id": "1ce12b75-df74-4963-d7d8-e7ce819c9252",
+    "message": "Essay eleven is published.",
+    "character_count": 60,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-08T11:37:00.000Z",
+    "session_id": "c99e10ac-eaf2-4864-b38b-e77217d1fc37",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 64,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-07T20:45:00.000Z",
+    "session_id": "ba676466-3745-490a-607c-1823b40c54ef",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 47,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-07T14:29:00.000Z",
+    "session_id": "27e75fb3-6f04-47e0-bc59-003674c34366",
+    "message": "Essay eleven is published.",
+    "character_count": 101,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-07T11:37:00.000Z",
+    "session_id": "1b646359-13df-4e0a-4919-a875a62b9270",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 119,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-07T09:30:00.000Z",
+    "session_id": "b8bb04ac-eb0f-41f1-0af8-fb47d15176e5",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 56,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-06T20:04:00.000Z",
+    "session_id": "43211563-a5d2-4e59-0093-f517544b87e5",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 140,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-06T17:56:00.000Z",
+    "session_id": "ddc3a716-4a1a-4857-2404-7062dada076d",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 84,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-05T16:56:00.000Z",
+    "session_id": "f2036915-9378-45c0-9fb1-b6ce51e4ac27",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 77,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-05T15:24:00.000Z",
+    "session_id": "c6c67caa-269c-454d-95bf-7949b2c07d3d",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 81,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-05T11:54:00.000Z",
+    "session_id": "54bdf568-2e04-4216-c5f5-61bc26a94f5a",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 111,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-05T11:03:00.000Z",
+    "session_id": "e70aff38-12ea-445f-1228-c2858c5dd5f2",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 85,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-05T10:25:00.000Z",
+    "session_id": "c67cc294-7b1b-4f74-c868-fa659610a7a6",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 138,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-04T21:44:00.000Z",
+    "session_id": "a9924303-e8bc-4528-036e-602e3e6366ed",
+    "message": "Essay eleven is published.",
+    "character_count": 135,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-04T20:24:00.000Z",
+    "session_id": "c0cff2ac-7288-4747-d1ee-290f91691d83",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 155,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-04T17:10:00.000Z",
+    "session_id": "0b1aa07b-5ee1-4980-d538-cafb7cb35b20",
+    "message": "Essay eleven is published.",
+    "character_count": 141,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-04T13:48:00.000Z",
+    "session_id": "962f5d9e-7fc8-4257-8e80-7841f2f843b2",
+    "message": "Essay eleven is published.",
+    "character_count": 130,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-04T13:10:00.000Z",
+    "session_id": "33193d17-602d-4328-47f9-0540959a11f6",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 144,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-04T11:43:00.000Z",
+    "session_id": "ffce0f2f-8f35-4573-c293-5534df762cb8",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 140,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-04T11:14:00.000Z",
+    "session_id": "7fe3eb36-8ba1-4a5f-3e28-c31c9478d014",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 119,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-04T10:21:00.000Z",
+    "session_id": "f778977f-0390-488a-6202-c10bb52cf41a",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 91,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-03T16:22:00.000Z",
+    "session_id": "c9bc1caa-95b7-43df-b5c2-b1b9a09d2fbf",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 145,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-03T14:42:00.000Z",
+    "session_id": "68151b7a-cc08-404c-0dc9-c99917c58d83",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 57,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-03T12:41:00.000Z",
+    "session_id": "295f5fe2-b8da-4b43-e5d7-dd155a6bb69c",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 87,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-02T16:01:00.000Z",
+    "session_id": "1e9f2a92-7aa7-430e-ffd1-d014956badce",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 153,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-02T11:06:00.000Z",
+    "session_id": "3455ce28-9356-4500-3788-7d1a87f97af6",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 44,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-01T13:25:00.000Z",
+    "session_id": "45c3fc89-7a8e-4618-5bfb-3381d1778bc1",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 90,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-07-01T08:45:00.000Z",
+    "session_id": "e18cd147-47f6-46e7-cc62-63452bd77143",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 65,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-30T19:34:00.000Z",
+    "session_id": "9ea9eca1-3fd0-4ae3-039c-e80eb010d903",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 106,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-30T11:10:00.000Z",
+    "session_id": "56ba8aa4-3c5a-4071-8480-59001a50c5f0",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 89,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-30T10:39:00.000Z",
+    "session_id": "068d6e9d-2ca2-44c0-1fc2-c0b3de7fbb3e",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 136,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-30T10:09:00.000Z",
+    "session_id": "357a23b7-2263-46f0-a155-4914d9eb3448",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 84,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-30T09:06:00.000Z",
+    "session_id": "fe74dd93-125a-4e42-54fa-743d66e6726b",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 120,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-30T08:45:00.000Z",
+    "session_id": "e076ea70-78cd-4088-7c4a-5ed38178aeb2",
+    "message": "Essay eleven is published.",
+    "character_count": 55,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 429
+  },
+  {
+    "timestamp": "2026-06-29T14:35:00.000Z",
+    "session_id": "c85a08a9-88b1-4744-2843-79a20f9268f5",
+    "message": "Essay eleven is published.",
+    "character_count": 144,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-29T14:07:00.000Z",
+    "session_id": "65bda22a-45b4-44cd-24b8-6326d339acc5",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 44,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-29T14:00:00.000Z",
+    "session_id": "a0dd9f8c-2b57-48b4-7a28-b5b68b22b394",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 93,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-28T21:40:00.000Z",
+    "session_id": "89a289a7-e2da-4156-fe5d-b4254abccc91",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 132,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-28T17:32:00.000Z",
+    "session_id": "0e3e41cc-ea0d-4e1f-029f-cf920311313f",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 55,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-28T12:13:00.000Z",
+    "session_id": "544b5e14-4693-4762-74df-6ae9b5d9c9db",
+    "message": "Essay eleven is published.",
+    "character_count": 46,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-27T17:20:00.000Z",
+    "session_id": "4ff53857-016e-49fe-3a79-2c2fff820782",
+    "message": "Essay eleven is published.",
+    "character_count": 104,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-27T09:01:00.000Z",
+    "session_id": "386c265d-00ca-4cd8-13f7-4a24ada5df64",
+    "message": "Essay eleven is published.",
+    "character_count": 41,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-27T08:29:00.000Z",
+    "session_id": "82e9e011-5568-48a5-dbfc-847333e47f2d",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 83,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-26T19:03:00.000Z",
+    "session_id": "e0b1bc4b-ada5-44fd-4327-d301c1dafbae",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 102,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-26T16:09:00.000Z",
+    "session_id": "8b61a4df-73e0-4159-1d12-6f2e445b3a6e",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 93,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-26T13:12:00.000Z",
+    "session_id": "d41eb7b1-68cd-48cd-5c5d-5ec2a93eabc1",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 151,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-26T12:45:00.000Z",
+    "session_id": "d061b17d-da0c-47ae-4a4a-9379479e9ba4",
+    "message": "Essay eleven is published.",
+    "character_count": 42,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-26T12:03:00.000Z",
+    "session_id": "8384306a-b248-4038-e668-ce79f0f1d3b5",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 81,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-25T21:41:00.000Z",
+    "session_id": "aa18871e-f302-4c62-59fd-1de21ad3ac93",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 89,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-25T16:30:00.000Z",
+    "session_id": "75a8864e-769d-4fc6-635f-4e467cf6e0e3",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 148,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-24T21:33:00.000Z",
+    "session_id": "bdaf4c88-c6da-425e-16a1-234389011f70",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 122,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-24T15:48:00.000Z",
+    "session_id": "55ff0f75-2e94-41df-c678-d3e640f7bfec",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 76,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-24T14:22:00.000Z",
+    "session_id": "447fff1f-930a-4e4a-34eb-b6cb8eb88fc1",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 144,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-24T14:12:00.000Z",
+    "session_id": "38cb0186-bd3c-40f1-3887-bd88852157d7",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 80,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-24T09:50:00.000Z",
+    "session_id": "61f45c6a-031d-4b38-c77f-42b5311be2b2",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 102,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-23T17:01:00.000Z",
+    "session_id": "13429068-b57e-44b2-ddb8-7c92765ffa08",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 55,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-23T15:15:00.000Z",
+    "session_id": "13c86b89-1d9e-4b32-4dca-1ff5bfd250a2",
+    "message": "Training log updated, resting heart rate is down again.",
+    "character_count": 46,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-23T13:03:00.000Z",
+    "session_id": "277fca8e-aa6a-4ab3-f22d-be17827e43ce",
+    "message": "Essay eleven is published.",
+    "character_count": 48,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-23T10:40:00.000Z",
+    "session_id": "dd1fa6d0-04ef-439a-5542-7f915e0a7104",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 124,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-22T18:18:00.000Z",
+    "session_id": "52db1f85-c8e3-4254-1412-857582daa5ea",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 83,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-22T17:17:00.000Z",
+    "session_id": "400ac4c0-096d-4506-e352-580da333c776",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 73,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-22T15:42:00.000Z",
+    "session_id": "5fce186a-e348-4e43-14aa-d4353e099a78",
+    "message": "Essay eleven is published.",
+    "character_count": 107,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-22T13:58:00.000Z",
+    "session_id": "c93146fa-e812-419e-cbab-7f2947b83438",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 123,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-22T12:27:00.000Z",
+    "session_id": "62f680b5-22b8-4afc-5eb2-ef615bef92df",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 56,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 429
+  },
+  {
+    "timestamp": "2026-06-22T09:04:00.000Z",
+    "session_id": "2d55f932-f40b-4734-6e7c-8549b25a37ad",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 58,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-21T18:23:00.000Z",
+    "session_id": "014276b9-00af-4e8b-6b75-cd5720e6dbc2",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 118,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-21T16:38:00.000Z",
+    "session_id": "e9776a9d-c953-4ff3-b0f8-225167a06761",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 77,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-21T15:47:00.000Z",
+    "session_id": "df192a0d-c6b3-484a-43d0-f6f161e3f484",
+    "message": "Portfolio redesign passed the verification sweep.",
+    "character_count": 46,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 429
+  },
+  {
+    "timestamp": "2026-06-21T15:18:00.000Z",
+    "session_id": "9cb23490-e89d-410c-b138-cb50e4538b4a",
+    "message": "The Fieldnote sync spike is done and verified.",
+    "character_count": 153,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 429
+  },
+  {
+    "timestamp": "2026-06-21T11:01:00.000Z",
+    "session_id": "65c79ba2-9480-4263-c5b6-ee99c0cbb157",
+    "message": "Proposal follow-up drafted, ready for your review.",
+    "character_count": 43,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  },
+  {
+    "timestamp": "2026-06-21T09:08:00.000Z",
+    "session_id": "7e567261-a937-491e-3ad4-c403f1b53413",
+    "message": "Essay eleven is published.",
+    "character_count": 65,
+    "voice_engine": "elevenlabs",
+    "voice_id": "",
+    "event_type": "tts",
+    "status_code": 200
+  }
+]
