@@ -35,15 +35,21 @@ A polished frontend for your [LifeOS](https://github.com/danielmiessler/LifeOS) 
 
 ## Why this exists
 
-[LifeOS](https://github.com/danielmiessler/LifeOS) is a remarkable engine: an agentic harness that quietly writes structured files about your goals, your work sessions, your memory, and what your AI assistant is actually doing all day. But an engine is not a cockpit. Out of the box, those files stay files, and the signal inside them stays invisible.
+LifeOS Pulse Dashboard is a web dashboard that renders the files a [LifeOS](https://github.com/danielmiessler/LifeOS) assistant maintains: your goals, your work, your assistant's memory, and your AI costs.
 
-LifeOS Pulse Dashboard is the cockpit. It turns that exhaust into a fast, six-theme command center you will actually open every morning: life dimensions as radial rings, goals traced from mission down to today's strategy, a work kanban that moves while your assistant works, your assistant's decisions and mistakes as browsable ledgers, token spend and agent activity as real charts. **[Click through the live demo](https://lifeos-pulse-dashboard.vercel.app/)** right now, no install, and you will understand the pitch faster than this paragraph can make it.
+It is built for people who run LifeOS every day. If that is you, the data already exists on your disk. Your TELOS files hold your goals. Your work registry holds your sessions. Your memory folders hold what your assistant has learned, decided, and gotten wrong. This dashboard puts all of it on one screen instead of in a dozen files you never open.
 
-Three things make this one worth your star over rolling your own:
+What you get:
 
-1. **It works before you configure anything.** `bun run demo` (or the hosted demo) serves a complete fictional life across 40+ fixture-backed endpoints, so you can evaluate every surface in sixty seconds.
-2. **It documents the contract, not just the code.** Every endpoint the UI consumes is specified in [docs/API.md](docs/API.md), and the [prompting guide](docs/PROMPTING-GUIDE.md) turns your own assistant into the integration engineer: paste a prompt, get an endpoint wired to your real files.
-3. **It ships opinions LifeOS does not have out of the box.** The memory-ledger convention, the live Operating Model map, and the agent cost analytics come from months of daily use on a real install (details in [More than a reskin](#more-than-a-reskin)).
+- Your goals with live KPIs, traced from mission to goal to strategy, with stranded work flagged
+- Your assistant's sessions and work items on one kanban, updating as it works
+- The decisions, mistakes, and session narratives it logs, as dated, browsable ledgers
+- Real AI spend by day, model, and project, plus tool-failure analysis
+- A live map of the running system: hooks, jobs, and where every kind of memory is written and read
+
+There is nothing to configure before you can judge it: the [live demo](https://lifeos-pulse-dashboard.vercel.app/) runs the whole app on fictional data, and `bun run demo` does the same locally.
+
+Compared to the stock Pulse dashboard that ships with LifeOS, this version adds a zero-backend demo mode, a written API contract, a prompting guide your own assistant can execute to wire up your data, and several conventions that are not part of stock LifeOS at all, described in [More than a reskin](#more-than-a-reskin).
 
 ## Screenshots
 

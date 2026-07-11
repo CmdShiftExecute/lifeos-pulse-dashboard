@@ -127,6 +127,44 @@ can render it.
 Then open the memory explorer in the dashboard and confirm my ledgers render.
 ```
 
+### Enforce it with hooks
+
+Writing to the ledgers is discipline: no hook can notice a mistake for your assistant, so the write side stays honor system. The read side, however, can be enforced mechanically with two standard Claude Code hooks:
+
+- **UserPromptSubmit**: once per session, inject a short digest of `MISTAKES.md` and `DECISIONS.md` into context. Every real task then starts with the assistant already aware of its past misses and your standing calls.
+- **SessionEnd**: if a substantive session ends without a new `SESSIONS.md` entry, prepend a dated placeholder marked as a stub. The gap becomes visible at the start of the next session instead of disappearing.
+
+One honest caveat from daily use: `SESSIONS.md` cannot be fully automated this way, because sessions do not always close cleanly. A killed terminal or a crashed process never fires SessionEnd. Treat the stub as a reminder, not the record.
+
+```text
+Add two Claude Code hooks to my setup (settings.json + a hooks directory):
+
+1. A UserPromptSubmit hook that, once per session, reads my MISTAKES.md and
+   DECISIONS.md ledgers and returns a digest of the most recent entries and
+   any repeated mistake classes as additional context.
+2. A SessionEnd hook that checks whether SESSIONS.md gained an entry during
+   this session, and if not, prepends a dated placeholder block marked
+   AUTO-STUB so I see the gap next session.
+
+Keep both hooks fast (no network, no inference) and test each by simulating
+a session with and without a SESSIONS.md entry.
+```
+
+### The rules layer
+
+The ledgers become compounding, not just archival, when you pair them with a rules file your assistant loads every session. Call it `OPERATIONAL_RULES.md`: concrete, dated rules, most of them born from a `MISTAKES.md` entry that repeated. The loop is simple: a miss gets logged in one line; when the same class of miss appears twice, it gets promoted to a standing rule; the rule loads at every session start, so the third occurrence never happens.
+
+```text
+Create OPERATIONAL_RULES.md in my assistant's config, imported at session
+start (from CLAUDE.md or equivalent). Seed it with sections for
+communications, tooling, and working style. Add a standing instruction:
+when the same mistake class appears twice in MISTAKES.md, propose a
+one-line counter-rule for this file and wait for my approval before
+writing it.
+```
+
+The memory explorer and the Operating Model map in this dashboard both assume this shape: ledgers that feed rules, rules that load at boot, and a map that shows the whole loop running.
+
 ---
 
 ## Part 3: Keep TELOS structured so the pages render richly
