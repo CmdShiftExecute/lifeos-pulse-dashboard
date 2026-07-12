@@ -126,7 +126,7 @@ export default function MemoryGraphPage() {
           ) : (
             <div>
               <div className="flex items-center gap-2 mb-2">
-                {trail.length > 0 && <button onClick={back} className="text-muted-foreground hover:text-foreground transition-colors"><ArrowLeft className="w-3.5 h-3.5" /></button>}
+                <button onClick={back} title={trail.length > 0 ? "Back" : "Back to overview"} className="text-muted-foreground hover:text-foreground transition-colors"><ArrowLeft className="w-3.5 h-3.5" /></button>
                 <span className="w-2.5 h-2.5 rounded-sm shrink-0" style={{ background: colorMap[focusNode.category] }} />
                 <span className="text-[10px] font-mono uppercase text-muted-foreground">{focusNode.silo}</span>
               </div>
@@ -155,7 +155,7 @@ export default function MemoryGraphPage() {
         <div className="flex-1 min-w-0">
           {focusNode
             ? <KnowledgeGraph nodes={subNodes} edges={subEdges} colorMap={colorMap} onNodeClick={(slug) => go(slug)} />
-            : <div className="flex items-center justify-center h-full text-[12px] font-mono text-muted-foreground">Pick something on the left to see its connections.</div>}
+            : <KnowledgeGraph nodes={data.nodes} edges={data.edges} colorMap={colorMap} onNodeClick={(slug) => go(slug)} />}
         </div>
       </div>
     </div>
